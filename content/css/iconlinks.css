@@ -1,0 +1,51 @@
+/* icon links 16 start */
+
+body {
+  background-color: black; /* background black */
+/*   padding: 40px 48px; */
+}
+
+.item {
+  display: inline-block;
+  margin: 8px;
+  /* , and end it with */ 
+  background-color: #050505; /* bookmark #050505 */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 10px;
+  transition: all 0.05s linear;
+}
+.item a {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  line-height: 40px;
+  padding: 0 32px 0 48px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #6d6d6d; /* text #6d6d6d */
+  font-size: 14px;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: flex-start;
+  background-color: #020202; /* category #020202 */
+  margin: 16px;
+  padding: 8px;
+}
+
+
+.item a .iconyshape {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  
+/* icon links 16 end */ 
