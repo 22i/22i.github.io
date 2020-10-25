@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell
 
 # change website name to random video game name
-cd $PWD/content/scripts/generate_name/
+cd ../generate_name/
 # sh 3_change_website_name.sh
 
 # get random line from all_the_names and put it into variable name
