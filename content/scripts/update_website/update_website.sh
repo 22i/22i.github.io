@@ -24,6 +24,11 @@ sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$name</
 # echo website name in index.html at line 10 changed to $name
 echo changed website name to: $name
 
+# update the website preview
+cd ../website_preview
+sh preview.sh
+echo website preview updated for the readme
+
 # update the website update version
 cd ../update_website/
 
