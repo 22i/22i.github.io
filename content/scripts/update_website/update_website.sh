@@ -5,8 +5,24 @@
 # https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell
 
 # change website name to random video game name
-cd ../generate_name/
-sh 3_change_website_name.sh
+cd $PWD/content/scripts/generate_name/
+# sh 3_change_website_name.sh
+
+# get random line from all_the_names and put it into variable name
+# https://stackoverflow.com/questions/448005/whats-an-easy-way-to-read-random-line-from-a-file-in-unix-command-line
+# name=`shuf -n 1 all_the_names` && echo $name
+name=`shuf -n 1 all_the_names`
+
+# THE TITLE ORIGINAL
+# <!--amazing63z947ziT9Eas722i--><title>pixel</title>
+
+# searches 3 folders up in the index.html text for line with amazing63z947ziT9Eas722i then replaces it with <!--amazing63z947ziT9Eas722i--><title>$name</title>"
+# https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
+sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$name</title>" ../../../index.html
+
+# prints in the terminal
+# echo website name in index.html at line 10 changed to $name
+echo changed website name to: $name
 
 # update the website update version
 cd ../update_website/
@@ -30,6 +46,8 @@ value=`cat message.txt`
 
 rm -f message.txt
 
+cp "$PWD/lib/message.txt" message.txt
+
 cd ../../../ && echo entered website folder &&
 
 git add . && echo tracked and staged all files &&
@@ -38,8 +56,12 @@ git commit -m "$value" && echo commited localy with a message "$value" &&
 
 git push origin master && echo pushed changes to the internet &&
 
-cd "$PWD/content/scripts/update_website/" && rm -f message.txt && cp "$PWD/lib/message.txt" message.txt && echo done everything
+# cd "$PWD/content/scripts/update_website/" && rm -f message.txt && cp "$PWD/lib/message.txt" message.txt && echo done everything
+
+echo done everything
 
 # for the end change every text in message.txt with just one word: update
+
+echo changed website name to: $name
 
 echo current update is $update
