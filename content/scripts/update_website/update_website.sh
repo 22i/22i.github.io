@@ -4,6 +4,105 @@
 
 # https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell
 
+
+
+# UPDATE THE FAVICON WEBSITE ICON
+
+# go inside lib folder
+cd $PWD/lib/icons/solid
+
+
+
+rm --force --recursive ../2/*
+
+rm --force --recursive ../3/*
+
+
+
+# to make it faster copy 1 random file from solid
+# https://unix.stackexchange.com/questions/217712/randomly-copy-certain-amount-of-certain-file-type-from-one-directory-into-anothe#217720
+shuf -zn1 -e *.svg | xargs -0 cp -t ../2/
+
+cd ../2/
+
+# if there is no style then add it
+# style="fill:white;"
+# remove 4 bytes from beggining
+# dd bs=1131 skip=1 if=filtered.dump of=trimmed.dump
+for i in *; do
+tail -c +5 $i > ../3/$i; done
+
+# if there is no style then add it
+# style="fill:white;"
+# remove 4 bytes from beggining
+# dd bs=1131 skip=1 if=filtered.dump of=trimmed.dump
+# for i in *; do
+# tail -c +5 $i > ../1/$i; done
+
+
+# if there is no style then add it
+# style="fill:white;"
+# remove 4 bytes from beggining
+# dd bs=1131 skip=1 if=filtered.dump of=trimmed.dump
+# tail -c +5 yin-yang.svg > ../../../amazing.svg
+
+
+# cd ../../../
+
+
+# add svg color to begining of the file
+# <svg
+cd ../3/
+for i in *; do
+# sed -i '1i <svg style="fill:white;"' $i; done
+color=`shuf -n 1 ../../colors`
+sed -i '1i <svg style="fill:'$color';"' $i; done
+
+
+# add svg color to begining of the file
+# <svg
+# cd ../1/
+# for i in *; do
+# sed -i '1i <svg style="fill:white;"' $i; done
+# color=`shuf -n 1 ../../colors`
+# sed -i '1i <svg style="fill:'$color';"' $i; done
+
+
+# add svg color to begining of the file
+# <svg
+# sed -i '1i <svg style="fill:white;"' amazing.svg
+
+
+cd ../
+
+ls 3 > ../1.list
+
+
+favicon=`shuf -n 1 ../1.list`
+
+cd ../../
+
+
+# get random line from all_the_names and put it into variable favicon
+# https://stackoverflow.com/questions/448005/whats-an-easy-way-to-read-random-line-from-a-file-in-unix-command-line
+# favicon=`shuf -n 1 font-awesome-icons-list` && echo $name
+# favicon=`shuf -n 1 font-awesome-icons-list`
+
+# THE ICON ORIGINAL
+# <!--amazing8543G345IrZ73Z22i--><link rel="shortcut icon" type="image/png" href="content/img/pixel16.png">
+
+# searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--amazing8543G345IrZ73Z22i--><title>$name</title>"
+# https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
+sed -i '/amazing8543G345IrZ73Z22i/c<!--amazing8543G345IrZ73Z22i--><link rel="icon" sizes="any" type="image/svg+xml" href="content/scripts/update_website/lib/icons/3/'$favicon'">' ../../../index.html
+
+# prints in the terminal
+# echo website name in index.html at line 10 changed to $name
+echo changed website favicon to: $color $favicon
+
+
+
+
+
 # change website name to random video game name
 cd ../generate_name/
 # sh 3_change_website_name.sh
