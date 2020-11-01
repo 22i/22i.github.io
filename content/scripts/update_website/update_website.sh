@@ -168,4 +168,7 @@ echo done everything
 
 echo changed website name to: $name
 
+# prints in the terminal
+echo changed website favicon to: $color $favicon
+
 echo current update is $update
