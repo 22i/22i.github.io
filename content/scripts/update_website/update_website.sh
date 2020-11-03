@@ -5,6 +5,10 @@
 # https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell
 
 
+# THIS SCRIPT UPDATES THE WEBSITE FAVICON, NAME, WEBSITE PREVIEW and THE WEBSITE
+# IT COMMITS WITH A MESSAGE THAT IS INSIDE message.txt
+
+
 
 # UPDATE THE FAVICON WEBSITE ICON
 
