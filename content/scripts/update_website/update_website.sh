@@ -25,16 +25,16 @@ rm --force --recursive ../3/*
 
 # to make it faster copy 1 random file from solid
 # https://unix.stackexchange.com/questions/217712/randomly-copy-certain-amount-of-certain-file-type-from-one-directory-into-anothe#217720
-shuf -zn1 -e *.svg | xargs -0 cp -t ../2/
+shuf -zn1 -e *.svg | xargs -0 cp -t ../3/
 
-cd ../2/
+cd ../3/
 
 # if there is no style then add it
 # style="fill:white;"
 # remove 4 bytes from beggining
 # dd bs=1131 skip=1 if=filtered.dump of=trimmed.dump
 for i in *; do
-tail -c +5 $i > ../3/$i; done
+tail -c +5 $i > ../2/$i; done
 
 # if there is no style then add it
 # style="fill:white;"
@@ -56,7 +56,7 @@ tail -c +5 $i > ../3/$i; done
 
 # add svg color to begining of the file
 # <svg
-cd ../3/
+cd ../2/
 for i in *; do
 # sed -i '1i <svg style="fill:white;"' $i; done
 color=`shuf -n 1 ../../colors`
@@ -79,10 +79,13 @@ sed -i '1i <svg style="fill:'$color';"' $i; done
 
 cd ../
 
-ls 3 > ../1.list
+# ls 3 > ../1.list
 
 
-favicon=`shuf -n 1 ../1.list`
+# favicon=`shuf -n 1 ../1.list`
+
+favicon=`ls 2`
+
 
 cd ../../
 
@@ -97,7 +100,7 @@ cd ../../
 
 # searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--amazing8543G345IrZ73Z22i--><title>$name</title>"
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-sed -i '/amazing8543G345IrZ73Z22i/c<!--amazing8543G345IrZ73Z22i--><link rel="icon" sizes="any" type="image/svg+xml" href="content/scripts/update_website/lib/icons/3/'$favicon'">' ../../../index.html
+sed -i '/amazing8543G345IrZ73Z22i/c<!--amazing8543G345IrZ73Z22i--><link rel="icon" sizes="any" type="image/svg+xml" href="content/scripts/update_website/lib/icons/2/'$favicon'">' ../../../index.html
 
 # prints in the terminal
 # echo website name in index.html at line 10 changed to $name
@@ -150,7 +153,7 @@ sed -i "s/update.*/update $update/" ../../../version.html
 
 # update website
 
-value=`cat message.txt`
+message=`cat message.txt`
 
 rm -f message.txt
 
@@ -160,7 +163,7 @@ cd ../../../ && echo entered website folder &&
 
 git add . && echo tracked and staged all files &&
 
-git commit -m "$value" && echo commited localy with a message "$value" &&
+git commit -m "$message" && echo commited localy with a message "$message" &&
 
 git push origin master && echo pushed changes to the internet &&
 
@@ -174,5 +177,7 @@ echo changed website name to: $name
 
 # prints in the terminal
 echo changed website favicon to: $color $favicon
+
+echo commited with message: "$message"
 
 echo current update is $update
