@@ -249,7 +249,7 @@ echo done everything
 
 # for the end change every text in message.txt with just one word: update
 
-echo changed website name to: $name
+echo changed website name to: $read
 
 # prints in the terminal
 echo changed website favicon to: $color $favicon
