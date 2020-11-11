@@ -106,7 +106,7 @@ sed -i '/amazing8543G345IrZ73Z22i/c<!--amazing8543G345IrZ73Z22i--><link rel="ico
 # echo website name in index.html at line 10 changed to $name
 echo changed website favicon to: $color $favicon
 
-
+rm --force --recursive ../3/*
 
 
 
