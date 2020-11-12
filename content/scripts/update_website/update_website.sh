@@ -17,8 +17,6 @@ rm --force --recursive ../2/*
 # remove everything inside from folder 3 that is ../ up a directory
 rm --force --recursive ../3/*
 
-
-
 # to make it faster copy 1 random file from solid into folder 3 that is up a directory
 # https://unix.stackexchange.com/questions/217712/randomly-copy-certain-amount-of-certain-file-type-from-one-directory-into-anothe#217720
 shuf -zn1 -e *.svg | xargs -0 cp -t ../3/
