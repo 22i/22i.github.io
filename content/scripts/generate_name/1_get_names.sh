@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# infinite while loop it never stops doing what is inside it until script is canceled or stopped when the last action is done it restarts at first action
+# infinite while loop it never stops doing what is inside it until script is canceled or stopped like ctrl-c or ctrl shift q or some way to kill all the terminals when the last action is done it restarts at first action
 while :
 do
 
 # you might need to change the mouse positions for butons and text to work with your screen size
 
-# https://videogamena.me/vgng.html
+# https://videogamena.me
 
 # have fullscreen firefox to stop the moving of generate button which moves when the name is to long
 
