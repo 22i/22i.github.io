@@ -172,4 +172,4 @@ echo changed website favicon to: $color $favicon
 
 echo commited with message: "$message"
 
-echo current update is $update
+echo current update is $updateplus
