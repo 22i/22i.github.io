@@ -12,7 +12,8 @@ sed -i '/emo/d' all_the_names
 sed -i '/Emo/d' all_the_names
 sed -i '/angry/d' all_the_names
 sed -i '/Angry/d' all_the_names
-
+sed -i '/prison/d' all_the_names
+sed -i '/Prison/d' all_the_names
 
 # rm -f all_the_names1
 
