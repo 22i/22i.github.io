@@ -6,7 +6,7 @@
 
 # UPDATE THE FAVICON WEBSITE ICON
 
-# go inside lib folder then lib folder then icons folder then solid folder
+# go inside lib folder then icons folder then solid folder
 # content/scripts/update_website/
 cd $PWD/lib/icons/solid
 # content/scripts/update_website/lib/icons/solid
@@ -54,7 +54,7 @@ sed -i '/amazing85ghfzu6ud573Z22i/c<!--amazing85ghfzu6ud573Z22i--><!--'$color' '
 
 # prints in the terminal
 # echo website name in index.html at line 10 changed to $name
-echo changed website favicon to: $color $favicon
+# echo changed website favicon to: $color $favicon
 
 # removes everything inside folder 3 which is located in /lib/icons/
 rm --force --recursive $PWD/lib/icons/3/*
@@ -68,17 +68,18 @@ cd ../generate_name/
 liness=`wc -l all_the_names | sed 's/[^0-9]*//g'`
 
 # print in terminal value of variable liness
-echo $liness
+# echo $liness
 
 # get line with code into variable and keep only numbers
 # goes up 3 folders
-lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'` && echo $lineupdates
+lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
 
 # add 1 to the value of variable lineupdates then put results inside updates variable
 updates=$(echo 1+$lineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
-echo current line is $updates
+# echo current line is $updates
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
@@ -87,7 +88,8 @@ while [ $updates -gt $liness ]; do
 sed -i "/amazingTRHFfdhghukTADFSi/c<!--amazingTRHFfdhghukTADFSi--><!--1-->" ../../../index.html
 # get line with code into variable and keep only numbers
 # goes up 3 folders
-lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'` && echo $lineupdates
+lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
 updates=$lineupdates
 done
 
@@ -96,7 +98,7 @@ read=`head -$updates all_the_names | tail +$updates`
 
 
 # prints the value of variable read
-echo $read
+# echo $read
 
 # find line with amazingTRHFfdhghukTADFSi and change website name line number from all_the_names so that it chooses bigger name line number next time
 sed -i "/amazingTRHFfdhghukTADFSi/c<!--amazingTRHFfdhghukTADFSi--><!--$updates-->" ../../../index.html
@@ -106,7 +108,7 @@ sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</
 
 
 # prints in the terminal with variable read
-echo changed website name to: $read
+# echo changed website name to: $read
 
 # update the website preview
 # content/scripts/generate_name/
@@ -117,7 +119,7 @@ cd ../website_preview
 sh preview.sh
 
 # print in the terminal
-echo website preview updated for the readme
+# echo website preview updated for the readme
 
 # UPDATE THE WEBSITE UPDATE VERSION
 
@@ -129,13 +131,14 @@ cd ../update_website/
 
 
 # searches for line that contains ZSUaJLR0dpmm3 3 folders up in index.html then remove everything before 2th < > it does not difirentiete between > < then remove last 3 bytes or 3 characters then put it into update_line variable
-update_line=`grep ZSUaJLR0dpmm3 ../../../index.html | cut -d '>' -f 2 | sed 's/...$//'` && echo $update_line
+update_line=`grep ZSUaJLR0dpmm3 ../../../index.html | cut -d '>' -f 2 | sed 's/...$//'`
+# echo $update_line
 
 # add 1 to the update number
 updateplus=$(echo 1+$update_line | bc)
 
 # echo $lineupdate prints what the current update is in the terminal
-echo current update is $updateplus
+# echo current update is $updateplus
 
 # search for line with ZSUaJLR0dpmm3 in index.html from 3 folders up and replace it with <!--ZSUaJLR0dpmm3-->$updateplus</a> actualy $updateplus is variable that contains update number
 sed -i "/ZSUaJLR0dpmm3/c<!--ZSUaJLR0dpmm3-->$updateplus</a>" ../../../index.html
