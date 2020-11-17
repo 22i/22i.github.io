@@ -10,6 +10,8 @@
 # removes all the names that include words listed here
 sed -i '/emo/d' all_the_names
 sed -i '/Emo/d' all_the_names
+sed -i '/Teenage/d' all_the_names
+sed -i '/teenage/d' all_the_names
 sed -i '/angry/d' all_the_names
 sed -i '/Angry/d' all_the_names
 sed -i '/prison/d' all_the_names
