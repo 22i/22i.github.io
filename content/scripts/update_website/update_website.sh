@@ -59,6 +59,10 @@ sed -i '/amazing85ghfzu6ud573Z22i/c<!--amazing85ghfzu6ud573Z22i--><!--'$color' '
 # removes everything inside folder 3 which is located in /lib/icons/
 rm --force --recursive $PWD/lib/icons/3/*
 
+# # # # # # # # # # # 
+# CHANGE WEBSITE NAME
+# # # # # # # # # # # 
+
 # change website name to random video game name
 # content/scripts/update_website/
 cd ../generate_name/
