@@ -6,6 +6,15 @@
 
 # UPDATE THE FAVICON WEBSITE ICON
 
+
+
+today=`date "+%d.%m.%Y %H:%M"`
+
+# echo $today
+
+
+
+
 # go inside lib folder then icons folder then solid folder
 # content/scripts/update_website/
 cd $PWD/lib/icons/solid
@@ -146,6 +155,18 @@ updateplus=$(echo 1+$update_line | bc)
 
 # search for line with ZSUaJLR0dpmm3 in index.html from 3 folders up and replace it with <!--ZSUaJLR0dpmm3-->$updateplus</a> actualy $updateplus is variable that contains update number
 sed -i "/ZSUaJLR0dpmm3/c<!--ZSUaJLR0dpmm3-->$updateplus</a>" ../../../index.html
+
+
+
+# today=`date "+%d.%m.%Y %H:%M"`
+
+# echo $today
+
+# UPDATE THE WEBSITE UPDATE TIME
+# search for line with last updated in index.html from 3 folders up and replace it with actualy today contains current time
+sed -i "/TUTENKAMEN/c<!--TUTENKAMEN-->$today</p>" ../../../index.html
+
+
 
 
 # update website
