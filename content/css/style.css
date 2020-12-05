@@ -147,11 +147,16 @@ section.resume-section {
 .text-primary {
   color: #BD5D38 !important; } /* #BD5D38 brown */
 
+  
+/* Links blue */
+  
 a {
-  color: #BD5D38; } /* #BD5D38 brown */
+  color: silver; } /* #428bca light blue #BD5D38 brown */ /* #5092d0 blue */
   a:hover, a:focus, a:active {
-    color: #824027; } /*  brown */
+    color: silver; } /* #824027 brown */ /* #2d6ca7 dark blue */
 
+    
+    
     
     
 .bg-primary{background-color:#050505!important}
