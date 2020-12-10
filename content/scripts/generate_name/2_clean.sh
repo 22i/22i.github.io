@@ -34,7 +34,8 @@ sed -i '/Kiler/d' new_names
 sed -i '/kiler/d' new_names
 sed -i '/boring/d' new_names
 sed -i '/Boring/d' new_names
-
+sed -i '/scam/d' all_the_names
+sed -i '/scam/d' all_the_names
 
 shuf new_names >> all_the_names
 

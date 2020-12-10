@@ -22,6 +22,8 @@ sed -i '/Kiler/d' all_the_names
 sed -i '/kiler/d' all_the_names
 sed -i '/boring/d' all_the_names
 sed -i '/Boring/d' all_the_names
+sed -i '/scam/d' all_the_names
+sed -i '/scam/d' all_the_names
 
 # rm -f all_the_names1
 
