@@ -19,29 +19,13 @@ grep -Fvxf all_the_names new_names1 > new_names
 
 rm -f names1
 
-# removes all the names that include words listed here
-sed -i '/emo/d' new_names
-sed -i '/Emo/d' new_names
-sed -i '/Teenage/d' new_names
-sed -i '/teenage/d' new_names
-sed -i '/angry/d' new_names
-sed -i '/Angry/d' new_names
-sed -i '/prison/d' new_names
-sed -i '/Prison/d' new_names
-sed -i '/Killer/d' new_names
-sed -i '/killer/d' new_names
-sed -i '/Kiler/d' new_names
-sed -i '/kiler/d' new_names
-sed -i '/boring/d' new_names
-sed -i '/Boring/d' new_names
-sed -i '/scam/d' all_the_names
-sed -i '/scam/d' all_the_names
-sed -i '/assault/d' all_the_names
-sed -i '/Assault/d' all_the_names
-sed -i '/asault/d' all_the_names
-sed -i '/Asault/d' all_the_names
+
+
 
 shuf new_names >> all_the_names
+
+# removes all the names that include words listed here
+sh 3_censorship.sh
 
 
 rm -f names1 new_names new_names1

@@ -28,6 +28,8 @@ sed -i '/assault/d' all_the_names
 sed -i '/Assault/d' all_the_names
 sed -i '/asault/d' all_the_names
 sed -i '/Asault/d' all_the_names
+sed -i '/Toxic/d' all_the_names
+sed -i '/toxic/d' all_the_names
 
 
 # rm -f all_the_names1
