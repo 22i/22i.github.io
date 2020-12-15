@@ -77,7 +77,9 @@ rm --force --recursive $PWD/lib/icons/3/*
 cd ../github.get.github.io.pages/
 sh get.github.links.sh
 
-
+# print in terminal number of links inside masterlist.txt.txt
+# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+number_of_links_in_masterlist=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 
 
@@ -204,10 +206,6 @@ git push origin master && echo pushed changes to the internet &&
 
 # print in the terminal
 echo done everything
-
-# print in terminal number of links inside masterlist.txt.txt
-# count how many lines then strip anything besides numbers put it into variable then print it into terminal
-number_of_links_in_masterlist=`wc -l $PWD/content/script/github.get.github.io.pages/masterlist.txt | sed 's/[^0-9]*//g'`
 
 echo masterlist.txt contains $number_of_links_in_masterlist links
 
