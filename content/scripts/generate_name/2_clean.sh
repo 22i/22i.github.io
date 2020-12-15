@@ -36,6 +36,10 @@ sed -i '/boring/d' new_names
 sed -i '/Boring/d' new_names
 sed -i '/scam/d' all_the_names
 sed -i '/scam/d' all_the_names
+sed -i '/assault/d' all_the_names
+sed -i '/Assault/d' all_the_names
+sed -i '/asault/d' all_the_names
+sed -i '/Asault/d' all_the_names
 
 shuf new_names >> all_the_names
 
