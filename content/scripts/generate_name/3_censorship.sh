@@ -30,9 +30,14 @@ sed -i '/asault/d' all_the_names
 sed -i '/Asault/d' all_the_names
 sed -i '/Toxic/d' all_the_names
 sed -i '/toxic/d' all_the_names
-
+sed -i '/african/d' all_the_names
+sed -i '/African/d' all_the_names
+sed -i '/Australian/d' all_the_names
+sed -i '/australian/d' all_the_names
+sed -i '/indian/d' all_the_names
+sed -i '/Indian/d' all_the_names
 
 # rm -f all_the_names1
 
-echo done everything
+echo censored everything
 
