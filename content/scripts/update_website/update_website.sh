@@ -76,9 +76,7 @@ rm --force --recursive $PWD/lib/icons/3/*
 # # # # # # # # # # # 
 cd ../github.get.github.io.pages/
 
-# to remove unecesary huge updates on commit
-rm --force --recursive "$PWD/links/"/*
-rm --force --recursive "$PWD/links1/"/*
+
 
 
 # print in terminal number of links inside masterlist.txt.txt
@@ -88,6 +86,10 @@ old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 # echo $old_number
 
 sh get.github.links.sh
+
+# to remove unecesary huge updates on commit
+rm --force --recursive "$PWD/links/"/*
+rm --force --recursive "$PWD/links1/"/*
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
