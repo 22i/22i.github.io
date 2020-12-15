@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# WHOLE POINT OF THIS IS TO MAKE LESS FILE CHANGES SO THAT COMMIT LOOKS CLEANER
+
 
 # joins all the text together in current folder
 cat *.txt >> together
@@ -55,14 +57,16 @@ echo masterlist.txt contains $number_of_links_in_masterlist links
 
 # RANDOM GITHUB.IO WEBSITE
 
+# this is unecesary since the website does the randomizing
+# and creates a whole lot of unecesary file changes
 # randomize the file randomizes each line
-shuf masterlist.txt > 0
+# shuf masterlist.txt > 0
 
 # echo randomized
 
 
 # put prefix https://
-awk '$0="https://"$0' 0 > 1
+awk '$0="https://"$0' masterlist.txt > 1
 
 # put quoutes on every line
 awk '{ print "\""$0"\""}' 1 > 2
