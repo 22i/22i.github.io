@@ -75,11 +75,32 @@ rm --force --recursive $PWD/lib/icons/3/*
 # GRAB MORE GITHUB.IO PAGES
 # # # # # # # # # # # 
 cd ../github.get.github.io.pages/
+
+# to remove unecesary huge updates on commit
+rm --force --recursive "$PWD/links/"/*
+rm --force --recursive "$PWD/links1/"/*
+
+
+# print in terminal number of links inside masterlist.txt.txt
+# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+
+# echo $old_number
+
 sh get.github.links.sh
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
-number_of_links_in_masterlist=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+new_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+
+# echo $new_number
+
+# removes $old_number from $new_number
+number_of_new_links=$(echo $old_number-$new_number | bc)
+
+# echo $number_of_new_links
+
+
 
 
 
@@ -207,7 +228,7 @@ git push origin master && echo pushed changes to the internet &&
 # print in the terminal
 echo done everything
 
-echo masterlist.txt contains $number_of_links_in_masterlist links
+echo we found $number_of_new_links new github.io links
 
 echo changed website name to: $read
 
