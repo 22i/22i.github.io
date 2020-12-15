@@ -68,6 +68,20 @@ sed -i '/amazing85ghfzu6ud573Z22i/c<!--amazing85ghfzu6ud573Z22i--><!--'$color' '
 # removes everything inside folder 3 which is located in /lib/icons/
 rm --force --recursive $PWD/lib/icons/3/*
 
+
+
+
+# # # # # # # # # # # 
+# GRAB MORE GITHUB.IO PAGES
+# # # # # # # # # # # 
+cd ../github.get.github.io.pages/
+sh get.github.links.sh
+
+
+
+
+
+
 # # # # # # # # # # # 
 # CHANGE WEBSITE NAME
 # # # # # # # # # # # 
@@ -190,6 +204,8 @@ git push origin master && echo pushed changes to the internet &&
 
 # print in the terminal
 echo done everything
+
+echo masterlist.txt contains $number_of_links_in_masterlist links
 
 echo changed website name to: $read
 

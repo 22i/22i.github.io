@@ -80,7 +80,7 @@ seq -f "urls[%.0f]=" 0 $number_of_links_in_masterlist | sed '$ d' > aray
 paste '-d\0' aray 3 > done
 
 # writes contents of done into 5th line of redirect
-sed '5r done' $PWD/lib/redirect.html > ../../../random.github.io.page.html
+sed '5r done' $PWD/lib/redirect.html > ../../../lucky.github.io.page.html
 
 rm --force done aray 3 2 1 0
 
