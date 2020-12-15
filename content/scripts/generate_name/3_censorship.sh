@@ -36,6 +36,10 @@ sed -i '/Australian/d' all_the_names
 sed -i '/australian/d' all_the_names
 sed -i '/indian/d' all_the_names
 sed -i '/Indian/d' all_the_names
+sed -i '/gun/d' all_the_names
+sed -i '/Gun/d' all_the_names
+
+
 
 # rm -f all_the_names1
 
