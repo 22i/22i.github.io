@@ -38,6 +38,9 @@ sed -i '/indian/d' all_the_names
 sed -i '/Indian/d' all_the_names
 sed -i '/gun/d' all_the_names
 sed -i '/Gun/d' all_the_names
+sed -i '/rugby/d' all_the_names
+sed -i '/Rugby/d' all_the_names
+
 
 
 
