@@ -1,6 +1,18 @@
 #!/bin/bash
 
-# WHOLE POINT OF THIS IS TO MAKE LESS FILE CHANGES SO THAT COMMIT LOOKS CLEANER
+
+# THIS ONE MAKES LOTS OF FILE CHANGES DURING COMIT
+
+
+
+
+# print in terminal number of links inside masterlist.txt.txt
+# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+iold_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+
+
+lynx -dump -listonly "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=2&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=3&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=4&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=5&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=6&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=7&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=8&q=github.io&s=updated&type=Repositories" | grep github.io$ | grep -v "search/advanced" | cut -d '/' -f 5,6 > github.io.txt
+
 
 
 # joins all the text together in current folder
@@ -16,8 +28,6 @@ sort together | uniq > masterlist.txt
 rm --force --recursive github.io.txt together
 rm --force --recursive "$PWD/links/"/*
 rm --force --recursive "$PWD/links1/"/*
-
-lynx -dump -listonly "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=2&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=3&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=4&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=5&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=6&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=7&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=8&q=github.io&s=updated&type=Repositories" | grep github.io$ | grep -v "search/advanced" | cut -d '/' -f 5,6 > github.io.txt
 
 # lynx -dump -listonly
 # "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories"
@@ -46,9 +56,9 @@ cp -a $PWD/links/. $PWD/links1/
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
-number_of_links_in_masterlist=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+inumber_of_links_in_masterlist=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
-echo masterlist.txt contains $number_of_links_in_masterlist links
+echo masterlist.txt contains $inumber_of_links_in_masterlist links
 
 # get duplicates are there any duplicates?
 # sort masterlist.txt | uniq -c
@@ -76,7 +86,7 @@ awk 'NF{print $0 ";"}' 2 > 3
 
 # makes an array of starting from number 1 til (number depends on the variable) $number_of_links_in_masterlist
 # seq -f "urls[%.0f]=" 1 $number_of_links_in_masterlist > aray
-seq -f "urls[%.0f]=" 0 $number_of_links_in_masterlist | sed '$ d' > aray
+seq -f "urls[%.0f]=" 0 $inumber_of_links_in_masterlist | sed '$ d' > aray
 
 # echo done aray
 
@@ -86,7 +96,27 @@ paste '-d\0' aray 3 > done
 # writes contents of done into 5th line of redirect
 sed '5r done' $PWD/lib/redirect.html > ../../../lucky.github.io.page.html
 
-rm --force done aray 3 2 1 0
+rm --force done aray 3 2 1 0 done aray new1 new
+
+rm --force github.io.txt
+
+
+
+# print in terminal number of links inside masterlist.txt.txt
+# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+inew_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+
+# echo $new_number
+
+# removes $old_number from $new_number
+inumber_of_new_links=$(echo $inew_number-$iold_number | bc)
+
+# echo $number_of_new_links
+
+echo we found $inumber_of_new_links new github.io links
+
+
+
 
 
 echo done everything

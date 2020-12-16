@@ -85,7 +85,8 @@ old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 # echo $old_number
 
-sh get.github.links.sh
+# script number 2 gets less file changes during commit
+sh 2.get.github.links-cleaner.sh
 
 # to remove unecesary huge updates on commit
 rm --force --recursive "$PWD/links/"/*
@@ -97,8 +98,8 @@ new_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 # echo $new_number
 
-# removes $old_number from $new_number
-number_of_new_links=$(echo $old_number-$new_number | bc)
+# $new_number minus $old_number equals new found github.io pages
+number_of_new_links=$(echo $new_number-$old_number | bc)
 
 # echo $number_of_new_links
 
