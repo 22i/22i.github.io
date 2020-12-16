@@ -23,7 +23,7 @@ sed -i '/kiler/d' all_the_names
 sed -i '/boring/d' all_the_names
 sed -i '/Boring/d' all_the_names
 sed -i '/scam/d' all_the_names
-sed -i '/scam/d' all_the_names
+sed -i '/Scam/d' all_the_names
 sed -i '/assault/d' all_the_names
 sed -i '/Assault/d' all_the_names
 sed -i '/asault/d' all_the_names
