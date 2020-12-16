@@ -40,7 +40,10 @@ sed -i '/gun/d' all_the_names
 sed -i '/Gun/d' all_the_names
 sed -i '/rugby/d' all_the_names
 sed -i '/Rugby/d' all_the_names
-
+sed -i '/Unremarkable/d' all_the_names
+sed -i '/unremarkable/d' all_the_names
+sed -i '/Equestrian/d' all_the_names
+sed -i '/equestrian/d' all_the_names
 
 
 

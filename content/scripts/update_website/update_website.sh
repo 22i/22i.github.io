@@ -74,7 +74,7 @@ rm --force --recursive $PWD/lib/icons/3/*
 # # # # # # # # # # # 
 # GRAB MORE GITHUB.IO PAGES
 # # # # # # # # # # # 
-cd ../github.get.github.io.pages/
+cd ../grab_io_pages/
 
 
 

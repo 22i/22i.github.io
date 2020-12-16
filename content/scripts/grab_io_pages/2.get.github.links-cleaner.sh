@@ -147,7 +147,7 @@ sh 2
 # sed -i "`$newer_line`r done" ../../../lucky.github.io.page.html
 
 
-rm --force done aray 3 2 1 0 done aray new1 new
+rm --force done aray 3 2 1 0 done aray new1 new $PWD/lib/1 $PWD/lib/2
 
 rm --force github.io.txt
 
