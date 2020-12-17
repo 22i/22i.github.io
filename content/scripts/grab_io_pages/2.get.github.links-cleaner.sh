@@ -1,19 +1,14 @@
 #!/bin/bash
 
 # WHOLE POINT OF THIS IS TO MAKE LESS FILE CHANGES SO THAT COMMIT LOOKS CLEANER
-
 # USE THIS ONE MOST OF THE TIME WHEN RESTARTING USE THE NUMBER 1
 
 
-
-# print in terminal number of links inside masterlist.txt.txt
-# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+# count how many lines then strip anything besides numbers put it into variable
 iold_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
-
+# get github.io page links
 lynx -dump -listonly "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=2&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=3&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=4&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=5&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=6&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=7&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=8&q=github.io&s=updated&type=Repositories" | grep github.io$ | grep -v "search/advanced" | cut -d '/' -f 5,6 > github.io.txt
-
-
 
 # joins all the text together in current folder
 cat *.txt >> together
@@ -60,8 +55,7 @@ mv x* $PWD/links/
 # cp links to links1
 cp -a $PWD/links/. $PWD/links1/
 
-# print in terminal number of links inside masterlist.txt.txt
-# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+# count how many lines then strip anything besides numbers put it into variable
 inumber_of_links_in_masterlist=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 echo masterlist.txt contains $inumber_of_links_in_masterlist links
@@ -90,46 +84,30 @@ awk '{ print "\""$0"\""}' 1 > 2
 # add a suffix ;
 awk 'NF{print $0 ";"}' 2 > 3
 
-# makes an array of starting from number 1 til (number depends on the variable) $number_of_links_in_masterlist
-# seq -f "urls[%.0f]=" 1 $number_of_links_in_masterlist > aray
-# seq -f "urls[%.0f]=" 0 $inumber_of_links_in_masterlist | sed '$ d' > aray
+# makes an array of starting from number depending on variable til (number depends on the variable) $number_of_links_in_masterlist also deletes the last line since it breaks things
 seq -f "urls[%.0f]=" "$iold_number" "$inumber_of_links_in_masterlist" | sed '$ d' > aray
-
-
-
-
-
 
 # echo done aray
 
 # adds text from 3 to array
 paste '-d\0' aray 3 > done
 
-
-
-
-# find line that contains matches pattern shdfoOusd8jfhef6hs2svksT7haosfj
-# searches for line that contains shdfoOusd8jfhef6hs2svksT7haosfj 3 folders up in index.html
+# searches for line that contains shdfoOusd8jfhef6hs2svksT7haosfj 3 folders up in index.html then puts it into variable new_line
 new_line=`grep -n shdfoOusd8jfhef6hs2svksT7haosfj ../../../lucky.github.io.page.html | cut -f1 -d:`
 
 # echo $new_line
 
 # if you add 1 it skips one then inserts
-# remove 1 from new_line variable
+# remove 2 from new_line variable
 newer_line=$(echo $new_line-2 | bc)
 
 # echo $newer_line
-
-
-# THE MATCH IS ONE EMPTY LINE FROM ALL THE CODE
-
 
 # adds a prefix
 awk '$0="'$newer_line'"$0' $PWD/lib/insert > $PWD/lib/1
 
 # add a prefix: sed -i "
 awk '$0="sed -i \""$0' $PWD/lib/1 > $PWD/lib/2
-
 
 # adds bin bash to it
 sed '1i #!/bin/bash' $PWD/lib/2 > 2
@@ -138,23 +116,14 @@ sed '1i #!/bin/bash' $PWD/lib/2 > 2
 chmod +x 2
 
 # run it
-sh 2
-
-
-# THIS ONE KINDA DOES NOT WORK
 # writes contents of done into 5th line of redirect
-# sed "`$newer_line`r done" $PWD/lib/redirect.html > ../../../lucky.github.io.page.html
-# sed -i "`$newer_line`r done" ../../../lucky.github.io.page.html
-
+sh 2
 
 rm --force done aray 3 2 1 0 done aray new1 new $PWD/lib/1 $PWD/lib/2
 
 rm --force github.io.txt
 
-
-
-# print in terminal number of links inside masterlist.txt.txt
-# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+# count how many lines then strip anything besides numbers put it into variable
 inew_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 # echo $new_number
@@ -166,17 +135,4 @@ inumber_of_new_links=$(echo $inew_number-$iold_number | bc)
 
 echo we found $inumber_of_new_links new github.io links
 
-
-
-
-
-
-
-
 echo done everything
-
-
-
-
-
-

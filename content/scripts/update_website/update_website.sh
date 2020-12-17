@@ -7,7 +7,7 @@
 # UPDATE THE FAVICON WEBSITE ICON
 
 
-
+# usefull for latest update
 today=`date "+%d.%m.%Y %H:%M"`
 
 # echo $today
@@ -74,10 +74,11 @@ rm --force --recursive $PWD/lib/icons/3/*
 # # # # # # # # # # # 
 # GRAB MORE GITHUB.IO PAGES
 # # # # # # # # # # # 
+
+
+
+
 cd ../grab_io_pages/
-
-
-
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
@@ -111,6 +112,8 @@ number_of_new_links=$(echo $new_number-$old_number | bc)
 # # # # # # # # # # # 
 # CHANGE WEBSITE NAME
 # # # # # # # # # # # 
+
+
 
 # change website name to random video game name
 # content/scripts/update_website/
