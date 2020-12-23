@@ -24,6 +24,10 @@ sed -i '/boring/d' all_the_names
 sed -i '/Boring/d' all_the_names
 sed -i '/scam/d' all_the_names
 sed -i '/Scam/d' all_the_names
+sed -i '/Big/d' all_the_names
+sed -i '/big/d' all_the_names
+sed -i '/small/d' all_the_names
+sed -i '/Small/d' all_the_names
 sed -i '/assault/d' all_the_names
 sed -i '/Assault/d' all_the_names
 sed -i '/asault/d' all_the_names
@@ -44,6 +48,10 @@ sed -i '/Unremarkable/d' all_the_names
 sed -i '/unremarkable/d' all_the_names
 sed -i '/Equestrian/d' all_the_names
 sed -i '/equestrian/d' all_the_names
+
+
+
+
 
 
 
