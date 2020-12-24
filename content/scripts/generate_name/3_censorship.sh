@@ -48,11 +48,10 @@ sed -i '/Unremarkable/d' all_the_names
 sed -i '/unremarkable/d' all_the_names
 sed -i '/Equestrian/d' all_the_names
 sed -i '/equestrian/d' all_the_names
-
-
-
-
-
+sed -i '/jew/d' all_the_names
+sed -i '/Jew/d' all_the_names
+sed -i '/Jewish/d' all_the_names
+sed -i '/jewish/d' all_the_names
 
 
 # rm -f all_the_names1
