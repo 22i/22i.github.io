@@ -57,7 +57,13 @@ echo $read
 # fi
 
 
-read -p "Press enter to update the website"
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
+
+
+
+
+# read -p "Press enter to update the website"
 
 cd ../update_website
 sh update_website.sh
