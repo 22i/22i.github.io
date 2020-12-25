@@ -57,6 +57,9 @@ echo $read
 # fi
 
 
+echo This will be the next websites name if you press enter
+
+
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 
