@@ -52,6 +52,10 @@ sed -i '/jew/d' all_the_names
 sed -i '/Jew/d' all_the_names
 sed -i '/Jewish/d' all_the_names
 sed -i '/jewish/d' all_the_names
+sed -i '/jewish/d' all_the_names
+sed -i '/In Your Face/d' all_the_names
+
+
 
 
 # rm -f all_the_names1
