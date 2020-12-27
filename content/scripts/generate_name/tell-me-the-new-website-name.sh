@@ -63,7 +63,7 @@ echo This will be the next websites name if you press enter
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 
-
+echo starting to update website ...
 
 
 # read -p "Press enter to update the website"
