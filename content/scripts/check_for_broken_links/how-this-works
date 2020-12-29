@@ -1,0 +1,15 @@
+once in a while you can run 1-link_checker
+- it finds broken links in masterlist.txt
+- takes a while depends on number of links in masterlist.txt
+
+then you run 2-clean.sh
+- it adds broken links to masterlist.txt while keeping all the old broken links
+
+then you should go up a directory and hop into grab_io_pages folder
+and run 1.get.github.links.sh
+- it removes all the current not_woking links from masterlist.txt and recreates it also recreates lucky.github.io.html
+
+
+on every website update 2.get.github.links.cleaner.sh gets run
+- it test new links if they are broken recreates not_woking and masterlist.txt
+- it does not need to recreate lucky.github.io.html since it adds new working links to the end

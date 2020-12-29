@@ -1,0 +1,17 @@
+Linkcheck will crawl given site and check links.
+
+usage: linkcheck [switches] [url]
+
+-h, --help                                    Prints this usage help.
+-v, --version                                 Prints version.
+-e, --external                                Check external (remote) links, too. By default, the tool only checks internal links.
+
+Advanced
+-i, --input-file                              Get list of URLs from the given text file (one URL per line).
+    --skip-file                               Get list of URLs to skip from given text file (one RegExp pattern per line).
+    --hosts                                   Paths to check. By default, the crawler doesn't parse HTML on sites with different path than the seedURIs. If your site spans multiple domains and you want to check HTML everywhere, use this. Provide as a glob, e.g. http://example.com/subdirectory/**.
+    --[no-]nice                               Use ANSI terminal capabilities for nicer input. Turn this off if the output is broken.
+                                              (defaults to on)
+
+    --[no-]connection-failures-as-warnings    Report connection failures as warnings rather than errors.
+-d, --debug                                   Debug mode (very verbose).

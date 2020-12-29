@@ -13,13 +13,51 @@ iold_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 # get the github.io links from github
 lynx -dump -listonly "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=2&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=3&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=4&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=5&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=6&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=7&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=8&q=github.io&s=updated&type=Repositories" | grep github.io$ | grep -v "search/advanced" | cut -d '/' -f 5,6 > github.io.txt
 
-# joins all the text together in current folder
-cat *.txt >> together
+# github.io.txt + masterlist.txt = together1 joins all the text together in current folder
+cat *.txt >> together1
+
+# use blacklist (not-woking
+grep -Fvxf not-woking together1 > together
 
 # echo joined all text together
 
 # remove all duplicate lines
-sort together | uniq > masterlist.txt
+sort together | uniq > new1
+
+
+# cleaning the new links if any of them is broken
+
+
+# use blacklist (masterlist.txt
+grep -Fvxf masterlist.txt new1 > new2
+
+# use blacklist (not-woking
+grep -Fvxf not-woking new2 > new3
+
+
+cd ../check_for_broken_links/
+
+# test for broken links on new links inside new3
+bash ../check_for_broken_links/3-new_link_checker.sh
+
+# cleans up and adds broken links into >> not-woking
+bash ../check_for_broken_links/4-clean-new-links.sh
+
+cd ../grab_io_pages/
+
+
+# use blacklist (not-woking
+grep -Fvxf not-woking new3 > new
+
+# make sure that masterlist.txt does not have broken links
+# use blacklist (not-woking
+grep -Fvxf not-woking new1 > new55
+
+# make sure masterlist.txt does not have broken links
+cp -f new55 masterlist.txt
+
+
+
 
 # echo removed duplicate lines
 
@@ -94,6 +132,8 @@ sed '5r done' $PWD/lib/redirect.html > ../../../lucky.github.io.page.html
 rm --force done aray 3 2 1 0 done aray new1 new
 
 rm --force github.io.txt
+
+rm --force together1 new2 new3 new55
 
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
 inew_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`

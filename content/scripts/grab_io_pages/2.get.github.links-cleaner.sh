@@ -10,7 +10,7 @@ iold_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 # get github.io page links
 lynx -dump -listonly "https://github.com/search?o=desc&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=2&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=3&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=4&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=5&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=6&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=7&q=github.io&s=updated&type=Repositories" "https://github.com/search?o=desc&p=8&q=github.io&s=updated&type=Repositories" | grep github.io$ | grep -v "search/advanced" | cut -d '/' -f 5,6 > github.io.txt
 
-# joins all the text together in current folder
+# masterlist.txt (all the links) + github.io.txt (new links) = together joins all the text together in current folder
 cat *.txt >> together
 
 # echo joined all text together
@@ -19,14 +19,45 @@ cat *.txt >> together
 # sort together | uniq > masterlist.txt
 sort together | uniq > new1
 
-# use blacklist (masterlist.txst
-grep -Fvxf masterlist.txt new1 > new
+# use blacklist (masterlist.txt
+grep -Fvxf masterlist.txt new1 > new2
 
-cp new1 masterlist.txt
+# # # # # # # 
+# # # # # # 
+# # # # # 
+# # # # 
+# use blacklist (not-woking
+grep -Fvxf not-woking new2 > new3
+
+cd ../check_for_broken_links/
+
+# test for broken links on new links inside new3
+bash ../check_for_broken_links/3-new_link_checker.sh
+
+# cleans up and adds broken links into >> not-woking
+bash ../check_for_broken_links/4-clean-new-links.sh
+
+cd ../grab_io_pages/
+
+
+# use blacklist (not-woking
+grep -Fvxf not-woking new3 > new
+
+# count how many lines then strip anything besides numbers put it into variable
+newnewnew=`wc -l new | sed 's/[^0-9]*//g'`
+
+
+# make sure that masterlist.txt does not have broken links
+# use blacklist (not-woking
+grep -Fvxf not-woking new1 > new55
+
+# make sure masterlist.txt does not have broken links
+cp -f new55 masterlist.txt
+
 
 # echo removed duplicate lines
 
-rm --force --recursive github.io.txt together
+# rm --force --recursive github.io.txt together new1 new2 new3 new55 
 rm --force --recursive "$PWD/links/"/*
 rm --force --recursive "$PWD/links1/"/*
 
@@ -117,11 +148,17 @@ chmod +x 2
 
 # run it
 # writes contents of done into 5th line of redirect
-sh 2
+bash 2
 
-rm --force done aray 3 2 1 0 done aray new1 new $PWD/lib/1 $PWD/lib/2
+rm --force $PWD/lib/1 $PWD/lib/2
 
-rm --force github.io.txt
+# rm --force done aray 3 2 1 0 done aray new1
+
+# rm --force github.io.txt
+
+# rm --force new
+
+# rm --force together1 new2 new3 new55
 
 # count how many lines then strip anything besides numbers put it into variable
 inew_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
@@ -134,5 +171,9 @@ inumber_of_new_links=$(echo $inew_number-$iold_number | bc)
 # echo $number_of_new_links
 
 echo we found $inumber_of_new_links new github.io links
+
+echo we found $newnewnew new github.io links
+
+
 
 echo done everything
