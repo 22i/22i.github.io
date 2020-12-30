@@ -69,7 +69,7 @@ echo starting to update website ...
 # read -p "Press enter to update the website"
 
 cd ../update_website
-sh update_website.sh
+bash update_website.sh
 
 
 
