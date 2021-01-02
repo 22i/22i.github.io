@@ -42,7 +42,7 @@ chmod +x $PWD/lib/error3
 sh $PWD/lib/error3
 
 
-error_text=`cat new-not-working.txt`
+error_text=`cat new-not-woking.txt`
 
 
 # add not working links to not-woking

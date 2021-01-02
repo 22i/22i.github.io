@@ -3,20 +3,10 @@
 # THIS SCRIPT UPDATES THE WEBSITE VERSION, FAVICON, NAME, PREVIEW and THE WEBSITE ITSELF
 # IT COMMITS WITH A MESSAGE THAT IS INSIDE message.txt
 
-
-# UPDATE THE FAVICON WEBSITE ICON
-
-
 # usefull for latest update
 today=`date "+%d.%m.%Y %H:%M"`
 
 # echo $today
-
-
-
-# change website name first then ask if its ok y n if no exit else continue
-
-
 
 
 
@@ -84,27 +74,6 @@ sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</
 
 
 
-# ask if its ok y n if no exit else continue
-
-
-# read -r -p "Are you sure? [y/N] " response
-# case "$response" in
-#     [yY][eE][sS]|[yY]) 
-#         do_something
-#         ;;
-#     *)
-#         do_something_else
-#         ;;
-# esac
-# 
-# 
-# read -p "Are you sure you want to continue? <y/N> " prompt
-# if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
-# then
-#   # http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script
-# else
-#   exit 0
-# fi
 
 
 
@@ -180,12 +149,15 @@ rm --force --recursive $PWD/lib/icons/3/*
 
 
 
-# # # # # # # # # # # 
+
+
+
+
+
+
+# # # # # # # # # # # # # # 
 # GRAB MORE GITHUB.IO PAGES
-# # # # # # # # # # # 
-
-
-
+# # # # # # # # # # # # # # 
 
 cd ../grab_io_pages/
 
@@ -196,7 +168,11 @@ old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 # echo $old_number
 
 # script number 2 gets less file changes during commit
-sh 2.get.github.links-cleaner.sh
+# bash 2.get.github.links-cleaner.sh
+# cd ../continous_grab_io_pages/
+# bash clean.sh
+
+cd ../grab_io_pages/
 
 # to remove unecesary huge updates on commit
 rm --force --recursive "$PWD/links/"/*
@@ -231,11 +207,9 @@ number_of_new_links=$(echo $new_number-$old_number | bc)
 
 
 
-
-
-
-
-
+# # # # # # # # # # # # # # #
+# CHANGE WEBSITE PREVIEW
+# # # # # # # # # # # # # # #
 
 
 # update the website preview
@@ -249,14 +223,19 @@ sh preview.sh
 # print in the terminal
 # echo website preview updated for the readme
 
-# UPDATE THE WEBSITE UPDATE VERSION
 
 
-# update the website update version
+
+
+
+
+# # # # # # # # # # # # # # # # # # 
+# CHANGE WEBSITE UPDATE VERSION
+# # # # # # # # # # # # # # # # # # 
+
 # content/scripts/website_preview/
 cd ../update_website/
 # content/scripts/update_website/
-
 
 # searches for line that contains ZSUaJLR0dpmm3 3 folders up in index.html then remove everything before 2th < > it does not difirentiete between > < then remove last 3 bytes or 3 characters then put it into update_line variable
 update_line=`grep ZSUaJLR0dpmm3 ../../../index.html | cut -d '>' -f 2 | sed 's/...$//'`
@@ -273,6 +252,15 @@ sed -i "/ZSUaJLR0dpmm3/c<!--ZSUaJLR0dpmm3-->$updateplus</a>" ../../../index.html
 
 
 
+
+
+
+
+
+# # # # # # # # # # # # # # # 
+# CHANGE LATEST UPDATE TIME
+# # # # # # # # # # # # # # # 
+
 # today=`date "+%d.%m.%Y %H:%M"`
 
 # echo $today
@@ -284,8 +272,38 @@ sed -i "/TUTENKAMEN/c<!--TUTENKAMEN-->$today</p>" ../../../index.html
 
 
 
+
+
+
+
+# # # # # # # # #
+# CLEAN UP TIME
+# # # # # # # # #
+
+# content/scripts/update_website/
+cd ../grab_io_pages/
+# content/scripts/grab_io_pages/
+
+# cleans up
+bash 3.clean-folder.sh
+
+
+
+
+
+
+
+
+# # # # # # # # # # #
+# UPDATE THE WEBSITE
+# # # # # # # # # # #
+
 # update website
 # video help https://www.youtube.com/watch?v=ruieT3Nkg2M
+
+# content/scripts/grab_io_pages/
+cd ../update_website/
+# content/scripts/update_website/
 
 # puts whats inside message.txt inside variable message
 message=`cat message.txt`
@@ -302,6 +320,16 @@ git add . && echo tracked and staged all files &&
 git commit -m "$message" && echo commited localy with a message "$message" &&
 
 git push origin master && echo pushed changes to the internet &&
+
+
+
+
+
+
+
+# # # # # # # # # # # #
+# MESSAGE OF COMPLETION
+# # # # # # # # # # # #
 
 # print in the terminal
 echo done everything

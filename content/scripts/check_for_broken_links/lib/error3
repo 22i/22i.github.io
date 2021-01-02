@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -n '7p;15p;873p;1051p' ../grab_io_pages/not-woking > working-again

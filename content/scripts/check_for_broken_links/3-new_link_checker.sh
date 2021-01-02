@@ -18,10 +18,12 @@ OUTPUT0=results0
 OUTPUT1=results1
 OUTPUT2=results2
 
+echo checking...
+
 while read line
 do
   out=$(
-     curl -A "Mozilla/5.0" -I \
+     curl --silent -A "Mozilla/5.0" -I \
         $line | head -n 1 | cut -d$' ' -f2
   )
   echo $out >> $OUTPUT1
