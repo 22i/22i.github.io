@@ -35,6 +35,14 @@ sed -i '/SERNAME.github.io/d' 3
 sed -i '/^$/d' 3
 
 
+# The following sed command removes all the lines that start with character -
+sed -i '/^-/d' 3
+# The following sed command removes all the lines that start with character --
+sed -i '/^--/d' 3
+
+
+
+
 
 
 

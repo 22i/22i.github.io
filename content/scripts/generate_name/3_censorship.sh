@@ -55,8 +55,8 @@ sed -i '/jewish/d' all_the_names
 sed -i '/In Your Face/d' all_the_names
 sed -i '/Incomprehensible/d' all_the_names
 sed -i '/incomprehensible/d' all_the_names
-
-
+sed -i '/Murder/d' all_the_names
+sed -i '/murder/d' all_the_names
 
 # rm -f all_the_names1
 

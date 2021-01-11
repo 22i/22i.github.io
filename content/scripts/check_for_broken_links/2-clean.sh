@@ -89,3 +89,4 @@ echo done everything
 
 echo not working lines are $error_text
 
+echo done everything

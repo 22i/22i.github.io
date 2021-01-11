@@ -106,3 +106,5 @@ echo done everything
 
 
 echo these are working again $working_again_texts
+
+echo done everything
