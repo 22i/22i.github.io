@@ -57,6 +57,14 @@ sed -i '/Incomprehensible/d' all_the_names
 sed -i '/incomprehensible/d' all_the_names
 sed -i '/Murder/d' all_the_names
 sed -i '/murder/d' all_the_names
+sed -i '/hitman/d' all_the_names
+sed -i '/Hitman/d' all_the_names
+sed -i '/Shopping/d' all_the_names
+sed -i '/shopping/d' all_the_names
+sed -i '/Globetrotters/d' all_the_names
+sed -i '/globetrotters/d' all_the_names
+
+
 
 # rm -f all_the_names1
 
