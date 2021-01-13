@@ -63,7 +63,8 @@ sed -i '/Shopping/d' all_the_names
 sed -i '/shopping/d' all_the_names
 sed -i '/Globetrotters/d' all_the_names
 sed -i '/globetrotters/d' all_the_names
-
+sed -i '/Booty/d' all_the_names
+sed -i '/booty/d' all_the_names
 
 
 # rm -f all_the_names1

@@ -274,6 +274,18 @@ sed -i "/TUTENKAMEN/c<!--TUTENKAMEN-->$today</p>" ../../../index.html
 
 
 
+# # # # # # # # # # # # # # # 
+# UPDATE NUMBER OF MASTERLIST.TXT
+# # # # # # # # # # # # # # # 
+
+# UPDATE discovered github io links
+# search for line with password in index.html from 3 folders up and replace it with
+sed -i "/z7erisdfh283eiuoasdjfa35r29/c<!--z7erisdfh283eiuoasdjfa35r29-->$old_number working github.io links</p>" ../../../index.html
+
+
+
+
+
 
 
 # # # # # # # # #
