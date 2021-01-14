@@ -32,6 +32,8 @@ liness=`wc -l all_the_names | sed 's/[^0-9]*//g'`
 # print in terminal value of variable liness
 # echo $liness
 
+echo $PWD
+
 # get line with code into variable and keep only numbers
 # goes up 3 folders
 lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'`
@@ -104,13 +106,57 @@ rm --force --recursive ../2/*
 # remove everything inside from folder 3 that is ../ up a directory
 rm --force --recursive ../3/*
 
+# ls | shuf > ../icons
+
+# check how many lines all_the_names has keep only numbers and put it into variable liness
+iconlines=`wc -l ../icons | sed 's/[^0-9]*//g'`
+
+echo $PWD
+
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf ../../../../../../index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
+
+# add 1 to the value of variable lineupdates then put results inside updates variable
+iconupdates=$(echo 1+$iconlineupdates | bc)
+
+# prints what the current line is with the value of variable updates in the terminal
+# echo current line is $updates
+
+# if number is bigger then the number of lines reset
+# if value of variable updates is greater than variable value of liness then do this in every other case skip
+while [ $iconupdates -gt $iconliness ]; do
+# search for line zzdsaoiwejiKJAOSDJXVNkldfskjdf and replace it with <!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--1-->
+sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--1-->" ../../../../../../index.html
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf ../../../../../../index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
+iconupdates=$iconlineupdates
+done
+
+# read line number from variable updates from all_the_names text file into variable read
+iconread=`head -$iconupdates ../icons | tail +$iconupdates`
+
+# find line with hftrtsert345hdfghs563sfgdsfzg3 and change website name line number from all_the_names so that it chooses bigger name line number next time
+sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--$iconupdates-->" ../../../../../../index.html
+
+# find line with hftrtsert345hdfghs563sfgdsfzg3 and change the tittle
+# sed -i "/hftrtsert345hdfghs563sfgdsfzg3/c<!--hftrtsert345hdfghs563sfgdsfzg3--><title>$iconread</title>" ../../../../../../index.html
+
+
+cp -f $iconread ../3/
+
+
+
 # to make it faster copy 1 random file from solid into folder 3 that is up a directory
 # https://unix.stackexchange.com/questions/217712/randomly-copy-certain-amount-of-certain-file-type-from-one-directory-into-anothe#217720
-shuf -zn1 -e *.svg | xargs -0 cp -t ../3/
+# shuf -zn1 -e *.svg | xargs -0 cp -t ../3/
 
 # https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell
 # puts list of files of up a folder in folder 3 into variable favicon
-favicon=`ls ../3`
+# favicon=`ls ../3`
 
 
 # go up a directory and into folder 3

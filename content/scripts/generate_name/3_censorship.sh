@@ -65,6 +65,19 @@ sed -i '/Globetrotters/d' all_the_names
 sed -i '/globetrotters/d' all_the_names
 sed -i '/Booty/d' all_the_names
 sed -i '/booty/d' all_the_names
+sed -i '/Cheese/d' all_the_names
+sed -i '/cheese/d' all_the_names
+sed -i '/Dollar/d' all_the_names
+sed -i '/dollar/d' all_the_names
+sed -i '/Blimp/d' all_the_names
+sed -i '/blimp/d' all_the_names
+sed -i '/Slaughter/d' all_the_names
+sed -i '/slaughter/d' all_the_names
+sed -i '/Dating/d' all_the_names
+sed -i '/dating/d' all_the_names
+
+
+
 
 
 # rm -f all_the_names1
