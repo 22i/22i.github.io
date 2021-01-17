@@ -75,11 +75,27 @@ sed -i '/Slaughter/d' all_the_names
 sed -i '/slaughter/d' all_the_names
 sed -i '/Dating/d' all_the_names
 sed -i '/dating/d' all_the_names
-
-
-
-
-
+sed -i '/Rodeo/d' all_the_names
+sed -i '/rodeo/d' all_the_names
+sed -i '/Donkey/d' all_the_names
+sed -i '/donkey/d' all_the_names
+sed -i '/DS/d' all_the_names
+sed -i '/Lawnmower/d' all_the_names
+sed -i '/lawnmower/d' all_the_names
+sed -i '/Crossdressing/d' all_the_names
+sed -i '/crossdressing/d' all_the_names
+sed -i '/Caper/d' all_the_names
+sed -i '/caper/d' all_the_names
+sed -i '/Soccer/d' all_the_names
+sed -i '/soccer/d' all_the_names
+sed -i '/Unpleasant/d' all_the_names
+sed -i '/unpleasant/d' all_the_names
+sed -i '/Unicycle/d' all_the_names
+sed -i '/unicycle/d' all_the_names
+sed -i '/Police/d' all_the_names
+sed -i '/police/d' all_the_names
+sed -i '/Horse Racing/d' all_the_names
+sed -i '/horse racing/d' all_the_names
 # rm -f all_the_names1
 
 echo censored everything

@@ -110,41 +110,54 @@ rm --force --recursive ../3/*
 
 # check how many lines all_the_names has keep only numbers and put it into variable liness
 iconlines=`wc -l ../icons | sed 's/[^0-9]*//g'`
+echo number of all the icons is $iconlines
 
 echo $PWD
 
+cd ../../../../../../
+# root
+
 # get line with code into variable and keep only numbers
 # goes up 3 folders
-iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf ../../../../../../index.html|sed 's/[^0-9]*//g'`
-# echo $lineupdates
+iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf index.html|sed 's/[^0-9]*//g'`
+echo previous icon number was $iconlineupdates
 
 # add 1 to the value of variable lineupdates then put results inside updates variable
 iconupdates=$(echo 1+$iconlineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
-# echo current line is $updates
+echo current line is $iconupdates
+
+echo checking if number exceds number of icons
+echo $PWD
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
-while [ $iconupdates -gt $iconliness ]; do
+while [ $iconupdates -gt $iconlines ]; do
 # search for line zzdsaoiwejiKJAOSDJXVNkldfskjdf and replace it with <!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--1-->
-sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--1-->" ../../../../../../index.html
+sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--1-->" index.html
 # get line with code into variable and keep only numbers
 # goes up 3 folders
-iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf ../../../../../../index.html|sed 's/[^0-9]*//g'`
+iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf index.html|sed 's/[^0-9]*//g'`
 # echo $lineupdates
 iconupdates=$iconlineupdates
 done
 
+cd $PWD/content/scripts/update_website/lib/icons/solid
+
 # read line number from variable updates from all_the_names text file into variable read
 iconread=`head -$iconupdates ../icons | tail +$iconupdates`
 
+cd ../../../../../../
+# root
+
 # find line with hftrtsert345hdfghs563sfgdsfzg3 and change website name line number from all_the_names so that it chooses bigger name line number next time
-sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--$iconupdates-->" ../../../../../../index.html
+sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!--$iconupdates-->" index.html
 
 # find line with hftrtsert345hdfghs563sfgdsfzg3 and change the tittle
-# sed -i "/hftrtsert345hdfghs563sfgdsfzg3/c<!--hftrtsert345hdfghs563sfgdsfzg3--><title>$iconread</title>" ../../../../../../index.html
+# sed -i "/hftrtsert345hdfghs563sfgdsfzg3/c<!--hftrtsert345hdfghs563sfgdsfzg3--><title>$iconread</title>" index.html
 
+cd $PWD/content/scripts/update_website/lib/icons/solid
 
 cp -f $iconread ../3/
 

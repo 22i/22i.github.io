@@ -8,6 +8,10 @@
 # get new WEBSITE NAME
 # # # # # # # # # # # 
 
+bash 3_censorship.sh
+
+clear
+
 
 cd ../../../
 # root
@@ -48,24 +52,17 @@ read=`head -$updates $PWD/content/scripts/generate_name/all_the_names | tail +$u
 # prints the value of variable read
 echo $read
 
+
+
 # echo $PWD
 
 # DOES NOT SEEM TO WORK FOR SOME WEIRD REASON
-# searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--rt234erswdf3423erter44--><title>$name</title>"
+# searches in the icontest.html text for line with grertsdfewrtasdfaerawefasdfaefasfd then replaces it with <!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-# sed -i '/title/c<title>'$read'</title>' ../../../icontest.html
-# sed -i "rr3445dfg34sf43/c<!--rr3445dfg34sf43--><title>'$read'</title>" ../../../icontest.html
-# sed -i "rr3445dfg34sf43/c<!--rr3445dfg34sf43--><title>amazing</title>" ../../../../icontest.html
+sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
 
-# sed -i "title/c<title>amazing</title>" ../../../icontest.html
-# sed -i "abeceda/c<title>amazing</title>" ../../../icontest.html
-
-
-
-
-
-
-
+# `
+# \
 
 # echo get new website icon
 
@@ -132,7 +129,8 @@ sed -i '/shortcut/c<link rel="shortcut icon" type="image/png" href="content/scri
 
 # echo $PWD
 
-firefox --new-tab --url icontest.html
+# it launches but shows errors
+# firefox --new-tab --url icontest.html
 
 
 # cd ../../
