@@ -14,7 +14,7 @@ sed -i '/username.github.io/d' masterlist.txt
 sed -i '/-USERNAME.github.io/d' masterlist.txt
 sed -i '/SERNAME.github.io/d' masterlist.txt
 
-# The following sed command removes all the lines that start with character R.
+# The following sed command removes all the lines that start with character -
 # sed '/^R/d' sed-demo-1.txt
 sed -i '/^-/d' masterlist.txt
 sed -i '/^-/d' not-woking

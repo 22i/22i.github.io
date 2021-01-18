@@ -46,6 +46,9 @@ echo it took $minutes minutes
 # count how many lines then strip anything besides numbers put it into variable
 notwoking=`wc -l ../grab_io_pages/not-woking | sed 's/[^0-9]*//g'`
 
-echo it took $minutes minutes to check $notwoking links in not-woking >> timing
+# usefull for date
+today=`date "+%d.%m.%Y %H:%M"`
+
+echo $today it took $minutes minutes to check $notwoking links in not-woking >> timing
 
 notify-send "checker done" -t 3000
