@@ -96,6 +96,14 @@ sed -i '/Police/d' all_the_names
 sed -i '/police/d' all_the_names
 sed -i '/Horse Racing/d' all_the_names
 sed -i '/horse racing/d' all_the_names
+sed -i '/Drug-Dealing/d' all_the_names
+sed -i '/drug-dealing/d' all_the_names
+sed -i '/sonic/d' all_the_names
+sed -i '/Sonic/d' all_the_names
+sed -i '/Communist/d' all_the_names
+sed -i '/communist/d' all_the_names
+sed -i '/Brain-Damaged/d' all_the_names
+sed -i '/brain-damaged/d' all_the_names
 # rm -f all_the_names1
 
 echo censored everything
