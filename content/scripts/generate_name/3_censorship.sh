@@ -104,6 +104,12 @@ sed -i '/Communist/d' all_the_names
 sed -i '/communist/d' all_the_names
 sed -i '/Brain-Damaged/d' all_the_names
 sed -i '/brain-damaged/d' all_the_names
+sed -i '/Janitor/d' all_the_names
+sed -i '/janitor/d' all_the_names
+sed -i '/Matador/d' all_the_names
+sed -i '/matador/d' all_the_names
+sed -i '/Little/d' all_the_names
+sed -i '/little/d' all_the_names
 # rm -f all_the_names1
 
 echo censored everything
