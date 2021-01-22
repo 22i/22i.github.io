@@ -110,6 +110,13 @@ sed -i '/Matador/d' all_the_names
 sed -i '/matador/d' all_the_names
 sed -i '/Little/d' all_the_names
 sed -i '/little/d' all_the_names
+sed -i '/Combat/d' all_the_names
+sed -i '/combat/d' all_the_names
+sed -i '/vs./d' all_the_names
+sed -i '/Badminton/d' all_the_names
+sed -i '/badminton/d' all_the_names
+sed -i '/Fighter/d' all_the_names
+sed -i '/fighter/d' all_the_names
 # rm -f all_the_names1
 
 echo censored everything
