@@ -183,9 +183,75 @@ tail -c +5 *.svg > ../2/icon.svg
 # add svg color to begining of the file
 # <svg
 # go up a folder and into folder 2
-cd ../2/
+# cd ../2/
+
+
+
+# content/scripts/update_website/lib/icons/3
+cd ../../
+# content/scripts/update_website/lib/
+
+# check how many lines icons has keep only numbers and put it into variable liness
+# iconliness=`wc -l $PWD/content/scripts/update_website/lib/icons/icons | sed 's/[^0-9]*//g'`
+colorlines=`wc -l colors-by-shade | sed 's/[^0-9]*//g'`
+
+# content/scripts/update_website/lib/
+cd ../../../../
+# root
+
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
+echo previous icon number was $colorlineupdates
+
+# add 1 to the value of variable lineupdates then put results inside updates variable
+colorupdates=$(echo 1+$colorlineupdates | bc)
+
+# prints what the current line is with the value of variable updates in the terminal
+echo current line is $colorupdates
+
+echo checking if number exceds number of icons
+echo $PWD
+
+# if number is bigger then the number of lines reset
+# if value of variable updates is greater than variable value of liness then do this in every other case skip
+while [ $colorupdates -gt $colorlines ]; do
+# search for line iuteIrewJerwfsdJJJrewrUUAAHH and replace it with <!--iuteIrewJerwfsdJJJrewrUUAAHH--><!--1-->
+sed -i "/iuteIrewJerwfsdJJJrewrUUAAHH/c<!--iuteIrewJerwfsdJJJrewrUUAAHH--><!--1-->" index.html
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
+colorupdates=$colorlineupdates
+done
+
+
+
+cd $PWD/content/scripts/update_website/lib/
+
+# read line number from variable updates from all_the_names text file into variable read
+colorread=`head -$colorupdates colors-by-shade | tail +$colorupdates`
+
+cd ../../../../
+# root
+
+# find line with iuteIrewJerwfsdJJJrewrUUAAHH and change website name line number from all_the_names so that it chooses bigger name line number next time
+sed -i "/iuteIrewJerwfsdJJJrewrUUAAHH/c<!--iuteIrewJerwfsdJJJrewrUUAAHH--><!--$colorupdates-->" index.html
+
+
+
 # put a random line from colors text file that is 2 folders up into variable color
-color=`shuf -n 1 ../../colors`
+# color=`shuf -n 1 ../../colors`
+
+color=$colorread
+
+cd $PWD/content/scripts/update_website/lib/icons/2
+
+
+
+
+
+
 # add text inside the svg with variable color
 sed -i '1i <svg style="fill:'$color';"' icon.svg
 

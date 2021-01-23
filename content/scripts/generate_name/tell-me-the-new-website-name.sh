@@ -56,13 +56,27 @@ echo $read
 
 # echo $PWD
 
-# DOES NOT SEEM TO WORK FOR SOME WEIRD REASON
+
+
+
+
+
 # searches in the icontest.html text for line with grertsdfewrtasdfaerawefasdfaefasfd then replaces it with <!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
 sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
 
 # `
 # \
+
+
+
+
+
+
+
+
+
+
 
 # echo get new website icon
 
@@ -119,9 +133,103 @@ echo new website icon: $iconread
 
 # echo $PWD
 
+
 # searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--rt234erswdf3423erter44--><title>$name</title>"
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-sed -i '/shortcut/c<link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/1/'$iconread'">' icontest.html
+# sed -i '/shortcut/c<link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/2/'$iconread'">' icontest.html
+
+
+
+
+
+
+
+
+
+cd $PWD/content/scripts/update_website/lib/icons/solid
+
+cp -f $iconread ../3/
+
+# go up a directory and into folder 3
+# content/scripts/update_website/lib/icons/solid
+cd ../3/
+# content/scripts/update_website/lib/icons/3
+
+# remove 4 bytes from beggining or 4 characters or just <svg from up a folder inside folder 2 in icon.svg
+tail -c +5 *.svg > ../2/icon.svg
+
+
+
+
+
+
+
+
+
+
+
+
+
+# content/scripts/update_website/lib/icons/3
+cd ../../
+# content/scripts/update_website/lib/
+
+# cd $PWD/content/scripts/update_website/lib/
+
+# check how many lines icons has keep only numbers and put it into variable liness
+# iconliness=`wc -l $PWD/content/scripts/update_website/lib/icons/icons | sed 's/[^0-9]*//g'`
+colorlines=`wc -l colors-by-shade | sed 's/[^0-9]*//g'`
+
+cd ../../../../
+
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
+echo previous icon number was $colorlineupdates
+
+# add 1 to the value of variable lineupdates then put results inside updates variable
+colorupdates=$(echo 1+$colorlineupdates | bc)
+
+# prints what the current line is with the value of variable updates in the terminal
+echo current line is $colorupdates
+
+echo checking if number exceds number of icons
+echo $PWD
+
+# if number is bigger then the number of lines reset
+# if value of variable updates is greater than variable value of liness then do this in every other case skip
+while [ $colorupdates -gt $colorlines ]; do
+# search for line iuteIrewJerwfsdJJJrewrUUAAHH and replace it with <!--iuteIrewJerwfsdJJJrewrUUAAHH--><!--1-->
+sed -i "/iuteIrewJerwfsdJJJrewrUUAAHH/c<!--iuteIrewJerwfsdJJJrewrUUAAHH--><!--1-->" index.html
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
+# echo $lineupdates
+colorupdates=$colorlineupdates
+done
+
+
+cd $PWD/content/scripts/update_website/lib/
+
+# read line number from variable updates from all_the_names text file into variable read
+colorread=`head -$colorupdates colors-by-shade | tail +$colorupdates`
+
+cd ../../../../
+# root
+
+color=$colorread
+
+cd $PWD/content/scripts/update_website/lib/icons/2
+
+# add text inside the svg with variable color
+sed -i '1i <svg style="fill:'$color';"' icon.svg
+
+
+
+
+cd ../../../../../../
+
+
 
 
 
