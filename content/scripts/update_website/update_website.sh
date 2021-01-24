@@ -459,8 +459,8 @@ git commit -m "$message" && echo commited localy with a message "$message" &&
 git push origin master && echo pushed changes to the internet &&
 
 
-
-
+# put amazing into your clipboard ready to paste
+echo amazing | xclip -selection c
 
 
 

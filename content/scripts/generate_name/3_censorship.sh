@@ -117,6 +117,16 @@ sed -i '/Badminton/d' all_the_names
 sed -i '/badminton/d' all_the_names
 sed -i '/Fighter/d' all_the_names
 sed -i '/fighter/d' all_the_names
+sed -i '/Nazi/d' all_the_names
+sed -i '/nazi/d' all_the_names
+sed -i '/Harvest/d' all_the_names
+sed -i '/harvest/d' all_the_names
+sed -i '/Wasteland/d' all_the_names
+sed -i '/wasteland/d' all_the_names
+sed -i '/Struggle/d' all_the_names
+sed -i '/struggle/d' all_the_names
+sed -i '/Vocabulary/d' all_the_names
+sed -i '/vocabulary/d' all_the_names
 # rm -f all_the_names1
 
 echo censored everything

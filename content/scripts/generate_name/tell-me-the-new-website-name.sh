@@ -185,16 +185,16 @@ cd ../../../../
 # get line with code into variable and keep only numbers
 # goes up 3 folders
 colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
-echo previous icon number was $colorlineupdates
+# echo previous icon number was $colorlineupdates
 
 # add 1 to the value of variable lineupdates then put results inside updates variable
 colorupdates=$(echo 1+$colorlineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
-echo current line is $colorupdates
+# echo current line is $colorupdates
 
-echo checking if number exceds number of icons
-echo $PWD
+# echo checking if number exceds number of icons
+# echo $PWD
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
