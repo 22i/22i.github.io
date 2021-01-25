@@ -107,4 +107,6 @@ echo done everything
 
 echo these are working again $working_again_texts
 
+echo we found $working_again broken links that are working now >> timing
+
 echo done everything

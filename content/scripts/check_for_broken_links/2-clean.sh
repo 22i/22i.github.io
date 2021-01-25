@@ -87,6 +87,8 @@ rm -f new-not-woking.txt
 
 echo done everything
 
-echo not working lines are $error_text
+# echo not working lines are $error_text
+
+echo we found $error broken links >> timing
 
 echo done everything

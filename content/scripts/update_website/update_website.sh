@@ -476,7 +476,7 @@ echo we found $number_of_new_links new github.io links
 echo changed website name to: $read
 
 # prints in the terminal
-echo changed website favicon to: $color $favicon
+echo changed website favicon to: $color $iconread
 
 echo commited with message: "$message"
 
