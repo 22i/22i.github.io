@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+
+
+<html class="dark bqsmxcyoi idc0_326" style><meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+<meta http-equiv=Content-Language content=en-us>
+<title>Bash cheat sheet masterlist bible</title>
+<meta name=description content>
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+<link href="content/css/new_new_style.css" rel="stylesheet">
+<link href="content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="content/css/back_floating_button.css" rel="stylesheet">
+<link href="content/css/to_top_button.css" rel="stylesheet">
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="content/vendor/jquery/jquery.min.js"></script>
+<script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="content/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="content/js/clipboard.js"></script>
+<script src="content/js/clipboard22i.js"></script>
+<script src="content/js/key_press.js"></script>
+
+
+
+<!-- <link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/2/icon.svg"> -->
+<link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/1/terminal.svg">
+</head>
+
+
+
+<!-- <div id="viewport"> -->
+
+
+<!-- Sidebar -->
+<!-- fa fa-arrow-circle-left" -->
+
+<!-- https://codepen.io/alexpuric/pen/BaLXKxJ -->
+
+<div class="goback"><a href="index.html" class="float">
+        <i class="fa fa-chevron-left my-float"></i>
+  </a></div>
+
+<div class="gotop"><a href="#top" class="gotop">
+        <i class="fa fa-chevron-up gotop"></i>
+  </a></div>
+  
+ <body class=link-control-extension>
+ <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+ <div class=container id="top">
+
+ <p></p>
+ <h1>Bash cheat sheet masterlist bible</h1>
+  <p></p>
+<div class=highlight><pre><span></span>to beggin go to your favourite folder, open konsole and run
+
+<span style="color:white;">echo amazing > file && echo superb >> file && echo magnificent >> file && echo done everything</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cat file | tr -d '\n' > 1 && echo done everything" title="Copy to clipboard">copy</button>
+
+this will create a new file there named file with three words in each line amazing superb magnificent then run
+
+<span style="color:white;">cat file | tr -d '\n' > 1 && echo done everything</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cat file | tr -d '\n' > 1 && echo done everything" title="Copy to clipboard">copy</button>
+
+this will turn those three lines into just one. So there will be new file in your current folder caled 1 with everyline joined together into one line
+
+<!--with power comes great responsibility --->be carefull with this
+
+<span style='color:#54ffff;'># enter home directory</span>
+<span style='color:#644a9b;'>cd</span> <span style='color:#aaaaff;'>$HOME</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd $HOME" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># enter folder music from your current folder</span>
+<span style='color:#644a9b;'>cd</span> <span style='color:#aaaaff;'>$PWD</span>/Music/<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd $PWD/Music/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># go up a folder</span>
+<span style='color:#644a9b;'>cd</span> ..<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd .." title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove even if files or folders do not exist</span>
+<span style='color:#644a9b;'>rm</span> --force <span style='color:#aaaaff;'>$HOME</span>/Music/random333<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="rm --force $HOME/Music/random333" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove everything inside current directory random folder including files and folders</span>
+<span style='color:#644a9b;'>rm</span> --force --recursive <span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$PWD</span><span style='color:#af7f00;'>/random/&quot;</span>/*<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="rm --force --recursive &quot;$PWD/random/&quot;/*" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># left click on screen at 111 222 position</span>
+<span style='color:#0095ff;'>xdotool</span> mousemove 111 222 click 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool mousemove 111 222 click 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># press key combo ctrl+c presses ctrl+c for you</span>
+<span style='color:#0095ff;'>xdotool</span> key ctrl+c<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool key ctrl+c" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># puts whats curently in clipboard into copy txt file</span>
+<span style='color:#0095ff;'>xsel</span> &gt; copy<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xsel > copy" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># Put this before the start of commands you want to track how long they take to be done</span>
+<span style='color:#aaaaff;'>T=</span><span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$(</span><span style='color:#644a9b;'>date</span> +%s<span style='color:#aaaaff;'>)</span><span style='color:#af7f00;'>&quot;</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="# Put this before the start of commands you want to track how long they take to be done&#10;T=&quot;$(date +%s)&quot;&#10;&#10;# put this at the very end of commands you wish to track how long they took&#10;T=&quot;$(($(date +%s)-T))&quot;&#10;echo &quot;It took ${T} seconds!&quot;" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># put this at the very end of commands you wish to track how long they took</span>
+<span style='color:#aaaaff;'>T=</span><span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$(($(</span><span style='color:#644a9b;'>date</span> +%s<span style='color:#aaaaff;'>)</span>-T<span style='color:#aaaaff;'>))</span><span style='color:#af7f00;'>&quot;</span>
+<span style='color:#644a9b;'>echo</span> <span style='color:#af7f00;'>&quot;It took </span><span style='color:#aaaaff;'>${T}</span><span style='color:#af7f00;'> seconds!&quot;</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="# Put this before the start of commands you want to track how long they take to be done&#10;T=&quot;$(date +%s)&quot;&#10;&#10;# put this at the very end of commands you wish to track how long they took&#10;T=&quot;$(($(date +%s)-T))&quot;&#10;echo &quot;It took ${T} seconds!&quot;" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># puts current time into today then makes an empty file named after current time</span>
+<span style='color:#644a9b;'>today()</span> <span style='color:#dede49;'>{</span>
+<span style='color:#644a9b;'>date</span> <span style='color:#af7f00;'>&quot;+%d.%m.%Y %H:%M&quot;</span>
+<span style='color:#dede49;'>}</span>
+<span style='color:#644a9b;'>touch</span> <span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$(</span><span style='color:#0095ff;'>today</span><span style='color:#aaaaff;'>)</span><span style='color:#af7f00;'>&quot;</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='today() {&#10;date "+%d.%m.%Y %H:%M"&#10;}&#10;touch "$(today)"' title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># copy files from here that are on a list into home Music folder</span>
+<span style='color:#644a9b;'>xargs</span> -a list cp -t <span style='color:#aaaaff;'>$HOME</span>/Music/<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xargs -a list cp -t $HOME/Music/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># adds a prefix (abc) to everyline</span>
+<span style='color:#644a9b;'>awk</span> <span style='color:#af7f00;'>'$0=&quot;abc&quot;$0'</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="awk '$0=&quot;abc&quot;$0' file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># removes a prefix or 1 characters or 1 bytes from beggining of every line</span>
+<span style='color:#644a9b;'>sed</span> <span style='color:#af7f00;'>'s/^.//'</span> 1 &gt; 2<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed 's/^.//' 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># adds suffix whitespace to end of every line</span>
+<span style='color:#644a9b;'>awk</span> <span style='color:#af7f00;'>'NF{print $0 &quot; &quot;}'</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="awk 'NF{print $0 &quot; &quot;}' file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># # removes a suffix from every line</span>
+<span style='color:#644a9b;'>sed</span> <span style='color:#af7f00;'>'s/.$//'</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed 's/.$//' file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># changes all uppercase letters to lowercase letters</span>
+<span style='color:#644a9b;'>tr</span> A-Z a-z &lt; file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="tr A-Z a-z < file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># renames file from great to impressive</span>
+<span style='color:#644a9b;'>mv</span> great impressive<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="mv great impressive" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># print only lines containing abc (its case sensitive so it does not find Abc)</span>
+<span style='color:#644a9b;'>grep</span> <span style='color:#af7f00;'>&quot;abc&quot;</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="grep &quot;abc&quot; file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># print only first line containing abc (its case sensitive so it does not find Abc)</span>
+<span style='color:#644a9b;'>grep</span> --max-count=1 <span style='color:#af7f00;'>&quot;abc&quot;</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="grep --max-count=1 &quot;abc&quot; file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># reads line number 259</span>
+<span style='color:#644a9b;'>sed</span> n <span style='color:#af7f00;'>'259p'</span> 1 &gt; 2<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -n '259p' 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># searches and deletes everything before patern amazing and everthing after patern triple</span>
+<span style='color:#644a9b;'>sed</span> <span style='color:#af7f00;'>'s/^.*\(amazing.*triple\).*$/\1/'</span> 1 &gt; 2<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed 's/^.*\(amazing.*triple\).*$/\1/' 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># delete everything after third &quot;</span>
+<span style='color:#644a9b;'>cut</span> -d: -f2- 3 &gt; 4<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cut -d: -f2- 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># turns every space into _ underscore</span>
+<span style='color:#644a9b;'>sed</span> -e <span style='color:#af7f00;'>&quot;s/ /_/g&quot;</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -e &quot;s/ /_/g&quot; file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># put every line into quotes</span>
+<span style='color:#644a9b;'>xargs</span> -I <span style='color:#54ff54;'>{lin}</span> echo <span style='color:#54ff54;'>\&quot;{lin}\&quot;</span> &lt; file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xargs -I {lin} echo \&quot;{lin}\&quot; < file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># put multiple lines into one</span>
+<span style='color:#644a9b;'>cat</span> file <span style='color:#dede49;'>|</span> <span style='color:#644a9b;'>tr</span> -d <span style='color:#af7f00;'>'\n'</span> &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cat file | tr -d '\n' > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># adds #!/bin/bash to begining of file</span>
+<span style='color:#644a9b;'>sed</span> -i <span style='color:#af7f00;'>'1i #!/bin/bash'</span> file<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '1i #!/bin/bash'" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># make script executable</span>
+<span style='color:#644a9b;'>chmod</span> +x script.sh<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="chmod +x script.sh" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># run a script</span>
+<span style='color:#644a9b;'>bash</span> script.sh<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="bash script.sh" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># run a script</span>
+<span style='color:#644a9b;'>sh</span> script.sh<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sh script.sh" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># get all the text from the website</span>
+<span style='color:#644a9b;'>lynx</span> -dump -nolist https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="lynx -dump -nolist https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># gets current website source code</span>
+<span style='color:#0095ff;'>curl</span> https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="curl -L https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># split text into multiple text files 1 line each</span>
+<span style='color:#644a9b;'>split</span> -l 1 file<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="split -l 1 file" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># linux count how many lines a file has</span>
+<span style='color:#644a9b;'>wc</span> -l file &gt; numberoflines<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="wc -l file > numberoflines" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># keep only number in numberoflines</span>
+<span style='color:#644a9b;'>sed</span> <span style='color:#af7f00;'>'s/[^0-9]*//g'</span> numberoflines &gt; numberoflines1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed 's/[^0-9]*//g' numberoflines > numberoflines1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># put content of a text file into a variable or put output of command into a variable</span>
+<span style='color:#aaaaff;'>lines=</span><span style='color:#dede49;'>`</span><span style='color:#644a9b;'>cat</span> numberoflines1<span style='color:#dede49;'>`</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="lines=`cat numberoflines1`" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># make a file with ascending numbers n+</span>
+<span style='color:#644a9b;'>seq</span> -f <span style='color:#af7f00;'>&quot;%.0f&quot;</span> 1 10 &gt; numbers<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="seq -f &quot;%.0f&quot; 1 10 > numbers" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># put two text files together</span>
+<span style='color:#54ffff;'># file1           file2      joined results</span>
+<span style='color:#54ffff;'># amazing+triple =amazingtriple</span>
+<span style='color:#54ffff;'># superb   +uno   =superbuno</span>
+<span style='color:#0095ff;'>paste</span> <span style='color:#af7f00;'>'-d\0'</span> file1 file2 &gt; joined<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="paste '-d\0' file1 file2 > joined" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># do this command to every file in a folder</span>
+<span style='color:#644a9b;'>cd</span> <span style='color:#af7f00;'>&quot;/home/user/1/&quot;</span>
+<span style='color:#dede49;'>for</span> <span style='color:#0095ff;'>i</span> in *<span style='color:#dede49;'>;</span> <span style='color:#dede49;'>do</span>
+<span style='color:#644a9b;'>grep</span> <span style='color:#af7f00;'>&quot;abc&quot;</span> <span style='color:#aaaaff;'>$i</span> &gt; /home/user/2/<span style='color:#aaaaff;'>$i</span><span style='color:#dede49;'>;</span> <br><span style='color:#dede49;'>done</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd &quot;/home/user/1/&quot;&#10;for i in *; do&#10;grep &quot;abc&quot; $i > /home/user/2/$i; done" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># keeps only first 3 lines</span>
+<span style='color:#644a9b;'>head</span> -3 file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="head -3 file > 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># in your current folder remove most silence of every .ogg files add prefix 0silence0. and move them into home music directory</span>
+<span style='color:#dede49;'>for</span> <span style='color:#0095ff;'>i</span> in *.ogg <span style='color:#dede49;'>;</span> <span style='color:#dede49;'>do</span> <span style='color:#644a9b;'>sox</span> <span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$i</span><span style='color:#af7f00;'>&quot;</span> <span style='color:#aaaaff;'>$HOME</span>/Music/0silence0.<span style='color:#af7f00;'>&quot;</span><span style='color:#aaaaff;'>$i</span><span style='color:#af7f00;'>&quot;</span> silence -l 1 0.1 1% -1 3.0 1% <span style='color:#dede49;'>;</span> <span style='color:#dede49;'>done</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="for i in *.ogg ; do sox &quot;$i&quot; $HOME/Music/0silence0.&quot;$i&quot; silence -l 1 0.1 1% -1 3.0 1% ; done" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># renames every file in current folder -- removes 0silence0. from their filenames</span>
+<span style='color:#0095ff;'>rename</span> <span style='color:#af7f00;'>&quot;s/0silence0.//g&quot;</span> *<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="rename &quot;s/0silence0.//g&quot; *" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># count how many files folder 1 in current directory has and put in into lib/status</span>
+<span style='color:#644a9b;'>ls</span> <span style='color:#aaaaff;'>$PWD</span>/1 <span style='color:#dede49;'>|</span> <span style='color:#644a9b;'>wc</span> -l &gt; <span style='color:#aaaaff;'>$PWD</span>/lib/status<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="ls $PWD/1 | wc -l > $PWD/lib/status" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># continue when there is correct status</span>
+<span style='color:#dede49;'>while</span><span style='color:#644a9b;'> [</span> <span style='color:#aaaaff;'>$status</span> <span style='color:#006e28;'>-gt</span> 0<span style='color:#644a9b;'> ]</span>; <span style='color:#dede49;'>do</span>
+    <span style='color:#644a9b;'>echo</span> sleeping
+    <span style='color:#644a9b;'>sleep</span> 1
+    <span style='color:#644a9b;'>ls</span> <span style='color:#aaaaff;'>$PWD</span>/1 <span style='color:#dede49;'>|</span> <span style='color:#644a9b;'>wc</span> -l &gt; <span style='color:#aaaaff;'>$PWD</span>/lib/status
+    <span style='color:#aaaaff;'>status=</span><span style='color:#dede49;'>`</span><span style='color:#644a9b;'>cat</span> <span style='color:#aaaaff;'>$PWD</span>/lib/status<span style='color:#dede49;'>`</span>
+    <span style='color:#644a9b;'>sh</span> <span style='color:#aaaaff;'>$PWD</span>/lib/silence
+<span style='color:#dede49;'>done</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="while [ $status -gt 0 ]; do&#10;&#32;&#32;&#32;&#32;echo sleeping&#10;&#32;&#32;&#32;&#32;sleep 1&#10;&#32;&#32;&#32;&#32;ls $PWD/1 | wc -l > $PWD/lib/status&#10;&#32;&#32;&#32;&#32;status=`cat $PWD/lib/status`&#10;&#32;&#32;&#32;&#32;sh $PWD/lib/silence&#10;done" title="Copy to clipboard">copy</button>
+</pre></div>
+
+
+
+<!--  <hr> -->
+ <p>
+<!--  impressive -->
+ </p>
+ <p class=contributed>
+<!--  Originally contributed by Max Yankov, and updated by <a href=https://github.com/adambard/learnxinyminutes-docs/blame/master/bash.html.markdown>56 contributor(s)</a>. -->
+ </p>
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ </div>
+ 
+ 
+
+
+
+
+
+
+

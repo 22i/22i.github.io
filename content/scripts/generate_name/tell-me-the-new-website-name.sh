@@ -63,7 +63,8 @@ echo $read
 
 # searches in the icontest.html text for line with grertsdfewrtasdfaerawefasdfaefasfd then replaces it with <!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
+# sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
+sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</title>" index.html
 
 # `
 # \

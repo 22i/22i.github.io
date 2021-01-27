@@ -1,0 +1,33 @@
+/* Clipboad start */
+
+/* modified */
+/* https://codepen.io/nathanlong/pen/ZpAmjv */
+
+
+/* General Styling */
+/* Requires Bootstrap 3 for styling */
+
+
+.btn-default {
+  border: none;
+background-color: transparent;
+color: #000;
+  font-size: 10px;
+  color: white;
+  padding: 1px 5px;
+} 
+
+
+
+.btn-amazing22i {
+/*   border: none; */
+background-color: transparent;
+color: #000;
+  font-size: 18px;
+  color: white;
+  padding: 1px 5px;
+} 
+
+
+
+/* Clipboad end */ 

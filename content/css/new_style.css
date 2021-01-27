@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+/* Scrollbar magic start */
+html {
+  --scrollbarBG: transparent;
+  --thumbBG: transparent;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* Scrollbar magic end */
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+/*   background-color:#050505 */
+  background-color:#090808
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 30%;
+  padding-right: 30%;
+/*   position: center; */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+  color: #868e96; /* text color */
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 40px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+/*   scrollbar-color: green; */
+/*   overflow: hidden; /* Hide scrollbars */ */
+}
+
+#sidebar .nav{
+  
+}
+
+#sidebar .nav a{
+  background: none;
+/*   border-bottom: 1px solid #455A64; */
+  color: #CFD8DC;
+  font-size: 20px;
+  padding: 6px 10px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+/*   color: blue; */
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+
+
+ @media (max-width: 1400px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #viewport {
+  padding-left: 27%;
+  padding-right: 27%;
+}
+} 
+
+
+ @media (max-width: 1200px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #viewport {
+  padding-left: 25%;
+  padding-right: 25%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+} 
+
+
+
+
+ @media (max-width: 1000px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #viewport {
+  padding-left: 22%;
+  padding-right: 22%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+} 
+
+
+ @media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #viewport {
+  padding-left: 10%;
+  padding-right: 0%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+} 
