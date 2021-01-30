@@ -11,7 +11,8 @@
     text-align: center;
     position: fixed;
     top: 0;
-    left: 0;
+/*     left: 0; */
+    left: -45px;
     display: flex;
     flex-direction: column;
 /*     width: 3rem; */
@@ -24,7 +25,6 @@
 /*     background-color: #000; */
     
 /*     width: 100%; */
-    
     
     
     height: 100vh; }
