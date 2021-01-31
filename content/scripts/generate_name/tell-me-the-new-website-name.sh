@@ -83,7 +83,13 @@ sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</
 
 # cd ../update_website/lib/icons/
 
+
+
+
+# root
 cd $PWD/content/scripts/update_website/lib/icons/
+# /content/scripts/update_website/lib/icons/
+
 
 # check how many lines icons has keep only numbers and put it into variable liness
 # iconliness=`wc -l $PWD/content/scripts/update_website/lib/icons/icons | sed 's/[^0-9]*//g'`
@@ -92,6 +98,7 @@ iconliness=`wc -l icons | sed 's/[^0-9]*//g'`
 # print in terminal value of variable liness
 # echo file icons has $iconliness lines
 
+# /content/scripts/update_website/lib/icons/
 cd ../../../../../
 # root
 
@@ -118,12 +125,15 @@ iconlineupdates=1
 iconupdates=$iconlineupdates
 done
 
+# root
 cd $PWD/content/scripts/update_website/lib/icons/
+# /content/scripts/update_website/lib/icons/
 
 # read line number from variable updates from all_the_names text file into variable read
 # iconread=`head -$iconupdates $PWD/content/scripts/update_website/lib/icons/icons | tail +$iconupdates`
 iconread=`head -$iconupdates icons | tail +$iconupdates`
 
+# /content/scripts/update_website/lib/icons/
 cd ../../.././../../
 # root
 
@@ -146,8 +156,9 @@ echo new website icon: $iconread
 
 
 
-
+# root
 cd $PWD/content/scripts/update_website/lib/icons/solid
+# /content/scripts/update_website/lib/icons/solid
 
 cp -f $iconread ../3/
 
@@ -181,7 +192,9 @@ cd ../../
 # iconliness=`wc -l $PWD/content/scripts/update_website/lib/icons/icons | sed 's/[^0-9]*//g'`
 colorlines=`wc -l colors-by-shade | sed 's/[^0-9]*//g'`
 
+# content/scripts/update_website/lib/
 cd ../../../../
+# root
 
 # get line with code into variable and keep only numbers
 # goes up 3 folders
@@ -209,27 +222,42 @@ colorlineupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g
 colorupdates=$colorlineupdates
 done
 
-
+# root
 cd $PWD/content/scripts/update_website/lib/
+# /content/scripts/update_website/lib/
 
 # read line number from variable updates from all_the_names text file into variable read
 colorread=`head -$colorupdates colors-by-shade | tail +$colorupdates`
 
+# /content/scripts/update_website/lib/
 cd ../../../../
 # root
 
 color=$colorread
 
+# root
 cd $PWD/content/scripts/update_website/lib/icons/2
+# /content/scripts/update_website/lib/icons/2
 
 # add text inside the svg with variable color
 sed -i '1i <svg style="fill:'$color';"' icon.svg
 
+# /content/scripts/update_website/lib/icons/2
+cd ..
+# /content/scripts/update_website/lib/icons/
+
+# remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
+tail -c +5 icon.svg > terminal.svg
+
+# add text inside the svg with variable color
+sed -i '1i <svg style="fill:'$color';"' terminal.svg
 
 
 
-cd ../../../../../../
 
+# /content/scripts/update_website/lib/icons/
+cd ../../../../../
+# root
 
 
 
@@ -255,22 +283,47 @@ cd ../../../../../../
 # fi
 
 
-echo This will be the next websites name if you press enter
 
 
-read -n 1 -r -s -p $'Press enter to continue...\n'
 
 
-echo starting to update website ...
+
+job=0
+
+# get line with code into variable and keep only numbers
+# goes up 3 folders
+linedateoflastupdate=`grep lastupdatedateUUUUiiirdsjijdasdU index.html|sed 's/[^0-9]*//g'`
+# echo $linedateoflastupdate
 
 
-# read -p "Press enter to update the website"
+dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'`
 
-cd $PWD/content/scripts/update_website/
-echo $PWD
-# cd ../update_website
-bash update_website.sh
+# if date is same as today then do quickupdate
+# while [ $dateoftoday == linedateoflastupdate ]; do
+#     echo starting quick update
+#     cd $PWD/content/scripts/update_website/
+#     bash quick_update_website.sh
+# done
 
+# if date is same as today then do quickupdate
+if [[ $dateoftoday -eq linedateoflastupdate ]]; then
+    echo starting quick update
+    job=1
+    cd $PWD/content/scripts/update_website/
+    bash quick_update_website.sh
+fi
+
+# if job is still 0 or last update was yesterday then do full update
+if [[ $job -eq 0 ]]; then
+#     echo starting full update
+    echo This will be the next websites name if you press enter
+    read -n 1 -r -s -p $'Press enter to continue...\n'
+    echo starting to update website ...
+    cd $PWD/content/scripts/update_website/
+    echo $PWD
+    # cd ../update_website
+    bash update_website.sh
+fi
 
 
 # echo done everything
