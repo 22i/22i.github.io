@@ -247,7 +247,7 @@ cd ..
 # /content/scripts/update_website/lib/icons/
 
 # remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
-tail -c +5 icon.svg > terminal.svg
+tail -c +5 $PWD/solid/terminal.svg > terminal.svg
 
 # add text inside the svg with variable color
 sed -i '1i <svg style="fill:'$color';"' terminal.svg
