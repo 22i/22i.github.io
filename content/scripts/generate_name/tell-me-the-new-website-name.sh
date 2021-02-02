@@ -4,7 +4,7 @@
 
 
 
-# # 
+# # # # # # # # # # # 
 # get new WEBSITE NAME
 # # # # # # # # # # # 
 
@@ -29,20 +29,20 @@ liness=`wc -l $PWD/content/scripts/generate_name/all_the_names | sed 's/[^0-9]*/
 # get line with code into variable and keep only numbers
 # goes up 3 folders
 lineupdates=`grep amazingTRHFfdhghukTADFSi index.html|sed 's/[^0-9]*//g'`
-# echo $lineupdates
+echo $lineupdates
 
 # add 1 to the value of variable lineupdates then put results inside updates variable
 updates=$(echo 1+$lineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
-# echo current line is $updates
+echo current line is $updates
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
 while [ $updates -gt $liness ]; do
 # reset to 1
 lineupdates=1
-# echo $lineupdates
+echo $lineupdates
 updates=$lineupdates
 done
 
@@ -60,11 +60,11 @@ echo $read
 
 
 
-
+# CHANGES THE TITLE IN ICONTEST
 # searches in the icontest.html text for line with grertsdfewrtasdfaerawefasdfaefasfd then replaces it with <!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-# sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
-sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</title>" index.html
+sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefasfd--><title>$read</title>" icontest.html
+# sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</title>" index.html
 
 # `
 # \
@@ -144,7 +144,7 @@ echo new website icon: $iconread
 
 # echo $PWD
 
-
+# REPLACES THE ICON IN ICONTEST
 # searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--rt234erswdf3423erter44--><title>$name</title>"
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
 # sed -i '/shortcut/c<link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/2/'$iconread'">' icontest.html
@@ -161,6 +161,8 @@ cd $PWD/content/scripts/update_website/lib/icons/solid
 # /content/scripts/update_website/lib/icons/solid
 
 cp -f $iconread ../3/
+
+cp -f $iconread ../iconicon.svg
 
 # go up a directory and into folder 3
 # content/scripts/update_website/lib/icons/solid
@@ -247,6 +249,13 @@ cd ..
 # /content/scripts/update_website/lib/icons/
 
 # remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
+tail -c +5 iconicon.svg > iconicon1.svg
+
+# add text inside the svg with variable color
+sed -i '1i <svg style="fill:'$color';"' iconicon1.svg
+
+
+# remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
 tail -c +5 $PWD/solid/terminal.svg > terminal.svg
 
 # add text inside the svg with variable color
@@ -307,6 +316,8 @@ dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'`
 
 # if date is same as today then do quickupdate
 if [[ $dateoftoday -eq linedateoflastupdate ]]; then
+    echo Quick update - if you press enter
+    read -n 1 -r -s -p $'Press enter to continue...\n'
     echo starting quick update
     job=1
     cd $PWD/content/scripts/update_website/
