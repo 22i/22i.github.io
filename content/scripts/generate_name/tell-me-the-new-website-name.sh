@@ -29,13 +29,13 @@ liness=`wc -l $PWD/content/scripts/generate_name/all_the_names | sed 's/[^0-9]*/
 # get line with code into variable and keep only numbers
 # goes up 3 folders
 lineupdates=`grep amazingTRHFfdhghukTADFSi index.html|sed 's/[^0-9]*//g'`
-echo $lineupdates
+# echo $lineupdates
 
 # add 1 to the value of variable lineupdates then put results inside updates variable
 updates=$(echo 1+$lineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
-echo current line is $updates
+# echo current line is $updates
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
@@ -78,12 +78,13 @@ sed -i "/grertsdfewrtasdfaerawefasdfaefasfd/c<!--grertsdfewrtasdfaerawefasdfaefa
 
 
 
-
+# # # # # # # # # # # # # # 
 # echo get new website icon
+# # # # # # # # # # # # # # 
+
+
 
 # cd ../update_website/lib/icons/
-
-
 
 
 # root
@@ -138,20 +139,11 @@ cd ../../.././../../
 # root
 
 # prints the value of variable read
-echo new website icon: $iconread
+# echo new website icon: $color $iconread
 
 # display -density 5 solid/$read
 
 # echo $PWD
-
-# REPLACES THE ICON IN ICONTEST
-# searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--rt234erswdf3423erter44--><title>$name</title>"
-# https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-# sed -i '/shortcut/c<link rel="shortcut icon" type="image/png" href="content/scripts/update_website/lib/icons/2/'$iconread'">' icontest.html
-
-
-
-
 
 
 
@@ -159,25 +151,6 @@ echo new website icon: $iconread
 # root
 cd $PWD/content/scripts/update_website/lib/icons/solid
 # /content/scripts/update_website/lib/icons/solid
-
-cp -f $iconread ../3/
-
-cp -f $iconread ../iconicon.svg
-
-# go up a directory and into folder 3
-# content/scripts/update_website/lib/icons/solid
-cd ../3/
-# content/scripts/update_website/lib/icons/3
-
-# remove 4 bytes from beggining or 4 characters or just <svg from up a folder inside folder 2 in icon.svg
-tail -c +5 *.svg > ../2/icon.svg
-
-
-
-
-
-
-
 
 
 
@@ -238,22 +211,24 @@ cd ../../../../
 color=$colorread
 
 # root
-cd $PWD/content/scripts/update_website/lib/icons/2
-# /content/scripts/update_website/lib/icons/2
+cd $PWD/content/scripts/update_website/lib/icons/next/
+# /content/scripts/update_website/lib/icons/next
 
-# add text inside the svg with variable color
-sed -i '1i <svg style="fill:'$color';"' icon.svg
 
-# /content/scripts/update_website/lib/icons/2
+
+# /content/scripts/update_website/lib/icons/next
 cd ..
 # /content/scripts/update_website/lib/icons/
 
+# CHANGE THE NEXT ICON
+
 # remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
-tail -c +5 iconicon.svg > iconicon1.svg
+tail -c +5 $PWD/solid/$iconread > $PWD/next/icon.svg
 
 # add text inside the svg with variable color
-sed -i '1i <svg style="fill:'$color';"' iconicon1.svg
+sed -i '1i <svg style="fill:'$color';"' $PWD/next/icon.svg
 
+# BASH ICON COLOR CHANGE
 
 # remove 4 bytes from beggining or 4 characters or just <svg  in terminal.svg
 tail -c +5 $PWD/solid/terminal.svg > terminal.svg
@@ -307,12 +282,7 @@ linedateoflastupdate=`grep lastupdatedateUUUUiiirdsjijdasdU index.html|sed 's/[^
 
 dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'`
 
-# if date is same as today then do quickupdate
-# while [ $dateoftoday == linedateoflastupdate ]; do
-#     echo starting quick update
-#     cd $PWD/content/scripts/update_website/
-#     bash quick_update_website.sh
-# done
+echo new website icon: $color $iconread
 
 # if date is same as today then do quickupdate
 if [[ $dateoftoday -eq linedateoflastupdate ]]; then

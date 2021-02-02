@@ -117,21 +117,6 @@ sed -i "/ZSUaJLR0dpmm3/c<!--ZSUaJLR0dpmm3-->$updateplus</a>" ../../../index.html
 # CHANGE WEBSITE LASTUPDATE
 # # # # # # # # # # # # # # # # # # 
 
-# content/scripts/website_preview/
-# cd ../update_website/
-# content/scripts/update_website/
-
-# searches for line that contains ZSUaJLR0dpmm3 3 folders up in index.html then remove everything before 2th < > it does not difirentiete between > < then remove last 3 bytes or 3 characters then put it into update_line variable
-# update_line=`grep lastupdatedateUUUUiiirdsjijdasdU ../../../index.html | sed 's/[^0-9]*//g'`
-# echo $update_line
-
-# add 1 to the update number
-# updateplus=$(echo 1+$update_line | bc)
-
-# echo $lineupdate prints what the current update is in the terminal
-# echo current update is $updateplus
-
-
 dateoftoday1=`date "+%d.%m.%Y"`
 
 # search for line with lastupdatedateUUUUiiirdsjijdasdU in index.html from 3 folders up and replace it with <!--lastupdatedateUUUUiiirdsjijdasdU-->$updateplus</a> actualy $updateplus is variable that contains update number

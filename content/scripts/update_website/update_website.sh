@@ -12,6 +12,16 @@ today=`date "+%d.%m.%Y %H:%M"`
 
 
 
+# # # # # # # # # # # # # # # # # # 
+# CHANGE WEBSITE LASTUPDATE
+# # # # # # # # # # # # # # # # # # 
+
+dateoftoday1=`date "+%d.%m.%Y"`
+
+# search for line with lastupdatedateUUUUiiirdsjijdasdU in index.html from 3 folders up and replace it with <!--lastupdatedateUUUUiiirdsjijdasdU-->$updateplus</a> actualy $updateplus is variable that contains update number
+sed -i "/lastupdatedateUUUUiiirdsjijdasdU/c<!--lastupdatedateUUUUiiirdsjijdasdU--><!--$dateoftoday1-->" ../../../index.html
+
+
 
 
 
