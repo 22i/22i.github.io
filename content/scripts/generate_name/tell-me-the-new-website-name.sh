@@ -288,7 +288,7 @@ echo new website icon: $color $iconread
 if [[ $dateoftoday -eq linedateoflastupdate ]]; then
     echo Quick update - if you press enter
     read -n 1 -r -s -p $'Press enter to continue...\n'
-    echo starting quick update
+    echo starting quick update ...
     job=1
     cd $PWD/content/scripts/update_website/
     bash quick_update_website.sh

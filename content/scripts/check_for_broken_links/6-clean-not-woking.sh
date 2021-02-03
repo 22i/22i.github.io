@@ -105,7 +105,7 @@ cp -f 1 ../grab_io_pages/not-woking
 echo done everything
 
 
-echo these are working again $working_again_texts
+# echo these are working again $working_again_texts
 
 echo we found $working_again broken links that are working now >> timing
 
