@@ -28,7 +28,7 @@ cd ../website_preview
 # content/scripts/website_preview/
 
 # execute the preview.sh bash script
-sh preview.sh
+bash preview.sh
 
 # print in the terminal
 # echo website preview updated for the readme

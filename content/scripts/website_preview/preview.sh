@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# to get this command run sudo apt install wkhtmltopdf
 
 
 wkhtmltoimage --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
