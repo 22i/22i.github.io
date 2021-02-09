@@ -269,18 +269,15 @@ cd ../../../../../
 
 
 
-
-
-
 job=0
 
-# get line with code into variable and keep only numbers
+# get line with code into variable and keep only numbers then remove all the leading zeros
 # goes up 3 folders
-linedateoflastupdate=`grep lastupdatedateUUUUiiirdsjijdasdU index.html|sed 's/[^0-9]*//g'`
+linedateoflastupdate=`grep lastupdatedateUUUUiiirdsjijdasdU index.html|sed 's/[^0-9]*//g'| sed 's/^0*//'`
 # echo $linedateoflastupdate
 
-
-dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'`
+# display date then remove everything except numbers then remove all the leading zeros
+dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'| sed 's/^0*//'`
 
 echo new website icon: $color $iconread
 
