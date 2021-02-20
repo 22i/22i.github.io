@@ -1,8 +1,9 @@
 #!/bin/bash
 
+# RECREATES THE ICON
 
 # # # # # # # # # # # 
-# ICON CHANGE
+# ICON UPDATE
 # # # # # # # # # # # 
 
 
@@ -34,7 +35,9 @@ cd $PWD/content/scripts/update_website/lib/icons/solid
 
 cp -f $iconread ../3/
 
+favicon=$iconread
 
+echo $favicon
 
 # go up a directory and into folder 3
 # content/scripts/update_website/lib/icons/solid
@@ -50,13 +53,15 @@ cd ../../../../../../
 
 
 
-color=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
+iconupdates=`grep iuteIrewJerwfsdJJJrewrUUAAHH index.html|sed 's/[^0-9]*//g'`
 
 
 cd $PWD/content/scripts/update_website/lib/icons/2
 
 
 
+# read line number from variable updates from all_the_names text file into variable read
+color=`head -$iconupdates ../../colors-by-shade | tail +$iconupdates`
 
 
 
