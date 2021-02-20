@@ -284,7 +284,8 @@ echo new website icon: $color $iconread
 # if date is same as today then do quickupdate
 if [[ $dateoftoday -eq linedateoflastupdate ]]; then
     echo Quick update - if you press enter
-    read -n 1 -r -s -p $'Press enter to continue...\n'
+#     read -n 1 -r -s -p $'Press enter to continue...\n'
+    read -p "Press enter to continue"
     echo starting quick update ...
     job=1
     cd $PWD/content/scripts/update_website/
@@ -295,7 +296,8 @@ fi
 if [[ $job -eq 0 ]]; then
 #     echo starting full update
     echo This will be the next websites name if you press enter
-    read -n 1 -r -s -p $'Press enter to continue...\n'
+#     read -n 1 -r -s -p $'Press enter to continue...\n'
+    read -p "Press enter to continue"
     echo starting to update website ...
     cd $PWD/content/scripts/update_website/
     echo $PWD
