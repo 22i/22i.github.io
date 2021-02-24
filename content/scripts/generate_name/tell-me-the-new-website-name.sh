@@ -34,6 +34,9 @@ lineupdates=`grep amazingTRHFfdhghukTADFSi index.html|sed 's/[^0-9]*//g'`
 # add 1 to the value of variable lineupdates then put results inside updates variable
 updates=$(echo 1+$lineupdates | bc)
 
+previous=$(echo $lineupdates-1 | bc)
+previous1=$(echo $lineupdates-2 | bc)
+
 # prints what the current line is with the value of variable updates in the terminal
 # echo current line is $updates
 
@@ -49,8 +52,17 @@ done
 # read line number from variable updates from all_the_names text file into variable read
 read=`head -$updates $PWD/content/scripts/generate_name/all_the_names | tail +$updates`
 
+read1=`head -$lineupdates $PWD/content/scripts/generate_name/all_the_names | tail +$lineupdates`
+
+previous=`head -$previous $PWD/content/scripts/generate_name/all_the_names | tail +$previous`
+
+previous1=`head -$previous1 $PWD/content/scripts/generate_name/all_the_names | tail +$previous1`
+
 # prints the value of variable read
-echo $read
+echo previous: $previous1
+echo previous: $previous
+echo current:  $read1
+echo next:     $read
 
 
 
