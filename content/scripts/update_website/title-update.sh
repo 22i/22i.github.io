@@ -26,15 +26,13 @@ echo $PWD
 lineupdates=`grep amazingTRHFfdhghukTADFSi ../../../index.html|sed 's/[^0-9]*//g'`
 # echo $lineupdates
 
-# add 1 to the value of variable lineupdates then put results inside updates variable
-updates=$(echo 1+$lineupdates | bc)
 
 # prints what the current line is with the value of variable updates in the terminal
 # echo current line is $updates
 
 # if number is bigger then the number of lines reset
 # if value of variable updates is greater than variable value of liness then do this in every other case skip
-while [ $updates -gt $liness ]; do
+while [ $lineupdates -gt $liness ]; do
 # search for line amazingTRHFfdhghukTADFSi and replace it with <!--amazingTRHFfdhghukTADFSi--><!--1-->
 sed -i "/amazingTRHFfdhghukTADFSi/c<!--amazingTRHFfdhghukTADFSi--><!--1-->" ../../../index.html
 # get line with code into variable and keep only numbers
@@ -45,13 +43,11 @@ updates=$lineupdates
 done
 
 # read line number from variable updates from all_the_names text file into variable read
-read=`head -$updates all_the_names | tail +$updates`
+read=`head -$lineupdates all_the_names | tail +$lineupdates`
 
 # prints the value of variable read
 # echo $read
 
-# find line with amazingTRHFfdhghukTADFSi and change website name line number from all_the_names so that it chooses bigger name line number next time
-sed -i "/amazingTRHFfdhghukTADFSi/c<!--amazingTRHFfdhghukTADFSi--><!--$updates-->" ../../../index.html
 
 # find line with amazing63z947ziT9Eas722i and change the tittle
 sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</title>" ../../../index.html
@@ -61,3 +57,4 @@ sed -i "/amazing63z947ziT9Eas722i/c<!--amazing63z947ziT9Eas722i--><title>$read</
 # echo changed website name to: $read
 
 
+echo done everything

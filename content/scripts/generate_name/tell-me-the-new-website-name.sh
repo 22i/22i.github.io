@@ -63,7 +63,7 @@ echo previous: $previous1
 echo previous: $previous
 echo current:  $read1
 echo next:     $read
-
+echo title line number: $lineupdates
 
 
 # echo $PWD
@@ -126,6 +126,10 @@ iconlineupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf index.html | sed 's/[^0-9]*
 # add 1 to the value of variable lineupdates then put results inside updates variable
 iconupdates=$(echo 1+$iconlineupdates | bc)
 
+previousiconupdates=$(echo $iconlineupdates-1 | bc)
+
+previousiconupdates1=$(echo $iconlineupdates-2 | bc)
+
 # prints what the current line is with the value of variable updates in the terminal
 # echo current website favicon number is $iconupdates
 
@@ -145,6 +149,12 @@ cd $PWD/content/scripts/update_website/lib/icons/
 # read line number from variable updates from all_the_names text file into variable read
 # iconread=`head -$iconupdates $PWD/content/scripts/update_website/lib/icons/icons | tail +$iconupdates`
 iconread=`head -$iconupdates icons | tail +$iconupdates`
+
+iconread0=`head -$iconlineupdates icons | tail +$iconlineupdates`
+
+iconread1=`head -$previousiconupdates icons | tail +$previousiconupdates`
+
+iconread2=`head -$previousiconupdates1 icons | tail +$previousiconupdates1`
 
 # /content/scripts/update_website/lib/icons/
 cd ../../.././../../
@@ -215,6 +225,9 @@ cd $PWD/content/scripts/update_website/lib/
 
 # read line number from variable updates from all_the_names text file into variable read
 colorread=`head -$colorupdates colors-by-shade | tail +$colorupdates`
+
+
+
 
 # /content/scripts/update_website/lib/
 cd ../../../../
@@ -291,6 +304,9 @@ linedateoflastupdate=`grep lastupdatedateUUUUiiirdsjijdasdU index.html|sed 's/[^
 # display date then remove everything except numbers then remove all the leading zeros
 dateoftoday=`date "+%d.%m.%Y"|sed 's/[^0-9]*//g'| sed 's/^0*//'`
 
+echo previous website icon: $iconread2
+echo previous website icon: $iconread1
+echo current website icon: $iconread0
 echo new website icon: $color $iconread
 
 # if date is same as today then do quickupdate
