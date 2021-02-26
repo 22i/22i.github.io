@@ -272,7 +272,7 @@ cd ../../../
 
 # searches 3 folders up in the index.html text for line with amazing8543G345IrZ73Z22i then replaces it with <!--amazing85ghfzu6ud573Z22i--><title>$name</title>"
 # https://www.golinuxhub.com/2017/06/sed-replace-whole-line-when-match-found/
-sed -i '/amazing85ghfzu6ud573Z22i/c<!--amazing85ghfzu6ud573Z22i--><!--'$color' '$favicon'-->' ../../../index.html
+sed -i '/amazing85ghfzu6ud573Z22i/c<!--amazing85ghfzu6ud573Z22i--><!--'$color' '$iconread'-->' ../../../index.html
 
 # prints in the terminal
 # echo website name in index.html at line 10 changed to $name
