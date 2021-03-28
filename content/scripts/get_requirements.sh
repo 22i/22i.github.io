@@ -50,6 +50,9 @@ echo python3
 sudo apt install python3 -y
 echo python
 sudo apt install python -y
+# to get icons from .exe files
+echo icoutils
+sudo apt install icoutils -y
 echo youtube-dl
 # sudo apt install youtube-dl -y
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
