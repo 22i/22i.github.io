@@ -6,6 +6,10 @@
 
 # what does number 200 mean last time i checked it worked
 
+# 404 there is no github.io
+#     there is no github.io and unreachable
+
+
 
 # searches for line that contains 404
 grep -n 404 results1 | cut -f1 -d: > error

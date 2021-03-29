@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# add echo git to get_requirements add auto yes
+
 
 echo git
 sudo apt install git -y
@@ -53,6 +53,11 @@ sudo apt install python -y
 # to get icons from .exe files
 echo icoutils
 sudo apt install icoutils -y
+# for playing audio with play song.ogg
+echo sox
+sudo apt install sox -y
+# to play mp3 files with sox
+sudo apt install libsox-fmt-mp3 -y
 echo youtube-dl
 # sudo apt install youtube-dl -y
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
@@ -61,22 +66,6 @@ sudo apt install libvorbis -y
 # sudo apt install mkvtoolnix -y
 echo plasma-sdk
 sudo apt install plasma-sdk -y
-# https://gitlab.com/torkel104/libstrangle
-# limit program, game fps
-# usage:
-# strangle 30 /path/to/game
-echo libstrangle
-sudo apt install gcc-multilib -y
-sudo apt install g++-multilib -y
-sudo apt install libx11-dev -y
-sudo apt install mesa-common-dev -y
-cd $PWD/temp/
-git clone https://gitlab.com/torkel104/libstrangle.git
-cd $PWD/libstrangle/
-make
-sudo make install
-cd ..
-cd ..
-rm -f -r $PWD/temp/*
+
 
 echo done everything

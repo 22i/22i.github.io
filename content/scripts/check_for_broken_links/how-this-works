@@ -12,18 +12,28 @@ run 1-link_checker.sh
 - you can run masterlist-time?.sh to found out how close it is to be done
 - you can check how close it is to be done by comparing masterlist.txt with results1 once these two have same number of lines its done
 - it puts completion time into timing
+ADVANCED - make sure nothing is repeating there are no 2 at the top of when you run command
+sort results0 | uniq -c | sort -nr
+inside check_for_broken_links folder
 
 then you run 2-clean.sh
 - it adds broken links to not-woking while keeping all the old working links
+
+remove results0 results1 results2
 
 then run 5-not-woking-checker.sh
 - it checks not-woking if any of the links are working again
 - you can run not-woking-time?.sh to found out how close it is to be done
 - you can check how close it is to be done by comparing not-woking with results1 once these two have same number of lines its done
 - it puts completion time into timing
+ADVANCED - make sure nothing is repeating there are no 2 at the top of when you run command
+sort results0 | uniq -c | sort -nr
+inside check_for_broken_links folder
 
 then run 6-clean-not-woking.sh
 it sorts newly working links into masterlist.txt
+
+remove results0 results1 results2
 
 then hop one folder up and into grab_io_pages folder and run 4.generate-lucky-github.io.sh
 -it will recreate lucky.github.io.page.html
