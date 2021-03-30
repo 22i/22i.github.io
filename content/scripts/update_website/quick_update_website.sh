@@ -172,8 +172,8 @@ sed -i "/z7erisdfh283eiuoasdjfa35r29/c<!--z7erisdfh283eiuoasdjfa35r29-->$old_num
 cd ../grab_io_pages/
 # content/scripts/grab_io_pages/
 
-# cleans up
-bash 3.clean-folder.sh
+# cleans up but leaves results0 results1 results2 alone
+bash 3.1.clean-folder.sh
 
 
 

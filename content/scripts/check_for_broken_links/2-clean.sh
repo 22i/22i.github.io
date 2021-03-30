@@ -31,19 +31,22 @@ awk 'NF{print $0 "p;"}' error | tr -d '\n' | sed 's/.$//' > error1
 # insert text sed -n ' to beggining
 # reads line number
 # sed -n '3p;5p' masterlist.txt > 404
-paste '-d\0' $PWD/lib/insert1 error1 > error2
+# paste '-d\0' $PWD/lib/insert1 error1 > error2
 
 # broken links into new-not-woking.txt
 # insert add suffix > not-working add bin/bash to beggining
-paste '-d\0' error2 $PWD/lib/insert2 | awk 'NF{print $0 " ../grab_io_pages/masterlist.txt > new-not-woking.txt"}' | sed '1i #!/bin/bash' > $PWD/lib/error3
+# paste '-d\0' error2 $PWD/lib/insert2 | awk 'NF{print $0 " ../grab_io_pages/masterlist.txt > new-not-woking.txt"}' | sed '1i #!/bin/bash' > $PWD/lib/error3
 
 
 
 # make it executable
-chmod +x $PWD/lib/error3
+# chmod +x $PWD/lib/error3
 
 # run it
-sh $PWD/lib/error3
+# bash $PWD/lib/error3
+
+# in case of to many broken links use error list instead of command to bypass to many sed arguments 
+sed -n -f error1 ../grab_io_pages/masterlist.txt > new-not-woking.txt
 
 
 error_text=`cat new-not-woking.txt`
@@ -83,7 +86,11 @@ cp -f 1 ../grab_io_pages/masterlist.txt
 
 # rm -f error error1 error2 $PWD/lib/error3 results0 results1
 
-rm -f error error1 error2 $PWD/lib/error3
+rm -f $PWD/lib/error3
+
+rm -f error
+
+rm -f error1 error2
 
 rm -f together not-woking.txt new-not-woking.txt
 

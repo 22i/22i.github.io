@@ -12,10 +12,10 @@
 # PUTS WOKING AGAIN LINES INTO WORKING-AGAIN
 
 # searches for line that contains 301
-grep -n 301 results1 | cut -f1 -d: > working-again-lines
+grep -n 301 notresults1 | cut -f1 -d: > working-again-lines
 
 # searches for line that contains 200
-grep -n 200 results1 | cut -f1 -d: >> working-again-lines
+grep -n 200 notresults1 | cut -f1 -d: >> working-again-lines
 
 
 
@@ -35,21 +35,22 @@ echo we found $working_again broken links that are working now
 awk 'NF{print $0 "p;"}' working-again-lines | tr -d '\n' | sed 's/.$//' > show-working-again1
 
 # insert text
-paste '-d\0' $PWD/lib/insert1 show-working-again1 > show-working-again2
+# paste '-d\0' $PWD/lib/insert1 show-working-again1 > show-working-again2
 
 # insert add suffix > not-working add bin/bash to beggining
-paste '-d\0' show-working-again2 $PWD/lib/insert2 | awk 'NF{print $0 " ../grab_io_pages/not-woking > working-again"}' | sed '1i #!/bin/bash' > $PWD/lib/error3
+# paste '-d\0' show-working-again2 $PWD/lib/insert2 | awk 'NF{print $0 " ../grab_io_pages/not-woking > working-again"}' | sed '1i #!/bin/bash' > $PWD/lib/error3
 
 
 
 
 # make it executable
-chmod +x $PWD/lib/error3
+# chmod +x $PWD/lib/error3
 
 # run it
-sh $PWD/lib/error3
+# sh $PWD/lib/error3
 
-
+# in case of to many links use list instead of command to bypass to many sed arguments 
+sed -n -f show-working-again1 ../grab_io_pages/not-woking > working-again
 
 
 
@@ -91,11 +92,11 @@ cp -f 1 ../grab_io_pages/not-woking
 
 
 
-# rm -f error error1 error2 $PWD/lib/error3 results0 results1
+rm -f error error1 error2 $PWD/lib/error3
 
-# rm -f $PWD/lib/error3
+rm -f $PWD/lib/error3
 
-# rm -f results0 results1
+# rm -f notresults0 notresults1
 
 # reads line number
 # sed -n '3p;5p' masterlist.txt > 404
