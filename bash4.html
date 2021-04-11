@@ -147,30 +147,14 @@ this will turn those three lines into just one. So there will be new file in you
 
 <!--with power comes great responsibility --->be carefull with this
 
-
 <span style='color:#54ffff;'># asks you to enter your name then puts that into variable name</span>
 <b><span style='color:#87ffaf;'>echo</span></b> enter your name <b><span style='color:#5fd7ff;'>&amp;&amp;</span></b> <b><span style='color:#87ffaf;'>read</span></b> <span style='color:#06989a;'>name</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="echo enter your name && read name" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># find process named konsole | with command that includes amazing | print only second column into variable pid &amp;&amp; then print it</span>
 <span style='color:#06989a;'>pid</span>=<b><span style='color:#5fd7ff;'>`</span></b><span style='color:#cd00cd;'>ps</span> aux <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>grep</span> konsole <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>grep</span> <span style='color:#ff54ff;'>&quot;amazing&quot;</span> <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>awk</span> <span style='color:#ff54ff;'>'{ print $2 }'</span><b><span style='color:#5fd7ff;'>`</span></b> <b><span style='color:#5fd7ff;'>&amp;&amp;</span></b> <b><span style='color:#87ffaf;'>echo</span></b> <span style='color:#06989a;'>$pid</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="pid=`ps aux | grep konsole | grep &quot;amazing&quot; | awk '{ print $2 }'` && echo $pid" title="Copy to clipboard">copy</button>
 
-<span style='color:#54ffff;'># focus on firefox put it in front</span>
-<b><span style='color:#0095ff;'>xdotool</span></b> search <span style='color:#ff54ff;'>&quot;Navigator&quot;</span> windowactivate<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool search &quot;Navigator&quot; windowactivate" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># presses F6 for you</span>
-<b><span style='color:#0095ff;'>xdotool</span></b> key F6<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool key F6" title="Copy to clipboard">copy</button>
-
 <span style='color:#54ffff;'># change konsole window title to incredible</span>
 <b><span style='color:#87ffaf;'>echo</span></b> <span style='color:#ffffaf;'>-ne</span> <span style='color:#ff54ff;'>&quot;\033]30;incredible\007&quot;</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="echo -ne &quot;\033]30;incredible\007&quot;" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># delete everything before last /</span>
-<span style='color:#cd00cd;'>awk</span> <span style='color:#ff54ff;'>'{print $NF}'</span> FS=/<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="awk '{print $NF}' FS=/" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># make folder named notes</span>
-<span style='color:#cd00cd;'>mkdir</span> notes<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="mkdir notes" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># get code from github</span>
-<span style='color:#cd00cd;'>git</span> clone https://some/github/url<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="git clone https://some/github/url" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># zip the super folder into super.zip</span>
 <span style='color:#cd00cd;'>zip</span> <span style='color:#ffffaf;'>-r</span> super.zip super<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="zip -r super.zip super" title="Copy to clipboard">copy</button>
@@ -181,44 +165,20 @@ this will turn those three lines into just one. So there will be new file in you
 <span style='color:#54ffff;'># run godot editor with the game</span>
 <b><span style='color:#0095ff;'>path/to/your/godot</span></b> <span style='color:#ffffaf;'>-editor</span> path/to/game/folder/project.godot<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="path/to/your/godot -editor path/to/game/folder/project.godot" title="Copy to clipboard">copy</button>
 
-<span style='color:#54ffff;'># inifinte loop never ending sleep for 1 second</span>
-<b><span style='color:#ffff54;'>while</span></b> <b><span style='color:#87ffaf;'>:</span></b>
-<b><span style='color:#ffff54;'>do</span></b>
-<span style='color:#cd00cd;'>sleep</span> 1
-<b><span style='color:#ffff54;'>done</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="while :&#10;do&#10;sleep 1&#10;done" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># remove everything from 1 that is in blacklist</span>
-<span style='color:#cd00cd;'>grep</span> <span style='color:#ffffaf;'>-Fvxf</span> blacklist 1 &gt; 2<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="grep -Fvxf blacklist 1 > 2" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># removes particular lines</span>
-<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/--.github.io/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/--.github.io/d' 1" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># removes empty lines</span>
-<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/^$/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/^$/d' 1" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># The following sed command removes all the lines that start with character -</span>
-<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/^-/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/^-/d' 1" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># join new and 1 together</span>
+<span style='color:#54ffff;'># join text file 1 and new together</span>
 <span style='color:#cd00cd;'>cat</span> 1 new &gt; together<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cat 1 new > together" title="Copy to clipboard">copy</button>
 
-<span style='color:#54ffff;'># count how many lines text file new has then strip anything besides numbers put it into variable</span>
-<span style='color:#06989a;'>line_number</span>=<b><span style='color:#5fd7ff;'>`</span></b><span style='color:#cd00cd;'>wc</span> <span style='color:#ffffaf;'>-l</span> new <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>sed</span> <span style='color:#ff54ff;'>'s/[^0-9]*//g'</span><b><span style='color:#5fd7ff;'>`</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="line_number=`wc -l new | sed 's/[^0-9]*//g'`" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># remove duplicates</span>
-<span style='color:#cd00cd;'>sort</span> 4 <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>uniq</span> &gt; new<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sort 4 | uniq > new" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># removes $old_number from $new_number</span>
+<span style='color:#54ffff;'># additions subtractions removes $old_number from $new_number</span>
 <span style='color:#06989a;'>number_of_new_links</span>=<span style='color:#06989a;'>$(</span><b><span style='color:#87ffaf;'>echo</span></b> <span style='color:#06989a;'>$new_number</span>-<span style='color:#06989a;'>$old_number</span> <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>bc</span><span style='color:#06989a;'>)</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="number_of_new_links=$(echo $new_number-$old_number | bc)" title="Copy to clipboard">copy</button>
-
-<span style='color:#54ffff;'># display time hour:minutes into variable timenow</span>
-<span style='color:#06989a;'>timenow</span>=<b><span style='color:#5fd7ff;'>`</span></b><span style='color:#cd00cd;'>date</span> <span style='color:#ff54ff;'>&quot;+%H:%M&quot;</span><b><span style='color:#5fd7ff;'>`</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="timenow=`date &quot;+%H:%M&quot;`" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># enter home directory</span>
 <b><span style='color:#87ffaf;'>cd</span></b> <span style='color:#06989a;'>$HOME</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd $HOME" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># enter folder music from your current folder</span>
 <b><span style='color:#87ffaf;'>cd</span></b> <span style='color:#06989a;'>$PWD</span>/Music/<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd $PWD/Music/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># make folder named notes</span>
+<span style='color:#cd00cd;'>mkdir</span> notes<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="mkdir notes" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># go up a folder</span>
 <b><span style='color:#87ffaf;'>cd</span></b> ..<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd .." title="Copy to clipboard">copy</button>
@@ -232,11 +192,20 @@ this will turn those three lines into just one. So there will be new file in you
 <span style='color:#54ffff;'># left click on screen at 111 222 position</span>
 <b><span style='color:#0095ff;'>xdotool</span></b> mousemove 111 222 click 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool mousemove 111 222 click 1" title="Copy to clipboard">copy</button>
 
+<span style='color:#54ffff;'># presses F6 for you</span>
+<b><span style='color:#0095ff;'>xdotool</span></b> key F6<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool key F6" title="Copy to clipboard">copy</button>
+
 <span style='color:#54ffff;'># press key combo ctrl+c presses ctrl+c for you</span>
 <b><span style='color:#0095ff;'>xdotool</span></b> key ctrl+c<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool key ctrl+c" title="Copy to clipboard">copy</button>
 
+<span style='color:#54ffff;'># focus on firefox put it in front</span>
+<b><span style='color:#0095ff;'>xdotool</span></b> search <span style='color:#ff54ff;'>&quot;Navigator&quot;</span> windowactivate<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xdotool search &quot;Navigator&quot; windowactivate" title="Copy to clipboard">copy</button>
+
 <span style='color:#54ffff;'># puts whats curently in clipboard into copy txt file</span>
 <b><span style='color:#0095ff;'>xsel</span></b> &gt; copy<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="xsel > copy" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># display time hour:minutes into variable timenow</span>
+<span style='color:#06989a;'>timenow</span>=<b><span style='color:#5fd7ff;'>`</span></b><span style='color:#cd00cd;'>date</span> <span style='color:#ff54ff;'>&quot;+%H:%M&quot;</span><b><span style='color:#5fd7ff;'>`</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="timenow=`date &quot;+%H:%M&quot;`" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># Put this before the start of commands you want to track how long they take to be done</span>
 <span style='color:#06989a;'>T</span>=<span style='color:#ff54ff;'>&quot;</span><span style='color:#06989a;'>$(</span><span style='color:#cd00cd;'>date</span> +%s<span style='color:#06989a;'>)</span><span style='color:#ff54ff;'>&quot;</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="# Put this before the start of commands you want to track how long they take to be done&#10;T=&quot;$(date +%s)&quot;&#10;&#10;# put this at the very end of commands you wish to track how long they took&#10;T=&quot;$(($(date +%s)-T))&quot;&#10;echo &quot;It took ${T} seconds!&quot;" title="Copy to clipboard">copy</button>
@@ -267,7 +236,7 @@ this will turn those three lines into just one. So there will be new file in you
 <span style='color:#cd00cd;'>sed</span> <span style='color:#ff54ff;'>'s/.$//'</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed 's/.$//' file > 1" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># changes all uppercase letters to lowercase letters</span>
-<span style='color:#cd00cd;'>tr</span> A-Z a-z &lt; file &gt; 1button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="tr A-Z a-z < file > 1" title="Copy to clipboard">copy</button>
+<span style='color:#cd00cd;'>tr</span> A-Z a-z &lt; file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="tr A-Z a-z < file > 1" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># renames file from great to impressive</span>
 <span style='color:#cd00cd;'>mv</span> great impressive<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="mv great impressive" title="Copy to clipboard">copy</button>
@@ -286,6 +255,24 @@ this will turn those three lines into just one. So there will be new file in you
 
 <span style='color:#54ffff;'># delete everything after third &quot;</span>
 <span style='color:#cd00cd;'>cut</span> <span style='color:#ffffaf;'>-d:</span> <span style='color:#ffffaf;'>-f2-</span> 3 &gt; 4<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cut -d: -f2- 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># delete everything before last /</span>
+<span style='color:#cd00cd;'>awk</span> <span style='color:#ff54ff;'>'{print $NF}'</span> FS=/<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="awk '{print $NF}' FS=/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove everything from 1 that is in blacklist</span>
+<span style='color:#cd00cd;'>grep</span> <span style='color:#ffffaf;'>-Fvxf</span> blacklist 1 &gt; 2<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="grep -Fvxf blacklist 1 > 2" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># removes particular lines</span>
+<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/--.github.io/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/--.github.io/d' 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># removes empty lines</span>
+<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/^$/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/^$/d' 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># removes all the lines that start with -</span>
+<span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-i</span> <span style='color:#ff54ff;'>'/^-/d'</span> 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -i '/^-/d' 1" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove duplicates</span>
+<span style='color:#cd00cd;'>sort</span> 4 <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>uniq</span> &gt; new<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sort 4 | uniq > new" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># turns every space into _ underscore</span>
 <span style='color:#cd00cd;'>sed</span> <span style='color:#ffffaf;'>-e</span> <span style='color:#ff54ff;'>&quot;s/ /_/g&quot;</span> file &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sed -e &quot;s/ /_/g&quot; file > 1" title="Copy to clipboard">copy</button>
@@ -314,8 +301,14 @@ this will turn those three lines into just one. So there will be new file in you
 <span style='color:#54ffff;'># gets current website source code</span>
 <b><span style='color:#0095ff;'>curl</span></b> https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries &gt; 1<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="curl -L https://yugioh.fandom.com/wiki/Armades,_Keeper_of_Boundaries > 1" title="Copy to clipboard">copy</button>
 
+<span style='color:#54ffff;'># get code from github</span>
+<span style='color:#cd00cd;'>git</span> clone https://some/github/url<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="git clone https://some/github/url" title="Copy to clipboard">copy</button>
+
 <span style='color:#54ffff;'># split text into multiple text files 1 line each</span>
 <span style='color:#cd00cd;'>split</span> <span style='color:#ffffaf;'>-l</span> 1 file<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="split -l 1 file" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># count how many lines text file new has then strip anything besides numbers put it into variable</span>
+<span style='color:#06989a;'>line_number</span>=<b><span style='color:#5fd7ff;'>`</span></b><span style='color:#cd00cd;'>wc</span> <span style='color:#ffffaf;'>-l</span> new <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>sed</span> <span style='color:#ff54ff;'>'s/[^0-9]*//g'</span><b><span style='color:#5fd7ff;'>`</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="line_number=`wc -l new | sed 's/[^0-9]*//g'`" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># linux count how many lines a file has</span>
 <span style='color:#cd00cd;'>wc</span> <span style='color:#ffffaf;'>-l</span> file &gt; numberoflines<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="wc -l file > numberoflines" title="Copy to clipboard">copy</button>
@@ -352,6 +345,12 @@ this will turn those three lines into just one. So there will be new file in you
 
 <span style='color:#54ffff;'># count how many files folder 1 in current directory has and put in into lib/status</span>
 <span style='color:#cd00cd;'>ls</span> <span style='color:#06989a;'>$PWD</span>/1 <b><span style='color:#5fd7ff;'>|</span></b> <span style='color:#cd00cd;'>wc</span> <span style='color:#ffffaf;'>-l</span> &gt; <span style='color:#06989a;'>$PWD</span>/lib/status<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="ls $PWD/1 | wc -l > $PWD/lib/status" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># inifinte loop never ending sleep for 1 second</span>
+<b><span style='color:#ffff54;'>while</span></b> <b><span style='color:#87ffaf;'>:</span></b>
+<b><span style='color:#ffff54;'>do</span></b>
+<span style='color:#cd00cd;'>sleep</span> 1
+<b><span style='color:#ffff54;'>done</span></b><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="while :&#10;do&#10;sleep 1&#10;done" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># continue when there is correct status</span>
 <b><span style='color:#ffff54;'>while</span></b> <b><span style='color:#87ffaf;'>[</span></b> <span style='color:#06989a;'>$status</span> <span style='color:#54ff54;'>-gt</span> 0 <b><span style='color:#87ffaf;'>]</span></b><b><span style='color:#5fd7ff;'>;</span></b> <b><span style='color:#ffff54;'>do</span></b>
