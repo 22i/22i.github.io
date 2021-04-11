@@ -20,6 +20,8 @@ echo ffmpegthumbs
 sudo apt install ffmpegthumbs -y
 echo xclip
 sudo apt install xclip -y
+echo xsel
+sudo apt install xsel -y
 echo thunderbird
 sudo apt install thunderbird -y
 echo lynx
