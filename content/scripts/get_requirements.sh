@@ -55,6 +55,8 @@ sudo apt install python -y
 # to get icons from .exe files
 echo icoutils
 sudo apt install icoutils -y
+echo notifications
+sudo apt install libnotify-bin -y
 # for playing audio with play song.ogg
 echo sox
 sudo apt install sox -y
