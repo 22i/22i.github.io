@@ -1,7 +1,7 @@
 when you have new github.io links put them inside masterlist.txt
 
 hop 1 folder up and into grab_io_pages folder and
-run 3.clean-folder.sh
+run 3.1clean-folder.sh (does not delete progress unlike 3.clean-folder.sh)
 
 then return 1 folder up and into check_for_broken_links and
 run 0-remove_duplicates.sh
