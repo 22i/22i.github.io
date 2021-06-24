@@ -1,0 +1,2349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<link rel="preload" href="/themes/custom/mars_regeneration/dist/fonts/MarsCentraMarsCentra-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/themes/custom/mars_regeneration/dist/fonts/MarsCentraMarsCentra-Extrabold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/themes/custom/mars_regeneration/dist/fonts/MarsCentraMarsCentra-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<head>
+<meta charset="utf-8" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="shortlink" href="https://www.mars.com/" />
+<link rel="shortcut icon" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon.png" />
+<link rel="canonical" href="https://www.mars.com/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:title" content="Global Petcare, Food, Mars Wrigley and Edge Brands | Mars, Incorporated" />
+<link rel="icon" sizes="16x16" href="/sites/g/files/jydpyr316/files/2021-03/favicon1-16x16.png" />
+<meta property="og:url" content="https://www.mars.com/homepage-canvas" />
+<link rel="image_src" href="https://d2lsjsqnstxud9.cloudfront.net/media/443BEAB3-561A-485A-A0C20965961A9539/9D4FA61F-271F-46F8-AC52A43993A560D2/webimage-1E4F8B74-74B4-411B-B86A7B950C3FC257.png" />
+<meta property="og:title" content="Global Petcare, Food, Mars Wrigley and Edge Brands | Mars, Incorporated" />
+<link rel="icon" sizes="32x32" href="/sites/g/files/jydpyr316/files/2021-03/favicon1-32x32.png" />
+<link rel="icon" sizes="96x96" href="/sites/g/files/jydpyr316/files/2019-07/android-icon-96x96.png" />
+<meta name="twitter:url" content="https://www.mars.com/homepage-canvas" />
+<link rel="icon" sizes="192x192" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon.png" />
+<link rel="apple-touch-icon" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-60x60.png" />
+<meta name="twitter:image" content="https://d2lsjsqnstxud9.cloudfront.net/media/443BEAB3-561A-485A-A0C20965961A9539/9D4FA61F-271F-46F8-AC52A43993A560D2/webimage-1E4F8B74-74B4-411B-B86A7B950C3FC257.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/sites/g/files/jydpyr316/files/2019-07/android-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-76x76.png" />
+<meta property="og:image" content="https://d2lsjsqnstxud9.cloudfront.net/media/443BEAB3-561A-485A-A0C20965961A9539/9D4FA61F-271F-46F8-AC52A43993A560D2/webimage-1E4F8B74-74B4-411B-B86A7B950C3FC257.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/sites/g/files/jydpyr316/files/2019-07/apple-icon-180x180.png" />
+<meta name="google-site-verification" content="pjZPyfSQQf2E-o1bn0jBpGeLi_M7e4Y551-yi-TKufI" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<style>
+/* INC2486331. Homepage Carousel - First slide has a misaligned CTA and copy on Mobile */
+
+@media only screen and (max-width: 600px) {
+  .mini-editor.slide-para p {
+    line-height: 23px;
+    margin: 0.6em 0;
+  }
+  .mars-component .btn {
+    min-width: 170px !important;
+    height: 40px !important;
+  }
+  .mars-component .slide-hldr .slide-content {
+    top: 50px !important;
+  }
+}
+
+/* INC2488099: Two Column Basic Row (PC9) Image Aspect Ratio Inconsistent */
+.mars-component .two-column-basic-figure figure img{
+    object-fit: cover;
+    object-position: center;
+}
+
+</style>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "author": "phanindra.murahari",
+  "name": "",
+  "datePublished": "Mon, 10/26/2020 - 09:28",
+  "headline": "",
+  "image": "",
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    "url": "https://qaenv.mars.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mars.com/sites/g/files/jydpyr316/files/Mars%20Wordmark%20RGB%20Blue_0.png"
+    }
+  }
+}</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"c879c5cc47",applicationID:"385777846"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){d("pageHide",[p.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1209.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<link rel="alternate" hreflang="en" href="https://www.mars.com/homepage-canvas" />
+<link rel="revision" href="https://www.mars.com/homepage-canvas" />
+<script src="/sites/g/files/jydpyr316/files/google_tag/gtm_5lz4bqt/google_tag.script.js?qv23jv" defer></script>
+<style>.container-article-featured-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-article-featured-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-article-featured-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-brand-grid-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-brand-grid-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-brand-grind-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-image-copy-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-image-copy-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-image-copy-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-image-gallery-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-image-gallery-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-image-gallery-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-pdf-asset-download-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-pdf-asset-download-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-pdf-asset-download-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-timeline-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-timeline-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-timeline-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-video-copy-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-video-copy-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-video-copy-white { background: #FFFFFF !important; color : #0000a0 !important; }
+.container-video-series-aquamarine { background: #00D7B9 !important; color : #0000a0 !important; }
+.container-video-series-blue { background: #0000a0 !important; color : #FFFFFF !important; }
+.container-video-series-white { background: #FFFFFF !important; color : #0000a0 !important; }
+</style>
+<title>Global Petcare, Food, Mars Wrigley and Edge Brands | Mars, Incorporated</title>
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_ApuPRU4NgbHsH7ehK5C7hnu_-CfAH-lL8JAeggq-9Ec.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_HWaCPjrlCpC95VsSKEW71PS9NjNtjdayr7u0AX3llOc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_SDeFgjWa7lN0KC5fO5yZm9GvaBMxmti4jN4kyNa6Y98.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_ZPZbqHxSVC96FQBNLCWHv6fLJUn7CO_Ux9EThXk0wO8.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_SjTNEiASQaTnm81BsD52iP1njWHla5FaJLoAfRmBDAc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_FlzIcnk6GZtzBL6-lD1tGE1CPI3BeEANzlSPbKAxsIc.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_mUpspIcJtfE7E6x3Ry0NZyfyo21aIe0TN9Kt_vlj1YQ.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_xQPUBQs9CFQrHmiAclfTawmNlNF_uDHTbJQ-_dVjEPM.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_pAz-7eC6CelqixpDMb6q87YoN7TxrN5yT0XCY2HoFGo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_2dzSg6pVxZVc-CwVxJMjxqfiirdsXmomC4UH9_khiPo.css" />
+<link rel="stylesheet" media="print" href="/sites/g/files/jydpyr316/files/css/css_kGdid2AhF_KdvBJ6HR8ggI9ib9rspYawgbPKgo6Jglo.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/jydpyr316/files/css/css_nCb9gFn-HgsL8TkJiuZ2bkCwrp8Goy1kQ4oaCztBxNQ.css" />
+<!--[if lte IE 8]>
+<script src="/sites/g/files/jydpyr316/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<a href="#main-content" class="visually-hidden focusable skip-link">
+Skip to main content
+</a>
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LZ4BQT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+<div class="header-wrapper">
+<section class="row region region-header-top">
+<div class="views-element-container block block-views block-views-blockbcp-alert-block-1" id="block-mars-regeneration-views-block-bcp-alert-block-1-2" data-block-plugin-id="views_block:bcp_alert-block_1" role="banner">
+<div class="content">
+<div><div class="bcp-alert view view-bcp-alert view-id-bcp_alert view-display-id-block_1 js-view-dom-id-de185d6dc5d8ed73b71826012272fc52693b46107b80c34251f58b8b7d7d4194">
+<div class="view-content">
+<div class="views-row">
+<div class="views-field views-field-nothing"><span class="field-content"><div class="bcp-alert-wrapper">
+<a href="/node/9776">
+<span class="date"> </span>
+<span class="title"> <p>We remain committed to our Associates, partners and communities. Stay informed on our response to COVID-19.</p>
+</span></a>
+</div>
+<a href="#" class="close-icon" aria-label="Close"></a></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<header class="row">
+<div class="header-left col-sm-4 col-md-4 col-lg-4 col-xl-2">
+<section class="region region-header-left">
+<a class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
+<img src="/sites/g/files/jydpyr316/files/Mars%20Wordmark%20RGB%20Blue_0.png" alt="Home" />
+</a>
+</section>
+</div>
+<div class="header-center col-sm-4 col-md-4 col-lg-4 col-xl-8" role="navigation">
+<section class="row region region-header-center">
+<nav aria-labelledby="block-mars-regeneration-main-menu-menu" data-block-plugin-id="system_menu_block:main" id="main-menu-navigation">
+<div class="sr-only breadcrumb-nav-font" id="block-mars-regeneration-main-menu-menu">Main navigation</div>
+<div class='hamburger-menu d-lg-block d-xl-none d-sm-block d-md-block' role="button" aria-label="Navigation-Button" tabindex="0">
+</div>
+<nav class='navigation-left-container d-lg-none d-xl-block d-sm-none d-md-none d-none'>
+<ul data-region="header_center" class="clearfix menu menu--main nav">
+<li class="navigation_item link-nav">
+<a href="/about" title="Here at Mars, there’s always a story to tell. From our pet hospitals to farmers in our supply chain, new tales are unfolding every day. Dig into our stories and discover why so many of us are proud to be part of the Mars family!" data-drupal-link-system-path="node/4976">All About Mars</a>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<span>
+</span>
+<a href='/about' class='menu-nav-title d-lg-block d-xl-block d-none d-sm-none d-md-none' title="All About Mars">All About Mars
+</a>
+<a class='menu-nav-title d-lg-none d-xl-none d-block d-sm-block d-md-block' href="">All About Mars
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Here at Mars, there’s always a story to tell. From our pet hospitals to farmers in our supply chain, new tales are unfolding every day. Dig into our stories and discover why so many of us are proud to be part of the Mars family!
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/about tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/about/five-principles' class='sub-item-link'>
+ <span>The Five Principles
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/mars-compass' class='sub-item-link'>
+<span>Mars Compass
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/inclusion-and-diversity' class='sub-item-link'>
+<span>Inclusion &amp; Diversity
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/leadership' class='sub-item-link'>
+<span>Leadership Team
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/history' class='sub-item-link'>
+<span>History
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/policies-and-practices' class='sub-item-link'>
+<span>Policies &amp; Practices
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="navigation_item link-nav">
+<a href="/made-by-mars" title="Associates at Mars are everyday heroes. We are united through our inspiring purpose. Our global family and the common bond we share is beyond any other. We all take pride in our unique way of doing business and empower every Associate to learn, expand" data-drupal-link-system-path="node/4921">Made by Mars</a>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<span>
+</span>
+<a href='/made-by-mars' class='menu-nav-title d-lg-block d-xl-block d-none d-sm-none d-md-none' title="Made by Mars">Made by Mars
+</a>
+<a class='menu-nav-title d-lg-none d-xl-none d-block d-sm-block d-md-block' href="">Made by Mars
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Associates at Mars are everyday heroes. We are united through our inspiring purpose. Our global family and the common bond we share is beyond any other. We all take pride in our unique way of doing business and empower every Associate to learn, expand, dream and develop. Learn why Mars is the company millions want to join, stay and grow with.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/made-by-mars tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/made-by-mars/petcare' class='sub-item-link'>
+<span>Petcare
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/mars-wrigley' class='sub-item-link'>
+<span>Mars Wrigley
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/mars-food' class='sub-item-link'>
+<span>Food
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/edge' class='sub-item-link'>
+<span>Edge
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="navigation_item link-nav">
+<a href="/sustainability-plan" title="At Mars, we are committed to helping create a safe, healthy and sustainable world for our partners and the communities in which we operate." data-drupal-link-system-path="node/10696">Sustainability Plan</a>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<span>
+</span>
+<a href='/sustainability-plan' class='menu-nav-title d-lg-block d-xl-block d-none d-sm-none d-md-none' title="Sustainability Plan">Sustainability Plan
+</a>
+<a class='menu-nav-title d-lg-none d-xl-none d-block d-sm-block d-md-block' href="">Sustainability Plan
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>At Mars, we are committed to helping create a safe, healthy and sustainable world for our partners and the communities in which we operate.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/sustainability-plan tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/healthy-planet' class='sub-item-link'>
+<span>Healthy Planet
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/thriving-people' class='sub-item-link'>
+<span>Thriving People
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/nourishing-wellbeing' class='sub-item-link'>
+<span>Nourishing Wellbeing
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="navigation_item link-nav">
+<a href="/news-and-stories" title="Mars Associates are doing big things, as well as making great products that people love to talk about. Read more about Mars in the headlines by visiting our stories. Find the latest news stories, press releases, and more from our family all around the wor" data-drupal-link-system-path="node/5786">News &amp; Stories</a>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<span>
+</span>
+<a href='/news-and-stories' class='menu-nav-title d-lg-block d-xl-block d-none d-sm-none d-md-none' title="News &amp; Stories">News &amp; Stories
+</a>
+<a class='menu-nav-title d-lg-none d-xl-none d-block d-sm-block d-md-block' href="">News &amp; Stories
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Mars Associates are doing big things, as well as making great products that people love to talk about. Read more about Mars in the headlines by visiting our stories. Find the latest news stories, press releases, and more from our family all around the world.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/news-and-stories tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/news-and-stories/press-releases' class='sub-item-link'>
+<span>Press Releases
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/news-and-stories/media-resources' class='sub-item-link'>
+<span>Media Resources
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/news-and-stories/media-contacts' class='sub-item-link'>
+<span>Media Contacts
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="navigation_item link-nav">
+<a href="https://careers.mars.com" title="Search for open job opportunities in any of our many locations with Mars around the world.">Careers</a>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<span>
+</span>
+<a href='https://careers.mars.com' class='menu-nav-title d-lg-block d-xl-block d-none d-sm-none d-md-none' title="Careers">Careers
+</a>
+<a class='menu-nav-title d-lg-none d-xl-none d-block d-sm-block d-md-block' href="">Careers
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Search for open job opportunities in any of our many locations with Mars around the world.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=https://careers.mars.com tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+<div id='hamburger_menu' class='hamburger-menu-container d-xl-none'>
+<div class="hamburger-menu-content">
+<ul>
+<li class='hamburger-list'>
+<a role="button">All About Mars
+</a>
+<span class="nav-list-arrow-icon">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot lazyload" />
+</span>
+</li>
+<li class='hamburger-list'>
+<a role="button">Made by Mars
+</a>
+<span class="nav-list-arrow-icon">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot lazyload" />
+</span>
+</li>
+<li class='hamburger-list'>
+<a role="button">Sustainability Plan
+</a>
+<span class="nav-list-arrow-icon">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot lazyload" />
+</span>
+</li>
+<li class='hamburger-list'>
+<a role="button">News &amp; Stories
+</a>
+<span class="nav-list-arrow-icon">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot lazyload" />
+</span>
+</li>
+<li class='hamburger-list'>
+<a role="button">Careers
+</a>
+<span class="nav-list-arrow-icon">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot lazyload" />
+</span>
+</li>
+</ul>
+<div id="social-link-header">
+<div id="social-media-container">
+<nav class="icon-social-link">
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class='primary-menu-navigation-0'>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<a class='menu-nav-title d-lg-block d-xl-none d-block d-sm-block d-md-block' href="/about">All About Mars
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Here at Mars, there’s always a story to tell. From our pet hospitals to farmers in our supply chain, new tales are unfolding every day. Dig into our stories and discover why so many of us are proud to be part of the Mars family!
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/about tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/about/five-principles' class='sub-item-link'>
+<span>The Five Principles
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/mars-compass' class='sub-item-link'>
+<span>Mars Compass
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/inclusion-and-diversity' class='sub-item-link'>
+<span>Inclusion &amp; Diversity
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/leadership' class='sub-item-link'>
+<span>Leadership Team
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/history' class='sub-item-link'>
+<span>History
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/about/policies-and-practices' class='sub-item-link'>
+<span>Policies &amp; Practices
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='primary-menu-navigation-1'>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<a class='menu-nav-title d-lg-block d-xl-none d-block d-sm-block d-md-block' href="/made-by-mars">Made by Mars
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Associates at Mars are everyday heroes. We are united through our inspiring purpose. Our global family and the common bond we share is beyond any other. We all take pride in our unique way of doing business and empower every Associate to learn, expand
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/made-by-mars tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/made-by-mars/petcare' class='sub-item-link'>
+<span>Petcare
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/mars-wrigley' class='sub-item-link'>
+<span>Mars Wrigley
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/mars-food' class='sub-item-link'>
+<span>Food
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/made-by-mars/edge' class='sub-item-link'>
+<span>Edge
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='primary-menu-navigation-2'>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<a class='menu-nav-title d-lg-block d-xl-none d-block d-sm-block d-md-block' href="/sustainability-plan">Sustainability Plan
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>At Mars, we are committed to helping create a safe, healthy and sustainable world for our partners and the communities in which we operate.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/sustainability-plan tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/healthy-planet' class='sub-item-link'>
+<span>Healthy Planet
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/thriving-people' class='sub-item-link'>
+<span>Thriving People
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/sustainability-plan/nourishing-wellbeing' class='sub-item-link'>
+<span>Nourishing Wellbeing
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='primary-menu-navigation-3'>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+<span>Back
+</span>
+</a>
+<a class='menu-nav-title d-lg-block d-xl-none d-block d-sm-block d-md-block' href="/news-and-stories">News &amp; Stories
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Mars Associates are doing big things, as well as making great products that people love to talk about. Read more about Mars in the headlines by visiting our stories. Find the latest news stories, press releases, and more from our family all around the wor
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=/news-and-stories tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+<ul class='menu-nav-sub-content'>
+<li class='sub-item-link'>
+<a href='/news-and-stories/press-releases' class='sub-item-link'>
+<span>Press Releases
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/news-and-stories/media-resources' class='sub-item-link'>
+<span>Media Resources
+</span>
+</a>
+</li>
+<li class='sub-item-link'>
+<a href='/news-and-stories/media-contacts' class='sub-item-link'>
+<span>Media Contacts
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='primary-menu-navigation-4'>
+<div class='primary-menu-navigation'>
+<div class='primary-menu-nav-container'>
+<div class='primary-menu-left-side'>
+<a class='back-button d-lg-block d-xl-none d-block d-sm-block d-md-block' tabindex="0" style="outline: none;">
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" alt="Carrot Icon" class="carrot-left lazyload" aria-hidden="true" />
+ <span>Back
+</span>
+</a>
+<a class='menu-nav-title d-lg-block d-xl-none d-block d-sm-block d-md-block' href="https://careers.mars.com">Careers
+</a>
+<div class='menu-nav-desc d-lg-none d-xl-block d-none d-sm-none d-md-none' title="Description">
+<p>Search for open job opportunities in any of our many locations with Mars around the world.
+</p>
+</div>
+<a class='visit-link-content' target="_self" rel="noopener noreferrer" href=https://careers.mars.com tabindex="0">
+<span>Visit This Section
+</span>
+<img data-src="/modules/custom/mars_com/images/carrot-blue.png" aria-hidden="true" alt="carrot blue" class="carrot-right lazyload" />
+</a>
+</div>
+<div class='primary-menu-right-side'>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-labelledby="block-mars-regeneration-followus-menu" id="block-mars-regeneration-followus" data-block-plugin-id="system_menu_block:follow-us" class="block block-menu navigation menu--follow-us">
+<h2 class="sr-only" id="block-mars-regeneration-followus-menu">Follow Us</h2>
+<div class="follow-us-menu" style="display:none;">
+<p>Follow Us</p>
+</div>
+</nav>
+<nav aria-labelledby="block-mars-regeneration-contactus-menu" id="block-mars-regeneration-contactus" data-block-plugin-id="system_menu_block:contact-us" class="block block-menu navigation menu--contact-us">
+<h2 class="sr-only" id="block-mars-regeneration-contactus-menu">Contact Us</h2>
+<div class="contact-us-header" style="display: none;">
+<ul>
+<li class="contact-list">
+<a href="/contact-us">Contact Us</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav aria-labelledby="block-mars-regeneration-socialmedianavigation-menu" id="block-mars-regeneration-socialmedianavigation" data-block-plugin-id="system_menu_block:social-media-navigation" class="block block-menu navigation menu--social-media-navigation">
+<h2 class="sr-only" id="block-mars-regeneration-socialmedianavigation-menu">Social Media Navigation</h2>
+<div class="social-media-navigation" style="display: none;">
+<div>
+<a href="https://www.facebook.com/Mars" target="_blank" rel="noopener noreferrer" class="external">
+<img class="lazyload" data-src="/themes/custom/mars/images/facebook-blue.png" alt="Facebook" />
+</a>
+</div>
+<div>
+<a href="https://www.instagram.com/marsglobal/" target="_blank" rel="noopener noreferrer" class="external">
+<img class="lazyload" data-src="/themes/custom/mars/images/instagram-blue.png" alt="Instagram" />
+</a>
+</div>
+<div>
+<a href="https://www.linkedin.com/company/mars" target="_blank" rel="noopener noreferrer" class="external">
+<img class="lazyload" data-src="/themes/custom/mars/images/linkedin-blue.png" alt="LinkedIn" />
+</a>
+</div>
+<div>
+<a href="https://twitter.com/Marsglobal" target="_blank" rel="noopener noreferrer" class="external">
+<img class="lazyload" data-src="/themes/custom/mars/images/twitter-blue.png" alt="Twitter" />
+</a>
+</div>
+<div>
+<a href="https://www.youtube.com/user/Mars" target="_blank" rel="noopener noreferrer" class="external">
+<img class="lazyload" data-src="/themes/custom/mars/images/youtube-blue.png" alt="Youtube" />
+</a>
+</div>
+</div>
+</nav>
+</section>
+</div>
+<div class="header-right col-sm-4 col-md-4 col-lg-4 col-xl-2">
+<section class="row region region-header-right">
+<div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blockmars-search-page-2" data-bef-auto-submit-full-form="" data-drupal-selector="views-exposed-form-mars-search-page-2" id="block-mars-regeneration-exposedformmars-searchpage-2-3" data-block-plugin-id="views_exposed_filter_block:mars_search-page_2">
+<div class="content">
+<form action="/search" method="get" id="views-exposed-form-mars-search-page-2" accept-charset="UTF-8">
+<div class="form-row">
+<fieldset class="js-form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-keywords form-item-keywords form-group">
+<label for="edit-keywords">Fulltext search</label>
+<input data-bef-auto-submit-exclude="" data-drupal-selector="edit-keywords" data-search-api-autocomplete-search="mars_search" class="form-autocomplete form-text form-control" data-autocomplete-path="/search_api_autocomplete/mars_search?display=page_2&amp;&amp;filter=keywords" type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" />
+</fieldset>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-group" id="edit-actions"><input data-bef-auto-submit-click="" class="js-hide button js-form-submit form-submit btn btn-primary form-control" data-drupal-selector="edit-submit-mars-search" type="submit" id="edit-submit-mars-search" value="Apply" />
+</div>
+</div>
+</form>
+</div>
+</div>
+<div id="block-mars-regeneration-headerright" data-block-plugin-id="mars_header_right" class="block block-mars-com block-mars-header-right">
+<div class="content">
+<div class='side-link' data-datashareable="{&quot;sideLinks&quot;:{&quot;marketSelector&quot;:{&quot;checkbox&quot;:1,&quot;details&quot;:{&quot;text&quot;:&quot;Global&quot;,&quot;currentCountry&quot;:&quot;United States&quot;,&quot;globalSite&quot;:&quot;\/&quot;,&quot;icon&quot;:{&quot;image&quot;:{&quot;entities&quot;:[],&quot;entity_browser&quot;:{&quot;path&quot;:&quot;\/entity-browser\/modal\/media_browser?uuid=df3f675b74e5368e56464e11a0bf8115c216418c&amp;original_path=\/admin\/structure\/block\/manage\/headerright&quot;},&quot;entity_ids&quot;:&quot;&quot;},&quot;link&quot;:&quot;\/sites\/g\/files\/jydpyr316\/files\/2019-03\/globe%403x_2.png&quot;},&quot;continents&quot;:{&quot;continentList&quot;:[{&quot;continent&quot;:{&quot;name&quot;:&quot;Africa&quot;,&quot;link&quot;:&quot;#&quot;,&quot;countries&quot;:{&quot;countryList&quot;:[{&quot;country&quot;:{&quot;name&quot;:&quot;South Africa&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/zaf.mars.com\/&quot;}}]}}}]}}},{&quot;continent&quot;:{&quot;name&quot;:&quot;Americas&quot;,&quot;link&quot;:&quot;#&quot;,&quot;countries&quot;:{&quot;countryList&quot;:[{&quot;country&quot;:{&quot;name&quot;:&quot;Argentina&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Spanish&quot;,&quot;link&quot;:&quot;https:\/\/arg.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Brazil&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Portugu\u00eas&quot;,&quot;link&quot;:&quot;https:\/\/bra.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Canada&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/can.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Fran\u00e7ais&quot;,&quot;link&quot;:&quot;https:\/\/can.mars.com\/fr\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Mexico&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Spanish&quot;,&quot;link&quot;:&quot;https:\/\/mex.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;United States&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;\/&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;\/&quot;}}]}}}]}}},{&quot;continent&quot;:{&quot;name&quot;:&quot;Asia and Pacific&quot;,&quot;link&quot;:&quot;#&quot;,&quot;countries&quot;:{&quot;countryList&quot;:[{&quot;country&quot;:{&quot;name&quot;:&quot;Australia&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/aus.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;China&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/chn.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;\u4e2d\u6587&quot;,&quot;link&quot;:&quot;https:\/\/chn.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;India&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/ind.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Indonesia&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/idn.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Bahasa&quot;,&quot;link&quot;:&quot;https:\/\/idn.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Japan&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Japanese&quot;,&quot;link&quot;:&quot;https:\/\/jpn.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Korea&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Korean&quot;,&quot;link&quot;:&quot;https:\/\/kor.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Taiwan, China&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/twn.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;\u4e2d\u6587&quot;,&quot;link&quot;:&quot;https:\/\/twn.mars.com\/&quot;}}]}}}]}}},{&quot;continent&quot;:{&quot;name&quot;:&quot;Europe&quot;,&quot;link&quot;:&quot;#&quot;,&quot;countries&quot;:{&quot;countryList&quot;:[{&quot;country&quot;:{&quot;name&quot;:&quot;Austria&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Deutsch&quot;,&quot;link&quot;:&quot;https:\/\/aut.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Belgium&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/bel.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Czech Republic&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/cze.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;\u010cesky&quot;,&quot;link&quot;:&quot;https:\/\/cze.mars.com\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Slovensky&quot;,&quot;link&quot;:&quot;https:\/\/cze.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Denmark&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/dnk.mars.com\/en\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Finland&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/fin.mars.com\/en\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;France&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Fran\u00e7ais&quot;,&quot;link&quot;:&quot;https:\/\/fra.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Germany&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Deutsch&quot;,&quot;link&quot;:&quot;https:\/\/deu.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Greece&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/grc.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Greece&quot;,&quot;link&quot;:&quot;https:\/\/grc.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Hungary&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/hun.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Magyar&quot;,&quot;link&quot;:&quot;https:\/\/hun.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Ireland&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/ire.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Italy&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Italiano&quot;,&quot;link&quot;:&quot;https:\/\/ita.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Lithuania&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/ltu.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Lietuvi\u0173&quot;,&quot;link&quot;:&quot;https:\/\/ltu.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Netherlands&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Nederlands&quot;,&quot;link&quot;:&quot;https:\/\/nld.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Norway&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/nor.mars.com\/en&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Poland&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Polski&quot;,&quot;link&quot;:&quot;https:\/\/pol.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Portugal&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/prt.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Portugu\u00eas&quot;,&quot;link&quot;:&quot;https:\/\/prt.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Russia&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;&quot;,&quot;link&quot;:&quot;https:\/\/rus.mars.com\/en&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;\u0420\u0443\u0441\u0441\u043a\u0438\u0439&quot;,&quot;link&quot;:&quot;https:\/\/rus.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Slovakia&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/svk.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;\u010cesky&quot;,&quot;link&quot;:&quot;https:\/\/svk.mars.com\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Slovensky&quot;,&quot;link&quot;:&quot;https:\/\/svk.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Spain&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/esp.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Espa\u00f1ol&quot;,&quot;link&quot;:&quot;https:\/\/esp.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Sweden&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/swe.mars.com\/en&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Switzerland&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/che.mars.com\/en\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Deutsch&quot;,&quot;link&quot;:&quot;https:\/\/che.mars.com\/&quot;}},{&quot;language&quot;:{&quot;name&quot;:&quot;Fran\u00e7ais&quot;,&quot;link&quot;:&quot;https:\/\/che.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;United Kingdom&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;English&quot;,&quot;link&quot;:&quot;https:\/\/gbr.mars.com\/&quot;}}]}}},{&quot;country&quot;:{&quot;name&quot;:&quot;Ukraine&quot;,&quot;isoCode&quot;:&quot;&quot;,&quot;link&quot;:&quot;#&quot;,&quot;languages&quot;:{&quot;languageList&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;Ukrainian&quot;,&quot;link&quot;:&quot;https:\/\/www.mars.com\/ukraine&quot;}}]}}}]}}}]}}},&quot;search&quot;:{&quot;details&quot;:{&quot;icon&quot;:{&quot;image&quot;:{&quot;entities&quot;:[],&quot;entity_browser&quot;:{&quot;path&quot;:&quot;\/entity-browser\/modal\/media_browser?uuid=30c787d6abd87f0002a076341d57fbc7544e06a2&amp;original_path=\/admin\/structure\/block\/manage\/headerright&quot;},&quot;entity_ids&quot;:&quot;&quot;},&quot;link&quot;:&quot;\/sites\/g\/files\/jydpyr316\/files\/2019-03\/search-icon%403x.png&quot;}}}},&quot;followUs&quot;:[{&quot;href&quot;:&quot;&quot;,&quot;label&quot;:&quot;Follow Us&quot;,&quot;children&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;cta_link&quot;:&quot;&quot;,&quot;return_link&quot;:&quot;&quot;}],&quot;marketSelectorCurrentSelection&quot;:[{&quot;href&quot;:&quot;&quot;,&quot;label&quot;:&quot;Your Current Selection&quot;,&quot;children&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;cta_link&quot;:&quot;&quot;,&quot;return_link&quot;:&quot;&quot;}],&quot;searchTitle&quot;:[{&quot;href&quot;:&quot;&quot;,&quot;label&quot;:&quot;Recently Searched Terms&quot;,&quot;children&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;cta_link&quot;:&quot;&quot;,&quot;return_link&quot;:&quot;&quot;},{&quot;href&quot;:&quot;&quot;,&quot;label&quot;:&quot;Popular Search Terms&quot;,&quot;children&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;cta_link&quot;:&quot;&quot;,&quot;return_link&quot;:&quot;&quot;}]}">
+<div class='globe-content' data-toggle='collapse' tabindex="0" title="Market Selector" role="button" aria-label="Market Selector Icon">
+<span>
+<img class='icon lazyload' data-src="/sites/g/files/jydpyr316/files/2019-03/globe%403x_2.png" alt="Market Selector" aria-hidden="true" />
+</span>
+</div>
+<div class='search-content' tabindex="0" title="Search" role="button" aria-label="Search Icon" style="outline: none">
+<span>
+<img class="search-icon lazyload" data-src="/sites/g/files/jydpyr316/files/2019-03/search-icon%403x.png" alt="Search" aria-hidden="true" />
+</span>
+</div>
+<div class="search-container">
+<div class="search-header">
+<div class="close-button">
+<img class="lazyload" data-src="/modules/custom/mars_com/images/close.png" role="button" tabindex="0" alt="Close Button" style="outline: none" />
+</div>
+</div>
+<div class="suggestion-search-content">
+<div class='search-suggestion'></div>
+</div>
+<div class='term-content'>
+<div class="recently-search-content -tv-ignore:E042">
+<span>Recently Searched Terms</span>
+<ul class='recently-term -tv-ignore:P892'>
+<li class="term-wcag">Wcag</li>
+</ul>
+</div>
+<div class="popular-search-content -tv-ignore:E042">
+<span>Popular Search Terms</span>
+<ul class='popular-term'>
+<li class="term-wcag">Wcag</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="global-site-container">
+<div class="market-selector-container">
+<div class="market-selector-container-top">
+<div class="close-button" role="button" aria-label="Close Button">
+<img src="/modules/custom/mars_com/images/close.png" alt=The image of close button close.png aria-hidden="true" />
+</div>
+<div class="market-title">
+<span>Your Current Selection</span>
+<h2 class='current-country'>United States</h1>
+</div>
+<div class="market-item-container">
+<ul class="market-item-list">
+<li id="-1" class="market-item">
+<a href="/" class="level-1" role="button">Mars Global</a>
+<img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />
+</li>
+<li id="0" class="market-item">
+<a class="level-1" role="button">Africa</a>
+<img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />
+</li>
+<li id="1" class="market-item">
+<a class="level-1" role="button">Americas</a>
+<img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />
+</li>
+<li id="2" class="market-item">
+<a class="level-1" role="button">Asia and Pacific</a>
+<img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />
+</li>
+<li id="3" class="market-item">
+<a class="level-1" role="button">Europe</a>
+<img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />
+</li>
+</ul>
+</div>
+</div>
+<div class="market-header-mobile">
+<span class="back-button"><img class="lazyload" data-src="/modules/custom/mars_com/images/carrot-blue.png" alt=The image of arrow carrot-blue.png />BACK</span>
+<div class="close-button close-button-mobile" role="button" aria-label="Market Selector Close Button">
+<img class="lazyload" data-src="/modules/custom/mars_com/images/close.png" alt=The image of close button close.png aria-hidden="true" />
+</div>
+</div>
+<div class="market-selector-container-bottom-0 market-continent">
+<div class="market-selector-container-bottom">
+<div class="market-sub-item-title">Africa</div>
+<ul class="market-sub-item-list level-2">
+<li class='market-sub-item'>
+<a class="initial-focus-1" href="#" style="outline: none">
+<span id='South_Africa' class='country market-sub-item-label -tv-ignore:E622'>South Africa</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://zaf.mars.com/" class="hover-style-language" target="_blank">
+<span id='South_Africa_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="market-selector-container-bottom-1 market-continent">
+<div class="market-selector-container-bottom">
+<div class="market-sub-item-title">Americas</div>
+<ul class="market-sub-item-list level-2">
+<li class='market-sub-item'>
+<a class="initial-focus-1" href="#" style="outline: none">
+<span id='Argentina' class='country market-sub-item-label -tv-ignore:E622'>Argentina</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://arg.mars.com/" class="hover-style-language" target="_blank">
+<span id='Argentina_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Spanish</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-2" href="#" style="outline: none">
+<span id='Brazil' class='country market-sub-item-label -tv-ignore:E622'>Brazil</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://bra.mars.com/" class="hover-style-language" target="_blank">
+<span id='Brazil_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Português</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-3" href="#" style="outline: none">
+<span id='Canada' class='country market-sub-item-label -tv-ignore:E622'>Canada</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://can.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Canada_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://can.mars.com/fr/" class="hover-style-language" target="_blank">
+<span id='Canada_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Français</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-4" href="#" style="outline: none">
+<span id='Mexico' class='country market-sub-item-label -tv-ignore:E622'>Mexico</span>
+</a>
+<ul class='market-language-container level-3'>
+ <li class='market-sub-item'>
+<a href="https://mex.mars.com/" class="hover-style-language" target="_blank">
+<span id='Mexico_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Spanish</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-5" href="/" style="outline: none">
+<span id='United_States' class='country market-sub-item-label -tv-ignore:E622'>United States</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="/" class="hover-style-language" target="_blank">
+<span id='United_States_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="market-selector-container-bottom-2 market-continent">
+<div class="market-selector-container-bottom">
+<div class="market-sub-item-title">Asia and Pacific</div>
+<ul class="market-sub-item-list level-2">
+<li class='market-sub-item'>
+<a class="initial-focus-1" href="#" style="outline: none">
+<span id='Australia' class='country market-sub-item-label -tv-ignore:E622'>Australia</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://aus.mars.com/" class="hover-style-language" target="_blank">
+<span id='Australia_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-2" href="#" style="outline: none">
+<span id='China' class='country market-sub-item-label -tv-ignore:E622'>China</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://chn.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='China_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://chn.mars.com/" class="hover-style-language" target="_blank">
+<span id='China_2' class='market-sub-item-label id-1 -tv-ignore:E622'>中文</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-3" href="#" style="outline: none">
+<span id='India' class='country market-sub-item-label -tv-ignore:E622'>India</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://ind.mars.com/" class="hover-style-language" target="_blank">
+<span id='India_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-4" href="#" style="outline: none">
+<span id='Indonesia' class='country market-sub-item-label -tv-ignore:E622'>Indonesia</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://idn.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Indonesia_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://idn.mars.com/" class="hover-style-language" target="_blank">
+<span id='Indonesia_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Bahasa</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-5" href="#" style="outline: none">
+<span id='Japan' class='country market-sub-item-label -tv-ignore:E622'>Japan</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://jpn.mars.com/" class="hover-style-language" target="_blank">
+<span id='Japan_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Japanese</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-6" href="#" style="outline: none">
+<span id='Korea' class='country market-sub-item-label -tv-ignore:E622'>Korea</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://kor.mars.com/" class="hover-style-language" target="_blank">
+<span id='Korea_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Korean</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-7" href="#" style="outline: none">
+<span id='Taiwan,_China' class='country market-sub-item-label -tv-ignore:E622'>Taiwan, China</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://twn.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Taiwan,_China_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://twn.mars.com/" class="hover-style-language" target="_blank">
+<span id='Taiwan,_China_2' class='market-sub-item-label id-1 -tv-ignore:E622'>中文</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="market-selector-container-bottom-3 market-continent">
+<div class="market-selector-container-bottom">
+<div class="market-sub-item-title">Europe</div>
+<ul class="market-sub-item-list level-2">
+<li class='market-sub-item'>
+<a class="initial-focus-1" href="#" style="outline: none">
+<span id='Austria' class='country market-sub-item-label -tv-ignore:E622'>Austria</span>
+</a>
+<ul class='market-language-container level-3'>
+ <li class='market-sub-item'>
+<a href="https://aut.mars.com/" class="hover-style-language" target="_blank">
+<span id='Austria_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Deutsch</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-2" href="#" style="outline: none">
+<span id='Belgium' class='country market-sub-item-label -tv-ignore:E622'>Belgium</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://bel.mars.com/" class="hover-style-language" target="_blank">
+<span id='Belgium_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-3" href="#" style="outline: none">
+<span id='Czech_Republic' class='country market-sub-item-label -tv-ignore:E622'>Czech Republic</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://cze.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Czech_Republic_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://cze.mars.com/" class="hover-style-language" target="_blank">
+<span id='Czech_Republic_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Česky</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://cze.mars.com/" class="hover-style-language" target="_blank">
+<span id='Czech_Republic_3' class='market-sub-item-label id-2 -tv-ignore:E622'>Slovensky</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-4" href="#" style="outline: none">
+<span id='Denmark' class='country market-sub-item-label -tv-ignore:E622'>Denmark</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://dnk.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Denmark_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-5" href="#" style="outline: none">
+<span id='Finland' class='country market-sub-item-label -tv-ignore:E622'>Finland</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://fin.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Finland_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-6" href="#" style="outline: none">
+<span id='France' class='country market-sub-item-label -tv-ignore:E622'>France</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://fra.mars.com/" class="hover-style-language" target="_blank">
+<span id='France_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Français</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-7" href="#" style="outline: none">
+<span id='Germany' class='country market-sub-item-label -tv-ignore:E622'>Germany</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://deu.mars.com/" class="hover-style-language" target="_blank">
+<span id='Germany_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Deutsch</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-8" href="#" style="outline: none">
+<span id='Greece' class='country market-sub-item-label -tv-ignore:E622'>Greece</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://grc.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Greece_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://grc.mars.com/" class="hover-style-language" target="_blank">
+<span id='Greece_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Greece</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-9" href="#" style="outline: none">
+<span id='Hungary' class='country market-sub-item-label -tv-ignore:E622'>Hungary</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://hun.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Hungary_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://hun.mars.com/" class="hover-style-language" target="_blank">
+<span id='Hungary_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Magyar</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-10" href="#" style="outline: none">
+<span id='Ireland' class='country market-sub-item-label -tv-ignore:E622'>Ireland</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://ire.mars.com/" class="hover-style-language" target="_blank">
+<span id='Ireland_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-11" href="#" style="outline: none">
+<span id='Italy' class='country market-sub-item-label -tv-ignore:E622'>Italy</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://ita.mars.com/" class="hover-style-language" target="_blank">
+<span id='Italy_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Italiano</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-12" href="#" style="outline: none">
+<span id='Lithuania' class='country market-sub-item-label -tv-ignore:E622'>Lithuania</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://ltu.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Lithuania_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://ltu.mars.com/" class="hover-style-language" target="_blank">
+<span id='Lithuania_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Lietuvių</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-13" href="#" style="outline: none">
+<span id='Netherlands' class='country market-sub-item-label -tv-ignore:E622'>Netherlands</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://nld.mars.com/" class="hover-style-language" target="_blank">
+<span id='Netherlands_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Nederlands</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-14" href="#" style="outline: none">
+<span id='Norway' class='country market-sub-item-label -tv-ignore:E622'>Norway</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://nor.mars.com/en" class="hover-style-language" target="_blank">
+<span id='Norway_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-15" href="#" style="outline: none">
+<span id='Poland' class='country market-sub-item-label -tv-ignore:E622'>Poland</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://pol.mars.com/" class="hover-style-language" target="_blank">
+<span id='Poland_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Polski</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-16" href="#" style="outline: none">
+<span id='Portugal' class='country market-sub-item-label -tv-ignore:E622'>Portugal</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://prt.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Portugal_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://prt.mars.com/" class="hover-style-language" target="_blank">
+<span id='Portugal_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Português</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-17" href="#" style="outline: none">
+<span id='Russia' class='country market-sub-item-label -tv-ignore:E622'>Russia</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://rus.mars.com/" class="hover-style-language" target="_blank">
+<span id='Russia_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Русский</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-18" href="#" style="outline: none">
+<span id='Slovakia' class='country market-sub-item-label -tv-ignore:E622'>Slovakia</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://svk.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Slovakia_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://svk.mars.com/" class="hover-style-language" target="_blank">
+<span id='Slovakia_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Česky</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://svk.mars.com/" class="hover-style-language" target="_blank">
+<span id='Slovakia_3' class='market-sub-item-label id-2 -tv-ignore:E622'>Slovensky</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-19" href="#" style="outline: none">
+<span id='Spain' class='country market-sub-item-label -tv-ignore:E622'>Spain</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://esp.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Spain_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://esp.mars.com/" class="hover-style-language" target="_blank">
+<span id='Spain_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Español</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-20" href="#" style="outline: none">
+<span id='Sweden' class='country market-sub-item-label -tv-ignore:E622'>Sweden</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://swe.mars.com/en" class="hover-style-language" target="_blank">
+<span id='Sweden_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-21" href="#" style="outline: none">
+<span id='Switzerland' class='country market-sub-item-label -tv-ignore:E622'>Switzerland</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://che.mars.com/en/" class="hover-style-language" target="_blank">
+<span id='Switzerland_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://che.mars.com/" class="hover-style-language" target="_blank">
+<span id='Switzerland_2' class='market-sub-item-label id-1 -tv-ignore:E622'>Deutsch</span>
+</a>
+</li>
+<li class='market-sub-item'>
+<a href="https://che.mars.com/" class="hover-style-language" target="_blank">
+<span id='Switzerland_3' class='market-sub-item-label id-2 -tv-ignore:E622'>Français</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-22" href="#" style="outline: none">
+<span id='United_Kingdom' class='country market-sub-item-label -tv-ignore:E622'>United Kingdom</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://gbr.mars.com/" class="hover-style-language" target="_blank">
+<span id='United_Kingdom_1' class='market-sub-item-label id-0 -tv-ignore:E622'>English</span>
+</a>
+</li>
+</ul>
+</li>
+<li class='market-sub-item'>
+<a class="initial-focus-23" href="#" style="outline: none">
+<span id='Ukraine' class='country market-sub-item-label -tv-ignore:E622'>Ukraine</span>
+</a>
+<ul class='market-language-container level-3'>
+<li class='market-sub-item'>
+<a href="https://www.mars.com/ukraine" class="hover-style-language" target="_blank">
+<span id='Ukraine_1' class='market-sub-item-label id-0 -tv-ignore:E622'>Ukrainian</span>
+ </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</header>
+</div>
+<main class="with-header-top main-container js-quickedit-main-content">
+<div>
+<section>
+<a id="top-content"></a>
+<a id="main-content"></a>
+<div data-drupal-messages-fallback class="hidden"></div><article about="/homepage-canvas" class="canvas content-type--canvas full clearfix">
+<div class="content">
+<div class="layout layout--onecol">
+<div class="layout__region layout__region--content">
+<div data-block-plugin-id="extra_field_block:node:canvas:links" class="block block-layout-builder block-extra-field-blocknodecanvaslinks">
+<div class="content">
+</div>
+</div>
+<div data-block-plugin-id="field_block:node:canvas:field_select_widget" class="block block-layout-builder block-field-blocknodecanvasfield-select-widget">
+<div class="content">
+<div class="field field--name-field-select-widget field--type-entity-reference-revisions field--label-hidden field__items">
+<div class="field__item"> <div class="paragraph paragraph--type--mars-hero-featured-carousel paragraph--view-mode--default">
+<section class="mars-component">
+<div class="slide-hldr-wrapper position-relative" data-ap=false data-aps=8000 data-sp=800 data-poh=true>
+<div class="slide-hldr home-featured-carousel">
+<div class="slide">
+<figure class="figure mb-0">
+<img class="lazyload display-md-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_mobile/public/2021-06/MarsDigital_CocoaReport_Desktop.jpg?h=dad2bcb6&amp;itok=m_WP5hx7" alt="Mars Digital Cocoa Report Desktop " />
+<img class="lazyload display-none display-md-block display-lg-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_tablet/public/2021-06/MarsDigital_CocoaReport_Desktop.jpg?h=c6af0bb0&amp;itok=lFeVFYHI" alt="Mars Digital Cocoa Report Desktop " />
+<img class="lazyload display-none display-lg-block slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_desktop/public/2021-06/MarsDigital_CocoaReport_Desktop.jpg?h=510eae76&amp;itok=dBQ9nJ0c" alt="Mars Digital Cocoa Report Desktop " />
+</figure>
+<div class="slide-content">
+<div class="container mars-component--large-gutter ">
+<div class="slide-half-width">
+<h1 class="slide-title text-white">Mars Wrigley Delivers Progress on Human Rights in Cocoa Supply Chain</h1>
+<div class="mini-editor slide-para">
+<p>We published our first-ever "Respecting Human Rights in the Cocoa Supply Chain" report, sharing a detailed description of our approach and current initiatives to advance respect for human rights. It includes the status of programs we are implementing, what we are learning, and where more effort and collaboration is needed to achieve our 2025 human rights goals to improve lives for cocoa farmers and their communities.</p>
+</div>
+<div>
+<a href="https://www.mars.com/news-and-stories/articles/respecting-human-rights-in-the-cocoa-supply-chain" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide">
+<figure class="figure mb-0">
+<img class="lazyload display-md-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_mobile/public/2021-05/Mars_Microsoft_Carousel_Desktop_1920x700%5B1%5D.jpg?h=76a7e51d&amp;itok=nJ15j5rN" alt="Skittles Desktop" />
+<img class="lazyload display-none display-md-block display-lg-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_tablet/public/2021-05/Mars_Microsoft_Carousel_Desktop_1920x700%5B1%5D.jpg?h=8ba4c51d&amp;itok=0FlGVmfK" alt="Skittles Desktop" />
+<img class="lazyload display-none display-lg-block slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_desktop/public/2021-05/Mars_Microsoft_Carousel_Desktop_1920x700%5B1%5D.jpg?h=cda69c15&amp;itok=uVAC0_xK" alt="Skittles Desktop" />
+</figure>
+<div class="slide-content">
+<div class="container mars-component--large-gutter ">
+<div class="slide-half-width">
+<h1 class="slide-title text-white">A Digital-First Future: Mars Agreement with Microsoft</h1>
+<div class="mini-editor slide-para">
+<p>How our joint venture will accelerate our digital transformation and put the power of data and innovative technologies at the center of our business. ​</p>
+</div>
+<div>
+<a href="https://www.mars.com/news-and-stories/articles/a-digital-first-future-mars-teams-with-microsoft" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide">
+<figure class="figure mb-0">
+<img class="lazyload display-md-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_mobile/public/2021-05/Mars_Sheba_Desktop_1920x700.jpg?h=f61bbdf5&amp;itok=zBumtuRg" alt="Sheba HOPE" />
+<img class="lazyload display-none display-md-block display-lg-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_tablet/public/2021-05/Mars_Sheba_Desktop_1920x700.jpg?h=d1ab7a06&amp;itok=5mI3VDA8" alt="Sheba HOPE" />
+<img class="lazyload display-none display-lg-block slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_desktop/public/2021-05/Mars_Sheba_Desktop_1920x700.jpg?h=15be415c&amp;itok=F-2pws9n" alt="Sheba HOPE" />
+</figure>
+<div class="slide-content">
+<div class="container mars-component--large-gutter ">
+<div class="slide-half-width">
+<h1 class="slide-title text-white">How Sheba® Will Restore Coral Reefs</h1>
+<div class="mini-editor slide-para">
+<p>We’re working to protect and regenerate the oceans’ most diverse ecosystem. We hope to inspire others and demonstrate that habitat and biodiversity loss can be reversed.</p>
+</div>
+<div>
+<a href="https://www.mars.com/news-and-stories/articles/sheba-reef-restoration-brings-hope" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Learn more
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide">
+<figure class="figure mb-0">
+<img class="lazyload display-md-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_mobile/public/2021-04/I%26D%20desktop.PNG?h=f5916cbc&amp;itok=dghp9abL" alt="I&amp;D Desktop" />
+<img class="lazyload display-none display-md-block display-lg-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_tablet/public/2021-04/I%26D%20desktop.PNG?h=22ba9859&amp;itok=rditfY6Z" alt="I&amp;D Desktop" />
+<img class="lazyload display-none display-lg-block slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_desktop/public/2021-04/I%26D%20desktop.PNG?h=8b06b53b&amp;itok=X-M8fo6t" alt="I&amp;D Desktop" />
+</figure>
+<div class="slide-content">
+<div class="container mars-component--large-gutter ">
+<div class="slide-half-width">
+<h1 class="slide-title text-white">A Historic Day and More Work Ahead</h1>
+<div class="mini-editor slide-para">
+<p>We know we have more to do to advance racial equality, and we remain unflinching in our resolve to help dismantle systemic racism.</p>
+</div>
+<div>
+<a href="https://www.mars.com/about/inclusion-and-diversity" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Our commitments
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="slide">
+<figure class="figure mb-0">
+<img class="lazyload display-md-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_mobile/public/2021-04/Mars_Petcare_Carousel_Desktop_1920x700.jpg?h=eda53684&amp;itok=X15sTOOD" alt="pets at work" />
+<img class="lazyload display-none display-md-block display-lg-none slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_tablet/public/2021-04/Mars_Petcare_Carousel_Desktop_1920x700.jpg?h=ff5c1f2e&amp;itok=eRwa4YQP" alt="pets at work" />
+<img class="lazyload display-none display-lg-block slide-img position--float-right" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/carousel_desktop/public/2021-04/Mars_Petcare_Carousel_Desktop_1920x700.jpg?h=da8169dd&amp;itok=BK-AmlkC" alt="pets at work" />
+</figure>
+<div class="slide-content">
+<div class="container mars-component--large-gutter ">
+<div class="slide-half-width">
+<h1 class="slide-title text-white">i</h1>
+<div class="mini-editor slide-para">
+</div>
+<div>
+<a href="https://www.mars.com/made-by-mars" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Explore our brands &amp; services
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="slick-slide-buttons true">
+<div class="container mars-component--large-gutter">
+<div class="text-right">
+<span class="slide-prev-btn mars-icon icon-arrow-left-pagination position-relative"></span>
+<span class="slide-next-btn mars-icon icon-arrow-right-pagination position-relative"></span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="field__item">
+<section class="mars-component rich-text-editor">
+<div class="container mars-component--large-gutter  ">
+<div class="paragraph paragraph--type--mars-rich-text-editor paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-mars-rich-text-editor field--type-text-long field--label-hidden field__item"><section class="bg-white s-py-2 s-mt-2  s-mb-3"><div class="row no-gutters flex-md-row align-items-lg-center">
+<div class="col-md-6">
+<div class="img-grid three-horizontal mars-component--row">
+<figure class="figure mb-0 one"><img alt="" class="figure-img lazyloaded" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrig_tch_first_image_style_3_2/public/2021-01/Victoria%20Headshot.png?itok=zbyzeYvZ" src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrig_tch_first_image_style_3_2/public/2021-01/Victoria%20Headshot.png?itok=zbyzeYvZ" /></figure><div class="d-flex">
+<figure class="figure mb-0 two"><div alt="Thought Leadership 2_3_1.gif" data-embed-button="media_browser" data-entity-embed-display="media_image" data-entity-type="media" data-entity-uuid="0c75becc-ecf0-4f95-89df-ff2644388ebd" data-langcode="en" title="Thought Leadership 2_3_1.gif" class="embedded-entity">
+<img alt="Thought Leadership 2_3_1.gif" title="Thought Leadership 2_3_1.gif" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/Thought%20Leadership%202_3_1.gif" /></div>
+<br /></figure><figure class="figure mb-0 three"><img alt="" class="figure-img lazyloaded" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrig_tch_second_image_style_1_1/public/2021-01/Grant%20Homepage%20TL.png?itok=f2pALoZY" src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrig_tch_second_image_style_1_1/public/2021-01/Grant%20Homepage%20TL.png?itok=f2pALoZY" /></figure></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="column-content">
+<div class="display-none display-lg-block">
+<h2 class="text-primary">Our leaders share their views on tackling today’s challenges</h2>
+</div>
+<div class="mini-editor text-dark">
+<p> </p>
+<div class="clearfix text-formatted field field--name-field-mars-tcrig-body-copy field--type-text-long field--label-hidden field__item">
+<p>Never has our Purpose been more relevant as it is right now. In today’s fast-moving business, social and environmental landscape, change won’t happen by itself. Our leaders share how we’re navigating with action, today, to create a future we can all be proud of.</p>
+</div>
+</div>
+<div><a class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" href="https://www.mars.com/about/leadership/actions-today" target="">Hear from our leaders </a></div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</section>
+</div>
+<div class="field__item"> <div class="paragraph mars-two-column-featured-row paragraph--type--mars-two-column-featured-row paragraph--view-mode--default">
+<section class="mars-component">
+<section class="s-py-4 bg-white s-mnt-5 ">
+<div class="container-fluid mars-component--large-gutter">
+<div class="row no-gutters flex-md-row-reverse align-items-lg-center">
+<div class="col-md-5 col-lg-6">
+<div class="two-column-featured-img mars-component--row position-relative">
+<figure class="figure mb-0 position-relative">
+<img data-src=https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcfr_image_style_4_5/public/2021-05/Mars_Sheba_SustainabilitySection_800x1000.jpg?itok=FAAuwHRT class="lazyload figure-img img-fluid w-100" alt="hope homepage section" />
+</figure>
+<div class="featured-img-border bg-mars-yellow position-absolute"></div>
+</div>
+</div>
+<div class="col-md-7 col-lg-6">
+<div class="two-column-featured-content">
+<h2 class="text-primary">Restoring Coral Reefs </h2>
+<div class="mini-editor">
+<p> <p>Mars has worked on coral reef restoration for the past 13 years, investing more than $10 million in research, builds, and community engagement. The results have been dramatic: in just three years, coral cover has increased from 5% to 55% and the recovered reefs have seen an abundance of fish and biomass.</p>
+</p>
+</div>
+<div>
+<a href="https://www.mars.com/news-and-stories/articles/sheba-reef-restoration-brings-hope" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">
+Learn more
+ </a>
+</div>
+<div class="display-none display-lg-block">
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-05/underwater%20arks.JPG alt="arks" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/coral-reef-ecosystem-restoration">
+<h3 class="text-primary">Underwater Arks Can Help Preserve the World’s Vital Coral Reefs</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=800 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-05/fish%20homepage.png alt="fish" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/our-journey-to-sustainable-fish-sourcing">
+<h3 class="text-primary">Our Journey to More Sustainable Fish Sourcing</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=1200 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-03/healthy%20planet.jpeg alt="coral reef" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/support-moving-together-toward-a-sustainable-ocean-economy">
+<h3 class="text-primary">Moving Together Toward a Sustainable Ocean Economy</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="col display-lg-none">
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-05/underwater%20arks.JPG alt="arks" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/coral-reef-ecosystem-restoration">
+<h3 class="text-primary">Underwater Arks Can Help Preserve the World’s Vital Coral Reefs</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=800 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-05/fish%20homepage.png alt="fish" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/our-journey-to-sustainable-fish-sourcing">
+<h3 class="text-primary">Our Journey to More Sustainable Fish Sourcing</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+<div class="featured-story basic-image bg-white border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=1200 data-aos-anchor-placement=>
+<figure class="m-0">
+<img class="lazyload" data-src=/sites/g/files/jydpyr316/files/2021-03/healthy%20planet.jpeg alt="coral reef" />
+</figure>
+<div class="featured-content">
+<div class="text-secondary">Healthy planet</div>
+<a href="https://www.mars.com/news-and-stories/articles/support-moving-together-toward-a-sustainable-ocean-economy">
+<h3 class="text-primary">Moving Together Toward a Sustainable Ocean Economy</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-media-background-row paragraph--view-mode--default">
+<section class="mars-component">
+<div class="media-bg-hldr s-mnt-6 ">
+<div class="media-bg position-relative">
+<div class="paragraph paragraph--type--mars-media-background-row paragraph--view-mode--default">
+<figure class="m-0 media-bg-img twentyOne-nine">
+<img class="lazyload display-md-none position--center-bottom position-absolute" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-09/Banner-v3%20%281%29-min.jpg?itok=PQyEq_5G" alt="" />
+<img class="lazyload display-none display-md-block display-lg-none position--center-bottom position-absolute" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-02/Banner-v2%20%281%29-min.jpg?itok=LJxeUCVA" alt="Banner" />
+<img class="lazyload display-none display-lg-block position--center-bottom position-absolute" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-09/Banner-v1%20%281%29-min.jpg?itok=_LJVpejj" alt="Banner" />
+</figure>
+<div class="media-bg-content position-absolute position--center-center">
+<div class="container mars-component--large-gutter">
+<div class="media-bg-three-fourth-width text-center">
+<div class="eyebrow eyebrow-primary text-white d-none"></div>
+<div class="d-inline-block text-white time-stamp s-ml-2"></div>
+<h1 class="text-primary">Products and services loved by people and pets</h1>
+<div class="mini-editor text-white"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media (min-width: 720px){
+  .media-bg-hldr.s-mnt-6 {
+    margin-top: -170px !important;
+  }
+}
+.mars-component .media-bg-hldr .media-bg-img img {
+   width: 100%;
+}
+
+/*--><!]]>*/
+</style></div>
+<div>
+<a href="https://www.mars.com/made-by-mars" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">
+Explore More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-two-column-row-featur-story paragraph--view-mode--default">
+<section class="mars-component">
+<section class="bg-primary    position-relative">
+
+<div class="container mars-component--large-gutter">
+<div class="row no-gutters  align-items-lg-center">
+<div class="col-md-6">
+<div class="two-column-featured-story position-relative">
+<figure class="figure mb-0 mars-component--row">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrfs_1_1/public/2020-09/man-and-dog.png?itok=TyFkt-pA" class="figure-img w-100 img-fluid lazyload" alt="A man kneeling down smiling and petting his dog." />
+</figure>
+<div class="featured-story basic bg-white border-mars-petcare" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<div class="featured-content">
+<div class="text-secondary">Featured Story</div>
+<a href="https://www.mars.com/news-and-stories/articles/dog-therapy-benefits-for-lonely-seniors" class="font-family-bold d-inline-flex align-items-center">
+<h3 class="text-primary">Can Dog Therapy Ease Loneliness in Aging Adults?</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="two-column-featured-story-content">
+<div class="h5 eyebrow-mars-petcare">Mars Petcare</div>
+<h2 class="text-white">A Better World for Pets™</h2>
+<div class="mini-editor text-dark"><p>Mars Petcare is a growing segment comprising approximately 50 brands and 85,000 Associates in over 55 countries, serving nutrition and health needs of pets every day.</p>
+</div>
+<div>
+<a href="https://www.mars.com/made-by-mars/petcare" class="btn btn-outline-white border-2 rounded-0 d-inline-flex justify-content-center align-items-center" target="_self">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-two-column-row-image-grid paragraph--view-mode--default">
+<div class="paragraph paragraph--type--mars-two-column-row-image-grid paragraph--view-mode--default">
+<section class="mars-component">
+<section class="bg-white s-py-4 s-mt-4  s-mb-6">
+<div class="container-fluid mars-component--large-gutter s-mnt-5 s-mnb-3">
+<div class="row no-gutters flex-md-row-reverse align-items-lg-center">
+<div class="col-md-6">
+<div class="img-grid three-vertical mars-component--row featured-story-grid position-relative">
+<div class="d-flex align-items-center ">
+<figure class="figure mb-0 one">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_crop_1_1/public/2020-09/mars_wrigly_image3.jpg?itok=z-9Sn8Ht" class="lazyload figure-img" alt="Family friends playing in confetti and celebrating their friend’s birthday." />
+</figure>
+<div class="d-flex flex-column">
+<figure class="figure mb-0 two">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_crop_1_1/public/2020-09/chiks.jpg?itok=nkL8ct3A" class="lazyload figure-img" alt="Confectionery being produced at a Mars Factory." />
+</figure>
+<figure class="figure mb-0 three">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_crop_1_1/public/2020-09/mars_wrigly_image2.png?itok=Q1hpFHxq" class="lazyload figure-img" alt="Two Mars colleagues working on a laptop computer while eating M&amp;M&#039;S." />
+</figure>
+</div>
+</div>
+<div class="featured-story basic bg-white border-mars-wrigley" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<div class="featured-content">
+<div class="text-secondary">Featured Story</div>
+<a href="https://www.mars.com/news-and-stories/articles/proud-to-celebrate-pride-today-and-every-day" class="font-family-bold d-inline-flex align-items-center">
+<h3 class="text-primary">Today and Every Day We&#039;re Proud to Celebrate Pride!</h3>
+</a>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="column-content">
+<div class="h5 eyebrow-mars-wrigley">Mars Wrigley</div>
+<h2 class="text-primary">Better moments make the world smile</h2>
+<div class="mini-editor text-dark ">
+<p>
+<div class="clearfix text-formatted field field--name-field-mars-tcrig-body-copy field--type-text-long field--label-hidden field__item"><p>Mars Wrigley is the world’s leading manufacturer of chocolate, chewing gum, mints and fruity confections. Our Associates work hard to improve the way we source, make and market our products, so consumers can enjoy them even more.</p>
+</div>
+</p>
+</div>
+<div>
+<a href="https://www.mars.com/made-by-mars/mars-wrigley" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-two-column-row-featur-story paragraph--view-mode--default">
+<section class="mars-component">
+<section class=" img-negative-margin-bottom s-mnt-6 s-mnb-6 position-relative">
+<figure class=" mb-0 position-absolute bg-image bg-image-single">
+<img class="lazyload display-md-none bg-image--size-cover position--center-center" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-10/5895A31C-3679-4888-8279-A771CDACDC7C.png?itok=0NZox5mr" alt="food" />
+<img class="lazyload display-none display-md-block display-lg-none bg-image--size-cover position--center-center" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-10/5895A31C-3679-4888-8279-A771CDACDC7C.png?itok=0NZox5mr" alt="food" />
+<img class="lazyload display-none display-lg-block bg-image--size-cover position--center-center" data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/crop_freeform/public/2020-10/5895A31C-3679-4888-8279-A771CDACDC7C.png?itok=0NZox5mr" alt="food" />
+</figure>
+
+<div class="container mars-component--large-gutter">
+<div class="row no-gutters  align-items-lg-center">
+<div class="col-md-6">
+<div class="two-column-featured-story position-relative">
+<figure class="figure mb-0 mars-component--row">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_tcrfs_2_3/public/2020-09/food.png?itok=JI-1UNed" class="figure-img w-100 img-fluid lazyload" alt="Father and daughter cooking together in the kitchen." />
+</figure>
+<div class="featured-story basic bg-white border-mars-food" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<div class="featured-content">
+<div class="text-secondary">Featured Story</div>
+<a href="https://www.mars.com/news-and-stories/articles/innovating-today-for-tomorrow-by-focusing-on-data-driven-decisions" class="font-family-bold d-inline-flex align-items-center">
+<h3 class="text-primary">How Data-Driven Decisions Help Us Innovate for Tomorrow</h3>
+</a>
+</div>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="two-column-featured-story-content">
+<div class="h5 eyebrow-mars-food">Mars Food</div>
+<h2 class="text-primary">Better food today. A better world tomorrow.</h2>
+<div class="mini-editor text-dark"><p>Food isn’t just what we eat. It’s a way for families to bond, laugh, and talk. It’s a way to make a living for farmers. For us, our food business is also a way to contribute to a more positive world.</p>
+</div>
+<div>
+<a href="https://www.mars.com/made-by-mars/food" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="_self">
+Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-two-column-row-image-grid paragraph--view-mode--default">
+<div class="paragraph paragraph--type--mars-two-column-row-image-grid paragraph--view-mode--default">
+<section class="mars-component">
+<section class="bg-mars-yellow s-py-4 zero-top-margin  s-mb-6">
+<div class="container-fluid mars-component--large-gutter  s-mt-4 ">
+<div class="row no-gutters flex-md-row-reverse align-items-lg-center">
+<div class="col-md-6">
+<div class="img-grid two-horizontal mars-component--row featured-story-grid position-relative">
+<div class="d-flex align-items-start">
+<figure class="figure mb-0 one">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/2020-02/Animated%20GIF-downsized_large%20%281%29.gif" class="lazyload figure-img img-fluid" alt="Edge" />
+</figure>
+<figure class="figure mb-0 two">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/2020-02/giphy2.gif" class="lazyload figure-img img-fluid" alt="Edge Bg 2" />
+</figure>
+</div>
+<div class="featured-story basic bg-white border-mars-edge" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400 data-aos-anchor-placement=>
+<div class="featured-content">
+<div class="text-secondary">Featured Story</div>
+<a href="https://www.mars.com/news-and-stories/articles/age-related-memory-research-helps-us-build-better-lives-through-nutrition" class="font-family-bold d-inline-flex align-items-center">
+<h3 class="text-primary">How Age-Related Memory Research Helps Us Build Better Lives Through Nutrition</h3>
+</a>
+<i class="icon icon-arrow-right-featured-story position-absolute"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="column-content">
+<div class="h5 eyebrow-mars-edge">Mars Edge</div>
+<h2 class="text-primary">Better lives through nutrition.</h2>
+<div class="mini-editor text-dark">
+<p>
+<div class="clearfix text-formatted field field--name-field-mars-tcrig-body-copy field--type-text-long field--label-hidden field__item"><p>Our personalized nutrition products are simple and enjoyable, to fit seamlessly into daily lives. They are based on the latest science, embedded in state-of-the-art technologies, and powered by real data to deliver real results.</p>
+</div>
+</p>
+</div>
+<div>
+<a href="https://www.mars.com/made-by-mars/edge" class="btn btn-primary rounded-0 d-inline-flex justify-content-center align-items-center" target="">Learn More
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--mars-gallery paragraph--view-mode--default">
+<section class="mars-component card-style-taxda">
+<div class="container gallery gallery-three-column mars-component--large-gutter" data-card=taxda>
+<div class="gallery-headline text-center">
+<h2 class="text-primary">Today’s highlights</h2>
+</div>
+<div class="views-element-container"><div class="view view-mars-gallery view-id-mars_gallery view-display-id-gallery_three_column js-view-dom-id-367730ebea58f910b8aa1954ee93f6cad00887b622adf8532ffbda435bb4b132">
+<div class="view-content">
+<div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix"><div class="row no-gutters">
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/mars-ambassador-program">
+<img width="382" height="215" alt="Mars Associates working to rehab a coral reef in Indonesia. " typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/MAP_HERO%20Image.JPG?itok=QoBVSSe9" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/mars-ambassador-program">The Mars Ambassador Program: "It's lifechanging!" 
+</a></h3>
+ <p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 16th, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/mars-chief-digital-officer-talks-transformation-with-wsj">
+<img width="382" height="215" alt="Mars Chief Digital Officer Talks Transformation with The Wall Street Journal" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/Mars_SandeepHero.JPG?itok=wmIFMHLF" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/mars-chief-digital-officer-talks-transformation-with-wsj">Our Mars Chief Digital Officer talks transformation and "…</a></h3>
+<p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 16th, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/responding-to-covid-19-in-india">
+<img width="382" height="215" alt=" Responding to COVID-19 in India " typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/MicrosoftTeams-image%20%2818%29.png?itok=zAwUEr1M" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/responding-to-covid-19-in-india">Responding to COVID-19 in India
+</a></h3>
+<p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 9th, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/proud-to-celebrate-pride-today-and-every-day">
+<img width="382" height="215" alt="Pride 2021" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/Pride%20image.jpg?itok=6O60J3um" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/proud-to-celebrate-pride-today-and-every-day">Today and Every Day We're Proud to Celebrate Pride!
+</a></h3>
+<p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 9th, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/ensuring-food-safety-through-world-food-safety-day">
+<img width="382" height="215" alt="Raising awareness of the importance of ensuring food safety through World Food Safety Day." typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/Global%20Food%20Safety%20Center%20Hero%20Image.jpg?itok=k4bwUu1N" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/ensuring-food-safety-through-world-food-safety-day">We're Taking Action Today for Global Food Safety Tomorrow
+</a></h3>
+<p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 5th, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600" data-aos-easing="ease-out-sine">
+<div class="card border-0 rounded-0 shadow">
+<figure class="mb-0 position-relative">
+<a href="/news-and-stories/articles/6-ways-ease-post-pandemic-separation-anxiety-pets">
+<img width="382" height="215" alt="6 tips for easing post-pandemic separation anxiety in pets" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/styles/gallery_three_column/public/2021-06/Picture1_1.png?itok=md3rSAvj" />
+</a>
+<h6 class="eyebrow   eyebrow-primary position-absolute">Mars</h6>
+</figure>
+<div class="card-body display-flex flex-column justify-content-between">
+<h3 class="card-title"><a href="/news-and-stories/articles/6-ways-ease-post-pandemic-separation-anxiety-pets">6 Tips for Easing Post-Pandemic Separation Anxiety in Pets
+</a></h3>
+<p class="card-text">
+<small class="mb-0"><span class="card-tax">News & Stories</span>
+<span class="card-date">&nbsp•&nbspJune 3rd, 2021</span></small>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<ul class="js-pager__items pager" data-drupal-views-infinite-scroll-pager>
+<li class="pager__item">
+<a class="button" href="?page=1" title="Go to next page" rel="next">Load More</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="field__item">
+<section class="mars-component tc-image-quote">
+<section class="bg-primary img-negative-margin default-mt default-mb">
+<div class="container mars-component--large-gutter">
+<div class="paragraph paragraph--type--mars-tc-image-copy-quote paragraph--view-mode--default">
+<div class="row no-gutters flex-md-row-reverse align-items-lg-center">
+<div class="col-md-6">
+<div class="two-column-quote-img position-relative">
+<figure class="figure mb-0 four-five">
+<img data-src="https://www.mars.com/sites/g/files/jydpyr316/files/styles/mars_pc_image_quote_4_5/public/2021-01/Miao%20new.jpg?itok=_rohn3pq" class="figure-img img-fluid lazyload" alt="" />
+</figure>
+<blockquote class="blockquote quote-text bg-white fill-secondary border-secondary" data-aos=fade-right data-aos-duration=400 data-aos-easing=ease-in data-aos-delay=400>
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewbox="0 0 57 56">
+ <path fill-rule="evenodd" d="M12.838 47.564c7 0 12.52-5.115 12.52-12.385 0-5.653-4.443-10.365-10.096-10.365h-.27l9.02-15.48h-12.52L3.82 22.928C1.127 27.776.05 31.276.05 35.18c0 7.27 5.385 12.385 12.788 12.385zm30.693 0c7 0 12.519-5.115 12.519-12.385 0-5.653-4.442-10.365-10.096-10.365h-.27l9.02-15.48h-12.52l-7.672 13.595c-2.693 4.847-3.77 8.347-3.77 12.25 0 7.27 5.385 12.385 12.789 12.385z" />
+</svg>
+<h3 class="text-primary">At Mars we have a long history of empowering women to achieve more and reach their full potential.</h3>
+<h6 class="text-secondary mb-0">Miao Song, Global Chief Information Officer, Mars Petcare</h6>
+</blockquote>
+</div>
+</div>
+<div class="col-md-6">
+<div class="two-column-quote-content">
+<h2 class="text-white">
+Your Tomorrow Starts Today
+</h2>
+<div class="text-white">
+<div class="clearfix text-formatted field field--name-field-mars-tcrig-body-copy field--type-text-long field--label-hidden field__item"><p>We have fun. We innovate. We learn. We explore and we work towards making our work a better place today and every day. Want to know more about our work, culture and people.</p>
+</div>
+</div>
+<div>
+<a href="https://careers.mars.com/" class="d-inline-flex justify-content-center align-items-center btn btn-outline-white border-2 rounded-0" target="_self" alt="Work with us">Work with us
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+<div class="field__item">
+<section class="mars-component rich-text-editor">
+<div class="container mars-component--large-gutter  ">
+<div class="paragraph paragraph--type--mars-rich-text-editor paragraph--view-mode--default">
+<div class="clearfix text-formatted field field--name-field-mars-rich-text-editor field--type-text-long field--label-hidden field__item"><script src="/core/assets/vendor/jquery/jquery.min.js?v=3.2.1"></script><script>
+<!--//--><![CDATA[// ><!--
+
+$(document).ready(function(){
+$('.two-horizontal').find('img:first').attr('data-src','/sites/g/files/jydpyr316/files/2020-02/Animated%20GIF-downsized_large%20%281%29.gif');
+$('.two-horizontal').find('img:last').attr('data-src','/sites/g/files/jydpyr316/files/2020-02/giphy2.gif');
+
+$('.three-horizontal figure.two img').attr('data-src','/sites/g/files/jydpyr316/files/Thought%20Leadership%202_3_1.gif');
+})
+
+//--><!]]>
+</script></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<section data-block-plugin-id="block_content:ebf91109-e792-468f-978b-af0d25416aee" class="block block-block-content block-block-contentebf91109-e792-468f-978b-af0d25416aee clearfix">
+<div class="mars-home">
+<section class="connect-with-us-block"><div class="container">
+<div class="pt-lg-5 pb-md-5 px-2">
+<h1>Connect with us</h1>
+<ul class="list-unstyled px-5 px-md-4 px-lg-5"><li><a href="https://www.facebook.com/Mars" target="_blank"><img alt="Facebook logo" src="/themes/custom/mars/images/facebook.png" /></a></li>
+<li><a href="https://www.instagram.com/marsglobal" target="_blank"><img alt="Instagram logo" src="/themes/custom/mars/images/instagram.png" /></a></li>
+<li><a href="https://www.linkedin.com/company/mars" target="_blank"><img alt="LinkedIn logo" src="/themes/custom/mars/images/linkedin.png" /></a></li>
+<li><a href="https://twitter.com/Marsglobal" target="_blank"><img alt="Twitter logo" src="/themes/custom/mars/images/twitter.png" /></a></li>
+<li><a href="https://www.youtube.com/user/Mars" target="_blank"><img alt="YouTube logo" src="/themes/custom/mars/images/you-tube.png" /></a></li>
+</ul></div>
+</div>
+</section>
+<section class="progress-slider-block">
+<div>
+<div class="progress-slider"></div>
+<div class="progress-slider-mobile"></div>
+</div>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+</main>
+<footer class="with-header-top footer-container">
+<div class="footer-content row">
+<div class="footer-top col-12">
+<section class="row region region-footer-top">
+<div id="block-mars-regeneration-marsfootertop" data-block-plugin-id="block_content:7d2cb181-f56b-460c-87bc-d1f7e6af6644" class="block block-block-content block-block-content7d2cb181-f56b-460c-87bc-d1f7e6af6644">
+<div class="content">
+<div class="field field--name-field-logo-mobile field--type-entity-reference field--label-above">
+<div class="field__label">Logo Mobile</div>
+<div class="field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="800" height="419" alt="mars-white-mobile" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/mars-logo-mobile.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-field-purpose-statement-bg field--type-entity-reference field--label-above">
+<div class="field__label">Purpose Statement Background</div>
+<div class="field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="600" height="600" alt="m-logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/webimage-E833A534-2919-40C1-82E43A5E1270D495.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-field-logo field--type-entity-reference field--label-above">
+<div class="field__label">Logo</div>
+<div class="field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="800" height="337" alt="mars-white" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/mars-white.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-field-purpose-statement field--type-entity-reference-revisions field--label-above">
+<div class="field__label">Purpose Statement</div>
+<div class='field__items'>
+<div class="field__item"> <div class="paragraph paragraph--type--purpose-statement paragraph--view-mode--default">
+<div class="field field--name-field-purpose-statement-text field--type-string field--label-above">
+<div class="field__label">Purpose Statement Text</div>
+<div class="field__item">The world we want tomorrow</div>
+</div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--purpose-statement paragraph--view-mode--default">
+<div class="field field--name-field-purpose-statement-text field--type-string field--label-above">
+<div class="field__label">Purpose Statement Text</div>
+<div class="field__item">starts with how we do business today</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="footer-left col-sm-12 col-md-12 col-lg-12 col-xl-9">
+<section class="row region region-footer-left">
+<nav aria-labelledby="block-mars-regeneration-footer-primary-menu" id="block-mars-regeneration-footer-primary" data-block-plugin-id="system_menu_block:footer-primary" class="block block-menu navigation menu--footer-primary">
+<h2 class="sr-only" id="block-mars-regeneration-footer-primary-menu">Footer Primary</h2>
+<ul data-region="footer_left" class="clearfix nav">
+<li class="nav-item">
+<a href="/contact-us" class="nav-link nav-link--contact-us" data-drupal-link-system-path="node/4151">Contact Us</a>
+</li>
+<li class="nav-item">
+<a href="https://careers.mars.com" class="nav-link nav-link-https--careersmarscom">Careers</a>
+</li>
+</ul>
+</nav>
+</section>
+</div>
+<div class="footer-right col-sm-12 col-md-12 col-lg-12 col-xl-3">
+<section class="row region region-footer-right">
+<div id="block-mars-regeneration-marsfooterright" data-block-plugin-id="block_content:e40a9053-64b1-4312-9021-da700fb31a73" class="block block-block-content block-block-contente40a9053-64b1-4312-9021-da700fb31a73">
+<div class="content">
+<div class="field field--name-field-footer-social-text field--type-string field--label-above">
+<div class="field__label">Footer Social Text</div>
+<div class="field__item">Follow Us:</div>
+</div>
+<div class="field field--name-field-social-media-logo field--type-entity-reference-revisions field--label-above">
+<div class="field__label">Social Media Logo</div>
+<div class='field__items'>
+<div class="field__item"> <div class="paragraph paragraph--type--social-media-logo paragraph--view-mode--default">
+<div class="field field--name-field-logo field--type-entity-reference field--label-hidden field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="24" height="24" alt="Facebook logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/facebook.png" />
+</div>
+</div>
+</div>
+<div class="field field--name-field-social-link field--type-link field--label-hidden field__item"><a href="https://www.facebook.com/Mars">Facebook</a></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--social-media-logo paragraph--view-mode--default">
+<div class="field field--name-field-logo field--type-entity-reference field--label-hidden field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="24" height="24" alt="Instagram logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/instagram.png" />
+</div>
+</div>
+</div>
+<div class="field field--name-field-social-link field--type-link field--label-hidden field__item"><a href="https://www.instagram.com/marsglobal">Instagram</a></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--social-media-logo paragraph--view-mode--default">
+<div class="field field--name-field-logo field--type-entity-reference field--label-hidden field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="24" height="24" alt="Twitter logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-07/twitter_0.png" />
+</div>
+</div>
+</div>
+<div class="field field--name-field-social-link field--type-link field--label-hidden field__item"><a href="https://twitter.com/Marsglobal">Twitter</a></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--social-media-logo paragraph--view-mode--default">
+<div class="field field--name-field-logo field--type-entity-reference field--label-hidden field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="24" height="24" alt="LinkedIn logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/linkedin.png" />
+</div>
+</div>
+</div>
+<div class="field field--name-field-social-link field--type-link field--label-hidden field__item"><a href="https://www.linkedin.com/company/mars">linkedIn</a></div>
+</div>
+</div>
+<div class="field__item"> <div class="paragraph paragraph--type--social-media-logo paragraph--view-mode--default">
+<div class="field field--name-field-logo field--type-entity-reference field--label-hidden field__item"><div>
+<div class="field field--name-image field--type-image field--label-hidden field__item">
+<img width="24" height="24" alt="YouTube logo" typeof="foaf:Image" class="lazyload" data-src="/sites/g/files/jydpyr316/files/2019-06/youtube.png" />
+</div>
+</div>
+</div>
+<div class="field field--name-field-social-link field--type-link field--label-hidden field__item"><a href="https://www.youtube.com/user/Mars">YouTube</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="footer col-12">
+<section class="row region region-footer">
+<nav aria-labelledby="block-mars-regeneration-footer-secondary-menu" id="block-mars-regeneration-footer-secondary" data-block-plugin-id="system_menu_block:footer-secondary" class="block block-menu navigation menu--footer-secondary">
+<h2 class="sr-only" id="block-mars-regeneration-footer-secondary-menu">Footer Secondary</h2>
+<ul data-region="footer" class="clearfix nav">
+<li class="nav-item">
+<a href="/privacy" class="nav-link nav-link--privacy" data-drupal-link-system-path="node/4566">Privacy Statement</a>
+</li>
+<li class="nav-item">
+<a href="https://www.mars.com/cookies-english" class="nav-link nav-link-https--wwwmarscom-cookies-english">Cookies Notice</a>
+</li>
+<li class="nav-item">
+<a href="/legal" class="nav-link nav-link--legal" data-drupal-link-system-path="node/3591">Legal</a>
+</li>
+<li class="nav-item">
+<a href="https://www.mars.com/mars-incorporated-adchoices-united-states" class="nav-link nav-link-https--wwwmarscom-mars-incorporated-adchoices-united-states">AdChoices</a>
+</li>
+<li class="nav-item">
+<a href="/sitemap" class="nav-link nav-link--sitemap" data-drupal-link-system-path="sitemap">Site Map</a>
+</li>
+<li class="nav-item">
+<a href="https://www.martiansreunited.com" class="nav-link nav-link-https--wwwmartiansreunitedcom">Mars Alumni</a>
+</li>
+<li class="nav-item">
+<a href="/legal/ca-supply-chain-act" class="nav-link nav-link--legal-ca-supply-chain-act" data-drupal-link-system-path="node/5581">CA Supply Chain Transparency Act</a>
+</li>
+<li class="nav-item">
+<a href="/modern-slavery-act" class="nav-link nav-link--modern-slavery-act" data-drupal-link-system-path="node/8251">Modern Slavery Act</a>
+</li>
+<li class="nav-item">
+<a href="/accessibility" class="nav-link nav-link--accessibility" data-drupal-link-system-path="node/5501">Accessibility</a>
+</li>
+<li class="nav-item">
+<a href="/locations" class="nav-link nav-link--locations" data-drupal-link-system-path="node/5796">Locations</a>
+</li>
+</ul>
+</nav>
+<div id="block-mars-regeneration-marsonetrustcookiesettings" data-block-plugin-id="mars_onetrust_footer" class="block block-mars-onetrust-cookie-button block-mars-onetrust-footer">
+<div class="content">
+<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+</div>
+</div>
+</section>
+</div>
+<div class="footer-bottom col-12">
+<section class="row region region-footer-bottom">
+<div class="footer-copyright">
+© 2021 Mars, Incorporated and its Affiliates. All Rights Reserved
+</div>
+</section>
+</div>
+</div>
+</footer>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/10701","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ajax_loader\/ajax_loader.throbber,better_exposed_filters\/auto_submit,better_exposed_filters\/general,bootstrap_barrio\/form,bootstrap_barrio\/global-styling,bootstrap_barrio\/links,ckeditor_indentblock\/indentblock,core\/html5shiv,gdpr_onetrust\/gdpr-onetrust-api,layout_discovery\/onecol,mars\/bootstrap,mars\/footerTopCarousel,mars\/global-styling,mars\/social_feed_juicer,mars_admin_ui\/minieditor,mars_com\/headerRight,mars_com_components\/component-styling,mars_com_gallery\/gallery-styling,mars_com_hero_featured_carousel\/hero-featured-carousel-styling,mars_com_media_background_row\/media-background-row-styling,mars_com_tc_image_copy_quote\/quote-styling,mars_com_two_column_featured_row\/two-column-featured-story-styling,mars_com_two_column_row_featured_story\/two-column-row-featured-story-styling,mars_com_two_column_row_image_grid\/two-coloumn-row-styling,mars_onetrust_cookie_button\/libraries,mars_regeneration\/mars_regeneration,paragraphs\/drupal.paragraphs.unpublished,search_api_autocomplete\/search_api_autocomplete,system\/base,views\/views.module,views_infinite_scroll\/views-infinite-scroll","theme":"mars_regeneration","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"ajaxLoader":{"markup":"\u003Cdiv class=\u0022ajax-throbber sk-circle\u0022\u003E\n              \u003Cdiv class=\u0022sk-circle1 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle2 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle3 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle4 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle5 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle6 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle7 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle8 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle9 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle10 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle11 sk-child\u0022\u003E\u003C\/div\u003E\n              \u003Cdiv class=\u0022sk-circle12 sk-child\u0022\u003E\u003C\/div\u003E\n            \u003C\/div\u003E","hideAjaxMessage":false,"alwaysFullscreen":true,"throbberPosition":"body"},"ckeditorheight":{"offset":1,"line_height":1.5,"unit":"em","disable_autogrow":true},"social_feed_juicer":{"feed_id":"\/marsglobal-901006d1-d2dd-448a-a9b8-3b89d512e13f","feed_count":15,"feed_filter":null},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:367730ebea58f910b8aa1954ee93f6cad00887b622adf8532ffbda435bb4b132":{"view_name":"mars_gallery","view_display_id":"gallery_three_column","view_args":"article\/276\/all\/all\/all\/10701","view_path":"\/node\/10701","view_base_path":null,"view_dom_id":"367730ebea58f910b8aa1954ee93f6cad00887b622adf8532ffbda435bb4b132","pager_element":0}}},"search_api_autocomplete":{"mars_search":{"auto_submit":true,"min_length":3}},"ajax":[],"user":{"uid":0,"permissionsHash":"aa39deba902b4d06fbeeded83f60fdfd45274061524b0b556795be39f0d939ec"}}</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_IA7sEB64ghGjKinWDOeahMXa0fXtlNAnMSRe21opOcI.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_1QGccZxG0gH1D6Dhr18fYI6hU6Djv6lNybMa0xshbNc.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_elGy5V2XSEqLDql-HC0vO1DwG2_iy2s8K9QJAqd-oig.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_o_ktu2hVeGdvji3CFzSRjqe43LhY1aZdmjcnwV--5rQ.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_26YSUjYdTUS5pgktAkPy3cMdT9DDvxjJR-ayuTlvY6c.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_2L2gMRGp9uTWk1BuKWc7x1fYv4CUD0rJA5wbiojm-v4.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_wt8OH1wOqe9zLyB71xRHnP-bn-v69rjmaBtQcnr0uF8.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_h-bJRmqhx-ANGbA84f9RmX5cxeHBqvYG9OOuIHEZunI.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_ayEd0pvYtunzgO9-QsdSHmNhGZ0Sp-uXcEcb3FXAdfs.js"></script>
+<script src="/sites/g/files/jydpyr316/files/js/js_eyXJbJSzJwm75iqOPAoEelbYG2bNjoa3ErJFRf_kMxo.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"c879c5cc47","applicationID":"385777846","transactionName":"MwQDN0YACEVRVUxfXApOIABACAlYH3JKQ0MFDT0NWwUDanNZVkJBCw0NBkY9KFlUU25fVhMiDg1AEwlaXFNKGw0SCAQU","queueTime":0,"applicationTime":1441,"atts":"H0MAQQ4aG0s=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
