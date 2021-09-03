@@ -8,6 +8,8 @@
 # get new WEBSITE NAME
 # # # # # # # # # # # 
 
+echo -ne "\033]30;incredibletellmethename\007"
+
 bash 3_censorship.sh
 
 clear

@@ -16,14 +16,14 @@ censor_lines=`wc -l censor | sed 's/[^0-9]*//g'`
 # linux do command x times
 # https://serverfault.com/questions/273238/how-to-run-a-command-multiple-times-using-bash-shell
 for i in `seq $censor_lines`; do cat $PWD/lib/prefix >> prefix; done
-# sed -i '/
-# sed -i '/
-# sed -i '/
+# sed -i "/
+# sed -i "/
+# sed -i "/
 
 for i in `seq $censor_lines`; do cat $PWD/lib/suffix >> suffix; done
-# /d' all_the_names
-# /d' all_the_names
-# /d' all_the_names
+# /d" all_the_names
+# /d" all_the_names
+# /d" all_the_names
 
 # paste prefix to censor
 
