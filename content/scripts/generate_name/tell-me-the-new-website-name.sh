@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# github
 
+# settings
 
+# developer settings
 
+# personal access tokens
 
 # # # # # # # # # # # 
 # get new WEBSITE NAME
