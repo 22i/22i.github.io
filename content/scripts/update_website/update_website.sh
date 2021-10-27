@@ -294,11 +294,11 @@ rm --force --recursive $PWD/lib/icons/3/*
 # GRAB MORE GITHUB.IO PAGES
 # # # # # # # # # # # # # # 
 
-cd ../grab_io_pages/
+# cd ../grab_io_pages/
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
-old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+# old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 # echo $old_number
 
@@ -307,20 +307,20 @@ old_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 # cd ../continous_grab_io_pages/
 # bash clean.sh
 
-cd ../grab_io_pages/
+# cd ../grab_io_pages/
 
 # to remove unecesary huge updates on commit
-rm --force --recursive "$PWD/links/"/*
-rm --force --recursive "$PWD/links1/"/*
+# rm --force --recursive "$PWD/links/"/*
+# rm --force --recursive "$PWD/links1/"/*
 
 # print in terminal number of links inside masterlist.txt.txt
 # count how many lines then strip anything besides numbers put it into variable then print it into terminal
-new_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
+# new_number=`wc -l masterlist.txt | sed 's/[^0-9]*//g'`
 
 # echo $new_number
 
 # $new_number minus $old_number equals new found github.io pages
-number_of_new_links=$(echo $new_number-$old_number | bc)
+# number_of_new_links=$(echo $new_number-$old_number | bc)
 
 # echo $number_of_new_links
 
@@ -481,7 +481,7 @@ echo amazing | xclip -selection c
 # print in the terminal
 echo done everything
 
-echo we found $number_of_new_links new github.io links
+# echo we found $number_of_new_links new github.io links
 
 echo changed website name to: $read
 
