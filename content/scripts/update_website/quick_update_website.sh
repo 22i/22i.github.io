@@ -154,9 +154,14 @@ sed -i "/TUTENKAMEN/c<!--TUTENKAMEN-->$today</p>" ../../../index.html
 # UPDATE NUMBER OF MASTERLIST.TXT
 # # # # # # # # # # # # # # # 
 
+# print in terminal number of links inside masterlist.txt.txt
+# count how many lines then strip anything besides numbers put it into variable then print it into terminal
+supermasterlinks=`wc -l ../grab_io_pages/masterlist.txt | sed 's/[^0-9]*//g'`
+
 # UPDATE discovered github io links
 # search for line with password in index.html from 3 folders up and replace it with
-sed -i "/z7erisdfh283eiuoasdjfa35r29/c<!--z7erisdfh283eiuoasdjfa35r29-->$old_number working github.io" ../../../index.html
+sed -i "/z7erisdfh283eiuoasdjfa35r29/c<!--z7erisdfh283eiuoasdjfa35r29-->$supermasterlinks working github.io" ../../../index.html
+# sed -i "/z7erisdfh283eiuoasdjfa35r29/c<!--z7erisdfh283eiuoasdjfa35r29-->$old_number working github.io" ../../../index.html
 
 
 
