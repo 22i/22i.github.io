@@ -1,4 +1,4 @@
-when you have new github.io links put them inside masterlist.txt
+when you have new github.io links put them inside content/scripts/grab_io_pages/masterlist.txt
 
 hop 1 folder up and into grab_io_pages folder and
 run 3.1clean-folder.sh (does not delete progress unlike 3.clean-folder.sh)
