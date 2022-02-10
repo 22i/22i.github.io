@@ -6,6 +6,8 @@ echo git
 sudo apt install git -y
 echo xdotool
 sudo apt install xdotool -y
+echo make
+sudo apt install make -y
 echo mpv
 sudo apt install mpv -y
 echo wkhtmltopdf
