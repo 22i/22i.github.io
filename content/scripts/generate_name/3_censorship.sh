@@ -4,10 +4,11 @@
 
 rm -f 1 2 suffix prefix
 
-rm -f suffix prefix
+# rm -f suffix prefix
 
 # check how many lines censor has keep only numbers and put it into variable liness
 censor_lines=`wc -l censor | sed 's/[^0-9]*//g'`
+# censor_lines=`wc -l censor | sed 's/[^0-9]*//g'` && echo $censor_lines
 
 
 
@@ -43,7 +44,7 @@ bash 2
 
 rm -f 1 2 suffix prefix
 
-rm -f suffix prefix
+# rm -f suffix prefix
 
 echo done censoring censoring
 
