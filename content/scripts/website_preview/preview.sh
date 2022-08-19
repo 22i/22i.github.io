@@ -2,8 +2,11 @@
 
 # to get this command run sudo apt install wkhtmltopdf
 
+# WORKS WORKS WORKS legacy wkhtml
+# wkhtmltoimage --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
 
-wkhtmltoimage --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
+# newer wkhtmltoimage
+wkhtmltoimage --enable-local-file-access --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
 
 # does not work since it captures with this screen size
 # wkhtmltoimage --quality 100 --width 250 --height 182 ../../../index.html website_preview1.png
