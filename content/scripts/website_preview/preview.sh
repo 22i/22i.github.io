@@ -6,6 +6,8 @@
 # wkhtmltoimage --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
 
 # newer wkhtmltoimage
+# https://duckduckgo.com/?t=ffab&q=linux+Warning%3A+Blocked+access+to+file&ia=web
+# This is caused by the change of default behavior in version 0.12.6 of wkhtmltopdf. wkhtmltopdf disables local file access by default now. It could be solved by adding the command line parameter --enable-local-file-access
 wkhtmltoimage --enable-local-file-access --quality 100 --width 1600 --height 900 ../../../index.html website_preview.png
 
 # does not work since it captures with this screen size
