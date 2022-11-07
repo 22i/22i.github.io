@@ -139,16 +139,29 @@
 <span style='color:#54ffff;'># go inside your phone storage Download folder</span>
 <b><span style='color:#87ffaf;'>cd</span></b> /storage/emulated/0/Download/</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd /storage/emulated/0/Download/" title="Copy to clipboard">copy</button>
 
-<span style='color:#54ffff;'># start a script test.sh inside your phone storage Download folder</span>
-<b><span style='color:#87ffaf;'>sh</span></b> /storage/emulated/0/Download/test.sh</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sh /storage/emulated/0/Download/" title="Copy to clipboard">copy</button>
-
 <span style='color:#54ffff;'># go inside your sd card</span>
 <b><span style='color:#87ffaf;'>cd</span></b> /storage/22B1-56EF/</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd /storage/22B1-56EF/" title="Copy to clipboard">copy</button>
 
 <span style='color:#54ffff;'># copy content of your phone Download folder into Download2</span>
-<b><span style='color:#87ffaf;'>cp <span style='color:#ffffaf;'>-r</span></span></b> /storage/emulated/0/Download/q/ /storage/emulated/0/Download/q1/</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cp -r /storage/emulated/0/Download/ /storage/emulated/0/Download2/" title="Copy to clipboard">copy</button>
-<!-- rm -r /storage/emulated/0/Download/ -->
-<!-- rm *.m4a -->
+<b><span style='color:#87ffaf;'>cp <span style='color:#ffffaf;'>-r</span></span></b> /storage/emulated/0/Download/ /storage/emulated/0/Download2/</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cp -r /storage/emulated/0/Download/ /storage/emulated/0/Download2/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove content of your phone storage Download folder</span>
+<b><span style='color:#87ffaf;'>rm <span style='color:#ffffaf;'>-r</span></span></b> /storage/emulated/0/Download/</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="rm -r /storage/emulated/0/Download/" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># remove every file with extension m4a from of your phone storage Download folder</span>
+<b><span style='color:#87ffaf;'>cd</b></span> /storage/emulated/0/Download/ <span style='color:#0095ff;'>&&</span> <span style='color:#87ffaf;'>rm</b></span> *.m4a<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="cd /storage/emulated/0/Download/ && rm *.m4a" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># install Yt-dlp (fast youtube downloader)  <a href="https://www.reddit.com/r/youtubedl/comments/pr7ruk/ytdlp_on_termux/">credits to this reddit post</a> </span>
+<b><span style='color:#87ffaf;'>pkg</span></b> update</span><span style='color:#0095ff;'> && </span><span style='color:#87ffaf;'>pkg</span></b> upgrade</span><span style='color:#0095ff;'> && </span><span style='color:#87ffaf;'>pkg <span style='color:#ffffaf;'>install</span></span></b> python</span><span style='color:#0095ff;'> && </span><span style='color:#87ffaf;'>pkg <span style='color:#ffffaf;'>install</span></span></b> ffmpeg</span><span style='color:#0095ff;'> && </span><span style='color:#87ffaf;'>python3 <span style='color:#ffffaf;'>-m pip install --upgrade</span></span></b> yt-dlp</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="pkg update && pkg upgrade && pkg install python && pkg install ffmpeg && python3 -m pip install --upgrade yt-dlp" title="Copy to clipboard">copy</button>
+
+<span style='color:#54ffff;'># install Yt-dlp also for storage permisions </span>
+<b><span style='color:#87ffaf;'>termux-setup-storage</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="termux-setup-storage" title="Copy to clipboard">copy</button>
+
+<a href="content/scripts/termux/get.video.termux.sh" download>Download youtube download helper script</a>
+
+<span style='color:#54ffff;'># start a script get.video.termux.sh inside your phone storage Download folder</span>
+<b><span style='color:#87ffaf;'>sh</span></b> /storage/emulated/0/Download/get.video.termux.sh</span><button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sh /storage/emulated/0/Download/get.video.termux.sh" title="Copy to clipboard">copy</button>
+
 </pre></div>
 
 
