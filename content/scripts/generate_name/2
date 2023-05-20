@@ -1,0 +1,1756 @@
+#!/bin/bash
+sed -i "/Attack of the Baking Shack/d" all_the_names
+sed -i "/Scandinavian Lacrosse Deathmatch/d" all_the_names
+sed -i "/Bizarro Forklift Z/d" all_the_names
+sed -i "/Dead or Alive Dog Annihilation/d" all_the_names
+sed -i "/Jamaican 3D - Deluxe Edition/d" all_the_names
+sed -i "/The Muppets Hammer Base/d" all_the_names
+sed -i "/The Care Bears' Stunt Factory/d" all_the_names
+sed -i "/Stealth River Roundup/d" all_the_names
+sed -i "/Return of Love Dreamland/d" all_the_names
+sed -i "/Psychedelic Mutant Planet/d" all_the_names
+sed -i "/Caribbean Plunger Boy/d" all_the_names
+sed -i "/Secret of the Frisbee Mistress/d" all_the_names
+sed -i "/Italian Hockey Inspector/d" all_the_names
+sed -i "/Dynamite Dragon Shootout/d" all_the_names
+sed -i "/Johnny Turbo's Bass Derby/d" all_the_names
+sed -i "/Michael Jackson's Go-Kart Syndrome/d" all_the_names
+sed -i "/Internet Hardware Tournament/d" all_the_names
+sed -i "/Quiet Internet 95/d" all_the_names
+sed -i "/Kinky Surf Hunter/d" all_the_names
+sed -i "/Mexican Spork of the Deep/d" all_the_names
+sed -i "/Terrible Funk World Cup/d" all_the_names
+sed -i "/Holy Pony of Fury/d" all_the_names
+sed -i "/Psycho Sandwich Restaurant/d" all_the_names
+sed -i "/Elderly Lizard in My Pocket/d" all_the_names
+sed -i "/Micro Circus Joe/d" all_the_names
+sed -i "/Hidden Racing Fun/d" all_the_names
+sed -i "/Create Your Own Railroad City/d" all_the_names
+sed -i "/The Last Underwear in Crazyland/d" all_the_names
+sed -i "/Black Internet Party/d" all_the_names
+sed -i "/The Castle of the Acid Strikes Again/d" all_the_names
+sed -i "/Everybody Hates the Goblin Spree/d" all_the_names
+sed -i "/Ye Olde Puzzle in Middle-Earth/d" all_the_names
+sed -i "/Def Jam Spatula - 25th Anniversary Edition/d" all_the_names
+sed -i "/Enraged Train Trainer/d" all_the_names
+sed -i "/Darkest Plunger Interceptor/d" all_the_names
+sed -i "/Creepy Whale Dance Party/d" all_the_names
+sed -i "/Flamboyant Golf Dynasty/d" all_the_names
+sed -i "/Rock 'n' Roll Love Expert/d" all_the_names
+sed -i "/3D Skate Runner/d" all_the_names
+sed -i "/Double Sewer - 25th Anniversary Edition/d" all_the_names
+sed -i "/Tiger Woods' Computer Insurrection/d" all_the_names
+sed -i "/Roman Rollerball Prophecy/d" all_the_names
+sed -i "/Rogue Bowling Spree/d" all_the_names
+sed -i "/Claustrophobic Tennis Force/d" all_the_names
+sed -i "/Fantastic Dentist Diesel/d" all_the_names
+sed -i "/Masters of the Dentist Symphony/d" all_the_names
+sed -i "/Armored Football Dungeon/d" all_the_names
+sed -i "/Sid Meier's Karaoke Training/d" all_the_names
+sed -i "/Stealth Cross-Dressing Havoc/d" all_the_names
+sed -i "/Rock 'n' Roll Cross-Dressing Agent/d" all_the_names
+sed -i "/Panzer Paintball Wranglers/d" all_the_names
+sed -i "/Miniature Fun Noodle of Magic/d" all_the_names
+sed -i "/Michael Jackson's Hair Salon Legend/d" all_the_names
+sed -i "/Magic Burger Jam/d" all_the_names
+sed -i "/Derek Smart's Harpoon Riders/d" all_the_names
+sed -i "/Real Mountain Climber Academy/d" all_the_names
+sed -i "/Frisky Shadow Preacher/d" all_the_names
+sed -i "/Feverish Kung-fu Empire/d" all_the_names
+sed -i "/Sim Motocross Experience/d" all_the_names
+sed -i "/Caesar's Frisbee Competition/d" all_the_names
+sed -i "/Educational Worm X/d" all_the_names
+sed -i "/Dirty Bass 2K/d" all_the_names
+sed -i "/Planet of the Tetris Attack/d" all_the_names
+sed -i "/Biblical Square Dancing Munchers/d" all_the_names
+sed -i "/Guitar Stapler Hunt/d" all_the_names
+sed -i "/Shameful Sandwich Rangers/d" all_the_names
+sed -i "/No One Can Stop the Limbo Underground/d" all_the_names
+sed -i "/Professional Software Man/d" all_the_names
+sed -i "/Search for the Llama Boy/d" all_the_names
+sed -i "/Almighty Pirate Phonics/d" all_the_names
+sed -i "/Masters of Werewolf Girl/d" all_the_names
+sed -i "/Summer Chess XXX/d" all_the_names
+sed -i "/Micro Mall Force/d" all_the_names
+sed -i "/Lair of the Sumo Mistress/d" all_the_names
+sed -i "/Presidential Mind Control City/d" all_the_names
+sed -i "/Orbital Car Ignition/d" all_the_names
+sed -i "/Ye Olde Bowling Trader/d" all_the_names
+sed -i "/Amazing Lowrider Bandits/d" all_the_names
+sed -i "/Tactical Monster 3D/d" all_the_names
+sed -i "/Surprise Viking Romance/d" all_the_names
+sed -i "/Ninja Exercise Girl/d" all_the_names
+sed -i "/Elderly Metal Epidemic/d" all_the_names
+sed -i "/Monty Python's Wizard Roundup/d" all_the_names
+sed -i "/Olympic Goblin in Middle-Earth/d" all_the_names
+sed -i "/It's a Mad, Mad Pirate Marines/d" all_the_names
+sed -i "/Michael Jackson's Wedding in the Outback/d" all_the_names
+sed -i "/Michael Jackson's Deer Hunter in Vegas/d" all_the_names
+sed -i "/Psychedelic Kart World/d" all_the_names
+sed -i "/Unbelievable Banjo Training/d" all_the_names
+sed -i "/Guitar Barcode Carnage/d" all_the_names
+sed -i "/Frisky Office Squadron/d" all_the_names
+sed -i "/Romantic Hovercraft Hunter/d" all_the_names
+sed -i "/Mythical Fashion in Vegas/d" all_the_names
+sed -i "/Spectral Sex Underworld/d" all_the_names
+sed -i "/The Care Bears' Karaoke Trainer/d" all_the_names
+sed -i "/Haunted Banana Invasion/d" all_the_names
+sed -i "/Magical Quiz Alpha/d" all_the_names
+sed -i "/Viking UFO Wranglers/d" all_the_names
+sed -i "/Interstellar Spork in Vegas/d" all_the_names
+sed -i "/Incredible Dwarf Fiesta/d" all_the_names
+sed -i "/Bizarro Werewolf from Planet X/d" all_the_names
+sed -i "/Final Fantasy Duck Plus/d" all_the_names
+sed -i "/Crazy Squirrel Island/d" all_the_names
+sed -i "/Astral Crowbar Rocket/d" all_the_names
+sed -i "/Bizarro Disco Over Normandy/d" all_the_names
+sed -i "/Disney's Chainsaw in My Pocket/d" all_the_names
+sed -i "/Mind-Bending Goblin - 25th Anniversary Edition/d" all_the_names
+sed -i "/Throbbing Fashion Orchestra/d" all_the_names
+sed -i "/Deep Space Alligator in Crazyland/d" all_the_names
+sed -i "/Renegade Office 95/d" all_the_names
+sed -i "/Celtic Chocobo Mansion/d" all_the_names
+sed -i "/Search for the Night Man/d" all_the_names
+sed -i "/Micro Techno Spree/d" all_the_names
+sed -i "/Masters of Godzilla Special Edition/d" all_the_names
+sed -i "/Subterranean Chess of Might and Magic/d" all_the_names
+sed -i "/M.C. Escher's WWE Thieves/d" all_the_names
+sed -i "/Russian Music Adventure/d" all_the_names
+sed -i "/Turbo Cross-Dressing Heroes/d" all_the_names
+sed -i "/Def Jam Cross-Dressing from Planet X/d" all_the_names
+sed -i "/Disturbing Plumber Battalion/d" all_the_names
+sed -i "/Roman Forklift Destruction/d" all_the_names
+sed -i "/Sleepy Cross-Dressing Gladiator/d" all_the_names
+sed -i "/Cross-Dressing Forklift Z/d" all_the_names
+sed -i "/Giant Princess Girl/d" all_the_names
+sed -i "/Dynamite Chainsaw Summoner/d" all_the_names
+sed -i "/Perfect Dwarf Interceptor/d" all_the_names
+sed -i "/NBA Mummy in the Desert/d" all_the_names
+sed -i "/Mechanized Gopher Quiz/d" all_the_names
+sed -i "/Heavy Metal Mall Encounter/d" all_the_names
+sed -i "/Deadly Barcode Heroes/d" all_the_names
+sed -i "/Madden Kung-fu of Love/d" all_the_names
+sed -i "/Luigi's Metal Offensive/d" all_the_names
+sed -i "/Night of the Goblin Planet/d" all_the_names
+sed -i "/Irresistible Cannibal Shoot/d" all_the_names
+sed -i "/Space Spork Hop-A-Bout/d" all_the_names
+sed -i "/Michael Jackson's Beach on the High Seas/d" all_the_names
+sed -i "/Erotic River Crusade/d" all_the_names
+sed -i "/King of Puppy Hunter/d" all_the_names
+sed -i "/Soviet Sunshine Squadron/d" all_the_names
+sed -i "/Action Karaoke Stars/d" all_the_names
+sed -i "/Team Circus Groove/d" all_the_names
+sed -i "/Elegant Monster Online/d" all_the_names
+sed -i "/Mighty Florist Power/d" all_the_names
+sed -i "/Incredible Worm Connection/d" all_the_names
+sed -i "/The Incredible Rocket Girl/d" all_the_names
+sed -i "/Mystic Lego Diesel/d" all_the_names
+sed -i "/Curse of the Lowrider Invaders/d" all_the_names
+sed -i "/Dynamite Dentist 1942/d" all_the_names
+sed -i "/Galactic Sumo Hero/d" all_the_names
+sed -i "/Cyborg Gopher Unleashed/d" all_the_names
+sed -i "/Return of Makeover Legends/d" all_the_names
+sed -i "/Haunted Go-Kart on the Oregon Trail/d" all_the_names
+sed -i "/Celebrity Metal Solid/d" all_the_names
+sed -i "/Silly Moped Conspiracy/d" all_the_names
+sed -i "/Muppet Paintball Posse/d" all_the_names
+sed -i "/Lazy Golf Psychiatrist/d" all_the_names
+sed -i "/Japanese Werewolf DX/d" all_the_names
+sed -i "/Glowing Guitar Brawl/d" all_the_names
+sed -i "/The Castle of Cooking All-Stars/d" all_the_names
+sed -i "/Bizarre Spatula 3000/d" all_the_names
+sed -i "/Chillin' Furry Terror/d" all_the_names
+sed -i "/Blazing Vigilante Derby/d" all_the_names
+sed -i "/Wild Katana Insanity/d" all_the_names
+sed -i "/Downtown Android Dancers/d" all_the_names
+sed -i "/Throbbing Godzilla Rage/d" all_the_names
+sed -i "/Mysterious Devil Wranglers/d" all_the_names
+sed -i "/Planet of the Toon in Middle-Earth/d" all_the_names
+sed -i "/Olympic Frisbee Operatives/d" all_the_names
+sed -i "/The Secret Weapon of the Surf Man/d" all_the_names
+sed -i "/Satan's Valkyrie Polo/d" all_the_names
+sed -i "/Ingenious Ghost Hero/d" all_the_names
+sed -i "/Street Godzilla 64/d" all_the_names
+sed -i "/Irresistible Blood Hero/d" all_the_names
+sed -i "/Wonderous Quantum Spree/d" all_the_names
+sed -i "/Viking Dinosaur Siege/d" all_the_names
+sed -i "/Custom Pinball Invaders/d" all_the_names
+sed -i "/Grand Metal Mission/d" all_the_names
+sed -i "/Raging Tetris of the Third Reich/d" all_the_names
+sed -i "/Metal Blade from Mars/d" all_the_names
+sed -i "/Dead or Alive Mushroom Power/d" all_the_names
+sed -i "/Wandering Gopher Spree/d" all_the_names
+sed -i "/Tony Hawk's Mind Control Ransom/d" all_the_names
+sed -i "/Savage Boxing Bandits/d" all_the_names
+sed -i "/Japanese Mummy Racer/d" all_the_names
+sed -i "/All-American Carnival Task Force/d" all_the_names
+sed -i "/Lovely Shock All-Stars/d" all_the_names
+sed -i "/Chillin' Dungeon Shack/d" all_the_names
+sed -i "/Final Fantasy Stunt Remix/d" all_the_names
+sed -i "/Viking Tennis Explosion/d" all_the_names
+sed -i "/Dracula's Ninja III/d" all_the_names
+sed -i "/Funky Dodgeball Party/d" all_the_names
+sed -i "/Duke Nukem: Dragon Tournament/d" all_the_names
+sed -i "/Ultraviolent Balloon Strikes Back/d" all_the_names
+sed -i "/Celtic Math DJ/d" all_the_names
+sed -i "/Strategic Katana Jam/d" all_the_names
+sed -i "/Kung-fu Toon Invaders/d" all_the_names
+sed -i "/Fiery Grizzly Bear Live/d" all_the_names
+sed -i "/Dracula's Beat Blaster/d" all_the_names
+sed -i "/Eco-Friendly Cookie Blast/d" all_the_names
+sed -i "/Aero Fun Noodle Wranglers/d" all_the_names
+sed -i "/Def Jam Turtle Sisters/d" all_the_names
+sed -i "/Pagan Robot - The Gathering Storm/d" all_the_names
+sed -i "/Biblical Wrestling Operatives/d" all_the_names
+sed -i "/The Muppets Bass Reloaded/d" all_the_names
+sed -i "/8-Bit Jetski Gladiator/d" all_the_names
+sed -i "/Irish Ninja Express/d" all_the_names
+sed -i "/Awesome Ice Cream - Episode 1/d" all_the_names
+sed -i "/Fatal Furry Gang/d" all_the_names
+sed -i "/Divine Plunger 64/d" all_the_names
+sed -i "/The Castle of Chipmunk Choreographer/d" all_the_names
+sed -i "/Bewildering Music 64/d" all_the_names
+sed -i "/Intelligent Hockey Chronicles/d" all_the_names
+sed -i "/Disney's Aerobics Anarchy/d" all_the_names
+sed -i "/M.C. Escher's Llama Kombat/d" all_the_names
+sed -i "/Special Love Groove/d" all_the_names
+sed -i "/Fluffy Acid Domination/d" all_the_names
+sed -i "/Romantic Pony Lord/d" all_the_names
+sed -i "/Nighttime Techno Riders/d" all_the_names
+sed -i "/Arcane Funk Explosion/d" all_the_names
+sed -i "/Mechanized BMX Crusade/d" all_the_names
+sed -i "/Legacy of Ice Cream in Space/d" all_the_names
+sed -i "/Cosmic Metal Choreographer/d" all_the_names
+sed -i "/Raging Chicken Inferno/d" all_the_names
+sed -i "/Barbie's Balloon Expert/d" all_the_names
+sed -i "/Throbbing Go-Kart Underworld/d" all_the_names
+sed -i "/Celtic Beach 3000/d" all_the_names
+sed -i "/Disturbing Wrestling Experience/d" all_the_names
+sed -i "/Lovely Axe X/d" all_the_names
+sed -i "/Tiny Racing Football/d" all_the_names
+sed -i "/Olympic Sumo Fest/d" all_the_names
+sed -i "/Retro Pogo Plus/d" all_the_names
+sed -i "/Irresistible Beast Insanity/d" all_the_names
+sed -i "/My First Fire Jam/d" all_the_names
+sed -i "/Awesome Fun Noodle DJ/d" all_the_names
+sed -i "/MTV's Plumber Armageddon/d" all_the_names
+sed -i "/Intellectual Jetski Throwdown/d" all_the_names
+sed -i "/The Infernal Turtle Terror/d" all_the_names
+sed -i "/Twisted Chess in the Magic Kingdom/d" all_the_names
+sed -i "/Ingenious Monster Trivia/d" all_the_names
+sed -i "/Terrible Motorcycle of Death/d" all_the_names
+sed -i "/Undercover Goblin Preacher/d" all_the_names
+sed -i "/Creepy Dungeon Panic/d" all_the_names
+sed -i "/Panzer Castlevania II/d" all_the_names
+sed -i "/The Sims: Dog Mayhem/d" all_the_names
+sed -i "/Enormous Kung-fu Factory/d" all_the_names
+sed -i "/The Quest for the Landmine Legend/d" all_the_names
+sed -i "/Tony Hawk's Racing - Hot Pursuit/d" all_the_names
+sed -i "/Italian Lacrosse Punch-Out!!/d" all_the_names
+sed -i "/Insane Gopher Horde/d" all_the_names
+sed -i "/Ultra Valkyrie Jr./d" all_the_names
+sed -i "/All-Night Kart in My Pocket/d" all_the_names
+sed -i "/Robot Hang Glider Gladiator/d" all_the_names
+sed -i "/American Laser Mansion/d" all_the_names
+sed -i "/Funky Spelling Bastards/d" all_the_names
+sed -i "/Spooky Sailboat Collection/d" all_the_names
+sed -i "/Topsy-Turvy Kart Saga/d" all_the_names
+sed -i "/Transgender Mummy of Mystery/d" all_the_names
+sed -i "/Spirit of the Laser on the Road/d" all_the_names
+sed -i "/Professional Spelling - Collector's Edition/d" all_the_names
+sed -i "/Flamboyant Plumber Scandal/d" all_the_names
+sed -i "/Miniature Spatula Conspiracy/d" all_the_names
+sed -i "/First-Person Sailboat Shack/d" all_the_names
+sed -i "/3D Fire Romance/d" all_the_names
+sed -i "/Unreal Monster Truck in the Sky/d" all_the_names
+sed -i "/Furry Internet Universe/d" all_the_names
+sed -i "/Generic Trampoline Preacher/d" all_the_names
+sed -i "/Bloody Beautician Rider/d" all_the_names
+sed -i "/Mega Godzilla Anarchy/d" all_the_names
+sed -i "/Enraged Spelling Tournament/d" all_the_names
+sed -i "/Regal Boxing CD/d" all_the_names
+sed -i "/Irish Moped - The Next Generation/d" all_the_names
+sed -i "/Irresistible Makeover Throwdown/d" all_the_names
+sed -i "/Samba de Computer Punch-Out!!/d" all_the_names
+sed -i "/Final Fantasy Bubblegum Theater/d" all_the_names
+sed -i "/Dirty Shadow Sisters/d" all_the_names
+sed -i "/Scandinavian Puppy House/d" all_the_names
+sed -i "/Cross-Dressing Sailor Safari/d" all_the_names
+sed -i "/Guitar Software Brawl/d" all_the_names
+sed -i "/Attack of the Pony Ransom/d" all_the_names
+sed -i "/Rockin' Shadow in the Outback/d" all_the_names
+sed -i "/Wild West Bedtime Dreamland/d" all_the_names
+sed -i "/Virtua Toon 1942/d" all_the_names
+sed -i "/Ultraviolent Furry 3000/d" all_the_names
+sed -i "/Psycho Wrestling Stadium/d" all_the_names
+sed -i "/Rocket-Powered Bowling Runner/d" all_the_names
+sed -i "/The Hunt For the Wrestling Inferno/d" all_the_names
+sed -i "/Monster Night Scandal/d" all_the_names
+sed -i "/Catholic Dragon Ultra/d" all_the_names
+sed -i "/Kinect Lego - The Resistance/d" all_the_names
+sed -i "/Alien Spatula Shack/d" all_the_names
+sed -i "/Strategic Batman - Deluxe Edition/d" all_the_names
+sed -i "/International River Academy/d" all_the_names
+sed -i "/Mexican Mutant Deluxe/d" all_the_names
+sed -i "/Psychedelic Burger Diesel/d" all_the_names
+sed -i "/Lazy Driving Underground/d" all_the_names
+sed -i "/Orbital Ostrich Rocket/d" all_the_names
+sed -i "/Hidden Fun Noodle Factory/d" all_the_names
+sed -i "/British/d" all_the_names
+sed -i "/NBA Samurai Exhibition/d" all_the_names
+sed -i "/Major Mech Train/d" all_the_names
+sed -i "/The Last Math Corps/d" all_the_names
+sed -i "/Legendary Bobsled Syndrome/d" all_the_names
+sed -i "/NBA Yak Deluxe/d" all_the_names
+sed -i "/Apocalyptic Karate Massacre/d" all_the_names
+sed -i "/Kinect Mountain Climber Massacre/d" all_the_names
+sed -i "/Bloody Wedding Troopers/d" all_the_names
+sed -i "/Hideous Chase Troopers/d" all_the_names
+sed -i "/Special Devil Ignition/d" all_the_names
+sed -i "/Go Go Whale GT/d" all_the_names
+sed -i "/Team Workout Fortress/d" all_the_names
+sed -i "/Epic Grizzly Bear - Hot Pursuit/d" all_the_names
+sed -i "/Golf Domination/d" all_the_names
+sed -i "/God of Insect/d" all_the_names
+sed -i "/Rushing Grizzly Bear Havoc/d" all_the_names
+sed -i "/High-Speed Beat Feud/d" all_the_names
+sed -i "/Vengeance/d" all_the_names
+sed -i "/Frisky Bow Hunter/d" all_the_names
+sed -i "/Iron Lowrider Groove/d" all_the_names
+sed -i "/The Castle of Thief Girl/d" all_the_names
+sed -i "/Britney Spears/d" all_the_names
+sed -i "/Induced Alligator Spies/d" all_the_names
+sed -i "/German/d" all_the_names
+sed -i "/Save Yourself from the Llama Strikes Back/d" all_the_names
+sed -i "/Zany Hovercraft Through Time/d" all_the_names
+sed -i "/Save Yourself from the Elevator Crusader/d" all_the_names
+sed -i "/Bloody Monster Smuggler/d" all_the_names
+sed -i "/Nighttime Plumber Attack/d" all_the_names
+sed -i "/Queen of the Death Unit/d" all_the_names
+sed -i "/Lord of the Scooter Heroes/d" all_the_names
+sed -i "/Imperial Breakdancing World/d" all_the_names
+sed -i "/s Shark of Might and Magic/d" all_the_names
+sed -i "/s Graveyard Rescue/d" all_the_names
+sed -i "/Wild West Hippo Romp/d" all_the_names
+sed -i "/The Glory of Rollerball Hunter/d" all_the_names
+sed -i "/Radical Platypus in the Desert/d" all_the_names
+sed -i "/Forklift Hunt/d" all_the_names
+sed -i "/Unforgettable Quantum Thieves/d" all_the_names
+sed -i "/Fatal Caveman Brothers/d" all_the_names
+sed -i "/Def Jam Graveyard in the Magic Kingdom/d" all_the_names
+sed -i "/Ultra Submarine Rage/d" all_the_names
+sed -i "/Irresistible Devil Strikes Again/d" all_the_names
+sed -i "/Sim Axe Adventure/d" all_the_names
+sed -i "/Lazy Moon Legends/d" all_the_names
+sed -i "/Almighty Mushroom Connection/d" all_the_names
+sed -i "/Mary Kate and Ashley/d" all_the_names
+sed -i "/Unbelievable Gnome Remix/d" all_the_names
+sed -i "/Bomb World Tour/d" all_the_names
+sed -i "/Electric Graveyard Live/d" all_the_names
+sed -i "/Lazy Blade Riders/d" all_the_names
+sed -i "/King of Wrestling Party/d" all_the_names
+sed -i "/Legend of Mall Special Edition/d" all_the_names
+sed -i "/Charlie Brown/d" all_the_names
+sed -i "/Cantankerous Devil Zone/d" all_the_names
+sed -i "/Twisted Grizzly Bear Planet/d" all_the_names
+sed -i "/Amphibious Boxing Trivia/d" all_the_names
+sed -i "/Surprise Paintball Soldier/d" all_the_names
+sed -i "/Metal Speed Bandit/d" all_the_names
+sed -i "/Latino Arcade Shack/d" all_the_names
+sed -i "/All-American Elevator Mayhem/d" all_the_names
+sed -i "/History of the Military Tournament/d" all_the_names
+sed -i "/Cosmic Army Forever/d" all_the_names
+sed -i "/Cooking Quiz/d" all_the_names
+sed -i "/In Search of the Mutant Trilogy/d" all_the_names
+sed -i "/Bongo Overdrive/d" all_the_names
+sed -i "/Sleepy Cookie Beta/d" all_the_names
+sed -i "/Holy Sushi in the Bayou/d" all_the_names
+sed -i "/Tiny Dog in the Outback/d" all_the_names
+sed -i "/Jamaican Go-Kart of Love/d" all_the_names
+sed -i "/Nighttime Deer Hunter Squadron/d" all_the_names
+sed -i "/Queen of the Karaoke 1942/d" all_the_names
+sed -i "/Save Yourself from the Toon Underworld/d" all_the_names
+sed -i "/We Love Techno Dynasty/d" all_the_names
+sed -i "/Red Hot Fun Boy/d" all_the_names
+sed -i "/Hitler/d" all_the_names
+sed -i "/Return of the Boxing Punch/d" all_the_names
+sed -i "/Grimy Robot 2K/d" all_the_names
+sed -i "/Deep Space Cannibal Football/d" all_the_names
+sed -i "/Shameful Banana Master/d" all_the_names
+sed -i "/Catholic Guitar - The Quickening/d" all_the_names
+sed -i "/Elite Thief Hero/d" all_the_names
+sed -i "/Everybody Hates the Bingo in Space/d" all_the_names
+sed -i "/Fluffy Circus Creator/d" all_the_names
+sed -i "/Twisted Night Country/d" all_the_names
+sed -i "/Happy Vigilante Heroes/d" all_the_names
+sed -i "/Mad Spider Country/d" all_the_names
+sed -i "/Royal Racing Domination/d" all_the_names
+sed -i "/Double Motorcycle Princess/d" all_the_names
+sed -i "/Happy Chef Alpha/d" all_the_names
+sed -i "/Hideous Lightning Marines/d" all_the_names
+sed -i "/Endless Tricycle in Africa/d" all_the_names
+sed -i "/Subatomic Surgery in the Middle East/d" all_the_names
+sed -i "/Lair of the Fencing Brawl/d" all_the_names
+sed -i "/Legend of the Thief Trivia/d" all_the_names
+sed -i "/Mexican Bobsled Creator/d" all_the_names
+sed -i "/Invisible Bomb Raider/d" all_the_names
+sed -i "/Day of the Bobsled Corps/d" all_the_names
+sed -i "/Lord of the Baking Simulator/d" all_the_names
+sed -i "/Terrorist/d" all_the_names
+sed -i "/Alien Sumo Training/d" all_the_names
+sed -i "/John Romero/d" all_the_names
+sed -i "/Giant Sailboat Troopers/d" all_the_names
+sed -i "/Scottish Beautician Odyssey/d" all_the_names
+sed -i "/Golden Bedtime Spies/d" all_the_names
+sed -i "/Low G Surf from Outer Space/d" all_the_names
+sed -i "/Curse of the Typing Bloodbath/d" all_the_names
+sed -i "/Starring Mickey Mouse/d" all_the_names
+sed -i "/Micro Trampoline Castle/d" all_the_names
+sed -i "/The Sims: Puzzle Extra/d" all_the_names
+sed -i "/Dinosaur Task Force/d" all_the_names
+sed -i "/Virtua Snowboard Raider/d" all_the_names
+sed -i "/Takedown/d" all_the_names
+sed -i "/Manic/d" all_the_names
+sed -i "/The Secret Weapon of the Computer Hunter/d" all_the_names
+sed -i "/Metal Carnival Mania/d" all_the_names
+sed -i "/Crime Scene Investigation/d" all_the_names
+sed -i "/Low G Platypus Pimps/d" all_the_names
+sed -i "/Ebony Arcade Punch/d" all_the_names
+sed -i "/Kinky Surf Smackdown/d" all_the_names
+sed -i "/Day of the Kangaroo - The Dark Descent/d" all_the_names
+sed -i "/Psycho Bubblegum Camp/d" all_the_names
+sed -i "/Fiery Beat Smackdown/d" all_the_names
+sed -i "/Volleyball/d" all_the_names
+sed -i "/Wild West Helicopter of Love/d" all_the_names
+sed -i "/Latino Bong Fun/d" all_the_names
+sed -i "/Heinous/d" all_the_names
+sed -i "/Frisky Stunt from Planet X/d" all_the_names
+sed -i "/Kung-fu Rollerball Pinball/d" all_the_names
+sed -i "/Hidden Walrus Task Force/d" all_the_names
+sed -i "/Amphibious Amish Melee/d" all_the_names
+sed -i "/Monster Fishing Spectacular/d" all_the_names
+sed -i "/Black Spatula Revisited/d" all_the_names
+sed -i "/The Muppets Android on Wheels/d" all_the_names
+sed -i "/Nudist Dinosaur World Tour/d" all_the_names
+sed -i "/The Muppets Gnome Hero/d" all_the_names
+sed -i "/Sensual Skydiving Country/d" all_the_names
+sed -i "/Rogue Mall Invasion/d" all_the_names
+sed -i "/Master Chief/d" all_the_names
+sed -i "/Erotic Monster Domination/d" all_the_names
+sed -i "/Beautiful Cooking Competition/d" all_the_names
+sed -i "/Jack Thompson/d" all_the_names
+sed -i "/Undead Robot Dreamland/d" all_the_names
+sed -i "/Armored Quiz from Planet X/d" all_the_names
+sed -i "/Real Karate Insanity/d" all_the_names
+sed -i "/Endless Jetski Boy/d" all_the_names
+sed -i "/Crazy WWE Pimps/d" all_the_names
+sed -i "/Low G Theme Park in the Salad Kingdom/d" all_the_names
+sed -i "/World Bong of the Dead/d" all_the_names
+sed -i "/European Ping Pong Commander/d" all_the_names
+sed -i "/Retro Architecture Saloon/d" all_the_names
+sed -i "/Exciting Cricket Quiz/d" all_the_names
+sed -i "/Elegant Vigilante Online/d" all_the_names
+sed -i "/Canadian/d" all_the_names
+sed -i "/Black Midget Planet/d" all_the_names
+sed -i "/Magic Crowbar Experience/d" all_the_names
+sed -i "/Retro Chainsaw in the Magic Kingdom/d" all_the_names
+sed -i "/Renegade Paintball of the Dead/d" all_the_names
+sed -i "/Eco-Friendly Puzzle Attack/d" all_the_names
+sed -i "/Helicopter Music CD/d" all_the_names
+sed -i "/King of Makeover in My Pocket/d" all_the_names
+sed -i "/Sensual Axe Epidemic/d" all_the_names
+sed -i "/Heavy Metal Architecture in the Desert/d" all_the_names
+sed -i "/Rad Blade Insanity/d" all_the_names
+sed -i "/Star Casino on the Road/d" all_the_names
+sed -i "/Educational Sewer/d" all_the_names
+sed -i "/Disturbing Buddhist/d" all_the_names
+sed -i "/History of the Snowboard Deathmatch/d" all_the_names
+sed -i "/BudgetSoft Presents/d" all_the_names
+sed -i "/Weight Loss/d" all_the_names
+sed -i "/Asian/d" all_the_names
+sed -i "/Hardcore Driving Takedown/d" all_the_names
+sed -i "/Wrath of the Blade Legend/d" all_the_names
+sed -i "/Blocky Mutant Apocalypse/d" all_the_names
+sed -i "/Occult Paintball Family/d" all_the_names
+sed -i "/Alien Typing Offensive/d" all_the_names
+sed -i "/Future Mountain Climber of the Third Reich/d" all_the_names
+sed -i "/Regal Mushroom of Fury/d" all_the_names
+sed -i "/Hideous Rocket Country/d" all_the_names
+sed -i "/Unforgettable Sailboat Tale/d" all_the_names
+sed -i "/Mall Rush/d" all_the_names
+sed -i "/Tasteless/d" all_the_names
+sed -i "/Hazardous Rollerball Dash/d" all_the_names
+sed -i "/Dirty Rollerball Encounter/d" all_the_names
+sed -i "/Curse of the Goblin Bastards/d" all_the_names
+sed -i "/Dynamite Viking Tactics/d" all_the_names
+sed -i "/Ingenious Conga School/d" all_the_names
+sed -i "/Create Your Own Spatula 95/d" all_the_names
+sed -i "/Legend of Business 95/d" all_the_names
+sed -i "/Urban Rollerball Trivia/d" all_the_names
+sed -i "/Biblical Furry Melee/d" all_the_names
+sed -i "/Full Metal Banana - Deluxe Edition/d" all_the_names
+sed -i "/Jackie Chan/d" all_the_names
+sed -i "/Busytown/d" all_the_names
+sed -i "/Cardboard/d" all_the_names
+sed -i "/Dead or Alive Hang Glider - Gold Edition/d" all_the_names
+sed -i "/Frankenstein/d" all_the_names
+sed -i "/Jedi Yeti Kingdom/d" all_the_names
+sed -i "/Naughty Death Dancers/d" all_the_names
+sed -i "/Def Jam Gnome Base/d" all_the_names
+sed -i "/Giant Deer Hunter Runner/d" all_the_names
+sed -i "/Heroic Ostrich Desperadoes/d" all_the_names
+sed -i "/Sleepy Chainsaw Groove/d" all_the_names
+sed -i "/Tribal Workout Colosseum/d" all_the_names
+sed -i "/Android Chase Nitro/d" all_the_names
+sed -i "/Masters of the Vigilante of Might and Magic/d" all_the_names
+sed -i "/Pony Melee/d" all_the_names
+sed -i "/Nihilistic/d" all_the_names
+sed -i "/Espionage/d" all_the_names
+sed -i "/Go Go Sushi of Fury/d" all_the_names
+sed -i "/Legend of the Penguin Kingdom/d" all_the_names
+sed -i "/Return of Carnival DJ/d" all_the_names
+sed -i "/Scorched/d" all_the_names
+sed -i "/Kid/d" all_the_names
+sed -i "/Terrible Manlove 2K/d" all_the_names
+sed -i "/Bong Mission/d" all_the_names
+sed -i "/Conga Destruction/d" all_the_names
+sed -i "/Latino Weight Loss Operation/d" all_the_names
+sed -i "/Basketball/d" all_the_names
+sed -i "/Distinguished/d" all_the_names
+sed -i "/Tactical Yeti Nitro/d" all_the_names
+sed -i "/3D Turtle Empire/d" all_the_names
+sed -i "/Star Trek Crowbar Deluxe/d" all_the_names
+sed -i "/Deranged/d" all_the_names
+sed -i "/Mystery Banana Interceptor/d" all_the_names
+sed -i "/Death-Defying Sword Planet/d" all_the_names
+sed -i "/Shaving/d" all_the_names
+sed -i "/Kitchen/d" all_the_names
+sed -i "/Subatomic Underwear Dudes/d" all_the_names
+sed -i "/Bazooka/d" all_the_names
+sed -i "/Paratroopers/d" all_the_names
+sed -i "/Advanced/d" all_the_names
+sed -i "/God of Monster Hospital/d" all_the_names
+sed -i "/Everybody Loves the Spatula Diesel/d" all_the_names
+sed -i "/Art of Magic Pro/d" all_the_names
+sed -i "/Leisure/d" all_the_names
+sed -i "/Explosive/d" all_the_names
+sed -i "/Micro Beach/d" all_the_names
+sed -i "/Tom Clancy/d" all_the_names
+sed -i "/Battle/d" all_the_names
+sed -i "/EX/d" all_the_names
+sed -i "/Jihad/d" all_the_names
+sed -i "/Excruciating/d" all_the_names
+sed -i "/Perverted/d" all_the_names
+sed -i "/Inappropriate/d" all_the_names
+sed -i "/College/d" all_the_names
+sed -i "/Forbidden/d" all_the_names
+sed -i "/Maxx/d" all_the_names
+sed -i "/Unstoppable/d" all_the_names
+sed -i "/Geriatric/d" all_the_names
+sed -i "/Pathetic/d" all_the_names
+sed -i "/The Card Game/d" all_the_names
+sed -i "/Children/d" all_the_names
+sed -i "/Animal/d" all_the_names
+sed -i "/Polka/d" all_the_names
+sed -i "/Punching/d" all_the_names
+sed -i "/Chinese/d" all_the_names
+sed -i "/Beatdown/d" all_the_names
+sed -i "/Nasty/d" all_the_names
+sed -i "/Hoedown/d" all_the_names
+sed -i "/3rd Strike/d" all_the_names
+sed -i "/Shrunken/d" all_the_names
+sed -i "/Hobo/d" all_the_names
+sed -i "/Narcoleptic/d" all_the_names
+sed -i "/Gaiden/d" all_the_names
+sed -i "/Morbid/d" all_the_names
+sed -i "/Lethal/d" all_the_names
+sed -i "/Obsessive/d" all_the_names
+sed -i "/War/d" all_the_names
+sed -i "/Slayer/d" all_the_names
+sed -i "/punishment/d" all_the_names
+sed -i "/Punishment/d" all_the_names
+sed -i "/wright/d" all_the_names
+sed -i "/Wright/d" all_the_names
+sed -i "/NASCAR/d" all_the_names
+sed -i "/lost/d" all_the_names
+sed -i "/Lost/d" all_the_names
+sed -i "/Bomberman/d" all_the_names
+sed -i "/bomberman/d" all_the_names
+sed -i "/bimbo/d" all_the_names
+sed -i "/Bimbo/d" all_the_names
+sed -i "/Wheelchair/d" all_the_names
+sed -i "/wheelchair/d" all_the_names
+sed -i "/Extravaganza/d" all_the_names
+sed -i "/extravaganza/d" all_the_names
+sed -i "/Islamic/d" all_the_names
+sed -i "/islamic/d" all_the_names
+sed -i "/Toyland/d" all_the_names
+sed -i "/toyland/d" all_the_names
+sed -i "/Exciting Driving Quiz/d" all_the_names
+sed -i "/Uncensored/d" all_the_names
+sed -i "/uncensored/d" all_the_names
+sed -i "/Screaming/d" all_the_names
+sed -i "/screaming/d" all_the_names
+sed -i "/Freak/d" all_the_names
+sed -i "/freak/d" all_the_names
+sed -i "/Sniper/d" all_the_names
+sed -i "/sniper/d" all_the_names
+sed -i "/Jetpack/d" all_the_names
+sed -i "/jetpack/d" all_the_names
+sed -i "/Confusing/d" all_the_names
+sed -i "/confusing/d" all_the_names
+sed -i "/Farm/d" all_the_names
+sed -i "/farm/d" all_the_names
+sed -i "/Inept/d" all_the_names
+sed -i "/inept/d" all_the_names
+sed -i "/Barbarian/d" all_the_names
+sed -i "/barbarian/d" all_the_names
+sed -i "/Championship/d" all_the_names
+sed -i "/championship/d" all_the_names
+sed -i "/The Great Cookie Racer/d" all_the_names
+sed -i "/Mystic Racing of Fury/d" all_the_names
+sed -i "/Super/d" all_the_names
+sed -i "/super/d" all_the_names
+sed -i "/Porn/d" all_the_names
+sed -i "/porn/d" all_the_names
+sed -i "/Battlefield/d" all_the_names
+sed -i "/battlefield/d" all_the_names
+sed -i "/Revenge/d" all_the_names
+sed -i "/revenge/d" all_the_names
+sed -i "/Nuclear/d" all_the_names
+sed -i "/nuclear/d" all_the_names
+sed -i "/Nudist/d" all_the_names
+sed -i "/Sloth/d" all_the_names
+sed -i "/sloth/d" all_the_names
+sed -i "/Irritating/d" all_the_names
+sed -i "/irritating/d" all_the_names
+sed -i "/Radioactive/d" all_the_names
+sed -i "/radioactive/d" all_the_names
+sed -i "/Outlaw/d" all_the_names
+sed -i "/outlaw/d" all_the_names
+sed -i "/Lampoon/d" all_the_names
+sed -i "/lampoon/d" all_the_names
+sed -i "/WWII/d" all_the_names
+sed -i "/Maniac/d" all_the_names
+sed -i "/maniac/d" all_the_names
+sed -i "/Monkey/d" all_the_names
+sed -i "/monkey/d" all_the_names
+sed -i "/Bible/d" all_the_names
+sed -i "/bible/d" all_the_names
+sed -i "/Biplane/d" all_the_names
+sed -i "/biplane/d" all_the_names
+sed -i "/Onslaught/d" all_the_names
+sed -i "/onslaught/d" all_the_names
+sed -i "/Assassins/d" all_the_names
+sed -i "/assassins/d" all_the_names
+sed -i "/Makeout/d" all_the_names
+sed -i "/makeout/d" all_the_names
+sed -i "/Raccoon/d" all_the_names
+sed -i "/raccoon/d" all_the_names
+sed -i "/Hindu/d" all_the_names
+sed -i "/hindu/d" all_the_names
+sed -i "/Goth/d" all_the_names
+sed -i "/goth/d" all_the_names
+sed -i "/Oppression/d" all_the_names
+sed -i "/oppression/d" all_the_names
+sed -i "/Vegetarian/d" all_the_names
+sed -i "/vegetarian/d" all_the_names
+sed -i "/Kosher/d" all_the_names
+sed -i "/kosher/d" all_the_names
+sed -i "/Christian/d" all_the_names
+sed -i "/christian/d" all_the_names
+sed -i "/Omega/d" all_the_names
+sed -i "/omega/d" all_the_names
+sed -i "/Flatulence/d" all_the_names
+sed -i "/flatulence/d" all_the_names
+sed -i "/Kermit/d" all_the_names
+sed -i "/kermit/d" all_the_names
+sed -i "/Baseball/d" all_the_names
+sed -i "/baseball/d" all_the_names
+sed -i "/Battleship/d" all_the_names
+sed -i "/battleship/d" all_the_names
+sed -i "/Fight/d" all_the_names
+sed -i "/fight/d" all_the_names
+sed -i "/Zamboni/d" all_the_names
+sed -i "/zamboni/d" all_the_names
+sed -i "/STD/d" all_the_names
+sed -i "/Spelunking/d" all_the_names
+sed -i "/spelunking/d" all_the_names
+sed -i "/emo/d" all_the_names
+sed -i "/Emo/d" all_the_names
+sed -i "/Teenage/d" all_the_names
+sed -i "/teenage/d" all_the_names
+sed -i "/angry/d" all_the_names
+sed -i "/Angry/d" all_the_names
+sed -i "/prison/d" all_the_names
+sed -i "/Prison/d" all_the_names
+sed -i "/Killer/d" all_the_names
+sed -i "/killer/d" all_the_names
+sed -i "/Kiler/d" all_the_names
+sed -i "/kiler/d" all_the_names
+sed -i "/boring/d" all_the_names
+sed -i "/Boring/d" all_the_names
+sed -i "/scam/d" all_the_names
+sed -i "/Scam/d" all_the_names
+sed -i "/Big/d" all_the_names
+sed -i "/big/d" all_the_names
+sed -i "/small/d" all_the_names
+sed -i "/Small/d" all_the_names
+sed -i "/assault/d" all_the_names
+sed -i "/Assault/d" all_the_names
+sed -i "/asault/d" all_the_names
+sed -i "/Asault/d" all_the_names
+sed -i "/Toxic/d" all_the_names
+sed -i "/toxic/d" all_the_names
+sed -i "/african/d" all_the_names
+sed -i "/African/d" all_the_names
+sed -i "/Australian/d" all_the_names
+sed -i "/australian/d" all_the_names
+sed -i "/indian/d" all_the_names
+sed -i "/Indian/d" all_the_names
+sed -i "/gun/d" all_the_names
+sed -i "/Gun/d" all_the_names
+sed -i "/rugby/d" all_the_names
+sed -i "/Rugby/d" all_the_names
+sed -i "/Unremarkable/d" all_the_names
+sed -i "/unremarkable/d" all_the_names
+sed -i "/Equestrian/d" all_the_names
+sed -i "/equestrian/d" all_the_names
+sed -i "/jew/d" all_the_names
+sed -i "/Jew/d" all_the_names
+sed -i "/Jewish/d" all_the_names
+sed -i "/jewish/d" all_the_names
+sed -i "/In Your Face/d" all_the_names
+sed -i "/Incomprehensible/d" all_the_names
+sed -i "/incomprehensible/d" all_the_names
+sed -i "/Murder/d" all_the_names
+sed -i "/murder/d" all_the_names
+sed -i "/hitman/d" all_the_names
+sed -i "/Hitman/d" all_the_names
+sed -i "/Shopping/d" all_the_names
+sed -i "/shopping/d" all_the_names
+sed -i "/Globetrotters/d" all_the_names
+sed -i "/globetrotters/d" all_the_names
+sed -i "/Booty/d" all_the_names
+sed -i "/booty/d" all_the_names
+sed -i "/Cheese/d" all_the_names
+sed -i "/cheese/d" all_the_names
+sed -i "/Dollar/d" all_the_names
+sed -i "/dollar/d" all_the_names
+sed -i "/Blimp/d" all_the_names
+sed -i "/blimp/d" all_the_names
+sed -i "/Slaughter/d" all_the_names
+sed -i "/slaughter/d" all_the_names
+sed -i "/Dating/d" all_the_names
+sed -i "/dating/d" all_the_names
+sed -i "/Rodeo/d" all_the_names
+sed -i "/rodeo/d" all_the_names
+sed -i "/Donkey/d" all_the_names
+sed -i "/donkey/d" all_the_names
+sed -i "/DS/d" all_the_names
+sed -i "/Lawnmower/d" all_the_names
+sed -i "/lawnmower/d" all_the_names
+sed -i "/Crossdressing/d" all_the_names
+sed -i "/crossdressing/d" all_the_names
+sed -i "/Caper/d" all_the_names
+sed -i "/caper/d" all_the_names
+sed -i "/Soccer/d" all_the_names
+sed -i "/soccer/d" all_the_names
+sed -i "/Unpleasant/d" all_the_names
+sed -i "/unpleasant/d" all_the_names
+sed -i "/Unicycle/d" all_the_names
+sed -i "/unicycle/d" all_the_names
+sed -i "/Police/d" all_the_names
+sed -i "/police/d" all_the_names
+sed -i "/Horse Racing/d" all_the_names
+sed -i "/horse racing/d" all_the_names
+sed -i "/Drug-Dealing/d" all_the_names
+sed -i "/drug-dealing/d" all_the_names
+sed -i "/sonic/d" all_the_names
+sed -i "/Sonic/d" all_the_names
+sed -i "/Communist/d" all_the_names
+sed -i "/communist/d" all_the_names
+sed -i "/Brain-Damaged/d" all_the_names
+sed -i "/brain-damaged/d" all_the_names
+sed -i "/Janitor/d" all_the_names
+sed -i "/janitor/d" all_the_names
+sed -i "/Matador/d" all_the_names
+sed -i "/matador/d" all_the_names
+sed -i "/Little/d" all_the_names
+sed -i "/little/d" all_the_names
+sed -i "/Combat/d" all_the_names
+sed -i "/combat/d" all_the_names
+sed -i "/vs./d" all_the_names
+sed -i "/Badminton/d" all_the_names
+sed -i "/badminton/d" all_the_names
+sed -i "/Fighter/d" all_the_names
+sed -i "/fighter/d" all_the_names
+sed -i "/Nazi/d" all_the_names
+sed -i "/nazi/d" all_the_names
+sed -i "/Harvest/d" all_the_names
+sed -i "/harvest/d" all_the_names
+sed -i "/Wasteland/d" all_the_names
+sed -i "/wasteland/d" all_the_names
+sed -i "/Struggle/d" all_the_names
+sed -i "/struggle/d" all_the_names
+sed -i "/Vocabulary/d" all_the_names
+sed -i "/vocabulary/d" all_the_names
+sed -i "/Exquisite/d" all_the_names
+sed -i "/exquisite/d" all_the_names
+sed -i "/Enforcer/d" all_the_names
+sed -i "/enforcer/d" all_the_names
+sed -i "/Hillbilly/d" all_the_names
+sed -i "/hillbilly/d" all_the_names
+sed -i "/Gimp/d" all_the_names
+sed -i "/gimp/d" all_the_names
+sed -i "/Dwarven/d" all_the_names
+sed -i "/dwarven/d" all_the_names
+sed -i "/Tony Hawk's Landmine Colosseum/d" all_the_names
+sed -i "/Ancient Business Strike Force/d" all_the_names
+sed -i "/Violent Driving Arena/d" all_the_names
+sed -i "/Bling Bling Square Dancing of Fury/d" all_the_names
+sed -i "/Elderly Llama from Outer Space/d" all_the_names
+sed -i "/Deadly Gopher Dance Mix/d" all_the_names
+sed -i "/Dead or Alive Funk Rebellion/d" all_the_names
+sed -i "/Musical Jetski Girl/d" all_the_names
+sed -i "/Deadly Jazz Pioneer/d" all_the_names
+sed -i "/All-Star Mech Daredevils/d" all_the_names
+sed -i "/Caesar's Grizzly Bear Quest/d" all_the_names
+sed -i "/Everybody Hates the Unicorn Academy/d" all_the_names
+sed -i "/Elmo's Fun Noodle World Cup/d" all_the_names
+sed -i "/Arcane Bong Phonics/d" all_the_names
+sed -i "/American Hair Salon Tycoon/d" all_the_names
+sed -i "/Duke Nukem: Buddhist King/d" all_the_names
+sed -i "/Save Yourself from the Robot Zone/d" all_the_names
+sed -i "/Monty Python's Afro - Limited Edition/d" all_the_names
+sed -i "/Haunted Manlove Lord/d" all_the_names
+sed -i "/Unforgettable Guitar Extra/d" all_the_names
+sed -i "/Incredible Graveyard Hero/d" all_the_names
+sed -i "/Galactic Limbo of Love/d" all_the_names
+sed -i "/Mexican Thief Showdown/d" all_the_names
+sed -i "/Awesome Viking Fiesta/d" all_the_names
+sed -i "/Art of Piano DX/d" all_the_names
+sed -i "/Special Plunger III/d" all_the_names
+sed -i "/Bling Bling Mafia Rave/d" all_the_names
+sed -i "/Stoic Whale Daredevils/d" all_the_names
+sed -i "/Death-Defying Metal Gang/d" all_the_names
+sed -i "/Amphibious Theme Park Park/d" all_the_names
+sed -i "/Return of the Fun Noodle of Love/d" all_the_names
+sed -i "/International Theme Park Prophecy/d" all_the_names
+sed -i "/Lovely Cookie School/d" all_the_names
+sed -i "/Jamaican Thunder Brothers/d" all_the_names
+sed -i "/Vampire Yak Z/d" all_the_names
+sed -i "/Robotic Spatula Trainer/d" all_the_names
+sed -i "/International Shock Journey/d" all_the_names
+sed -i "/Heavy Metal Chocobo Strikes Back/d" all_the_names
+sed -i "/Hip-Hop River - The Quickening/d" all_the_names
+sed -i "/Psychedelic Chocobo World Tour/d" all_the_names
+sed -i "/Zany Fun Rescue/d" all_the_names
+sed -i "/Search for the Lego of Might and Magic/d" all_the_names
+sed -i "/Merciless Kangaroo on the Road/d" all_the_names
+sed -i "/Caesar's Axe Anarchy/d" all_the_names
+sed -i "/Sim Cannibal Adventure/d" all_the_names
+sed -i "/Profane Techno Nitro/d" all_the_names
+sed -i "/Wandering Cowboy Romance/d" all_the_names
+sed -i "/Wandering Rainbow in the Salad Kingdom/d" all_the_names
+sed -i "/Fantastic Car Dudes/d" all_the_names
+sed -i "/Subterranean Pony World Tour/d" all_the_names
+sed -i "/Hideous Cricket Mania/d" all_the_names
+sed -i "/Erotic Castlevania Fantasy/d" all_the_names
+sed -i "/Metal Fantasy XP/d" all_the_names
+sed -i "/Psycho Sailboat Psychiatrist/d" all_the_names
+sed -i "/Rural Scooter Mission/d" all_the_names
+sed -i "/Drunken River Football/d" all_the_names
+sed -i "/Final Fantasy Motocross Crusader/d" all_the_names
+sed -i "/Night of the Sumo Tale/d" all_the_names
+sed -i "/Quiet Rocket Simulator/d" all_the_names
+sed -i "/Ultra Turtle - Collector's Edition/d" all_the_names
+sed -i "/The Castle of the Chainsaw Playhouse/d" all_the_names
+sed -i "/Muppet Internet Playhouse/d" all_the_names
+sed -i "/Mega Fencing of the Damned/d" all_the_names
+sed -i "/Happy Car Heroes/d" all_the_names
+sed -i "/Fabulous Fishing Posse/d" all_the_names
+sed -i "/Undead Plunger Restaurant/d" all_the_names
+sed -i "/Black Dungeon Romp/d" all_the_names
+sed -i "/Golden Mutant Ultra/d" all_the_names
+sed -i "/NCAA Plunger Fortress/d" all_the_names
+sed -i "/Erotic Architecture Horde/d" all_the_names
+sed -i "/Bionic Tetris Strikes Back/d" all_the_names
+sed -i "/Kirby's Casino Attack/d" all_the_names
+sed -i "/Def Jam Devil 3D/d" all_the_names
+sed -i "/MTV's Spelling - Episode 1/d" all_the_names
+sed -i "/Bouncin' Fun Noodle Collection/d" all_the_names
+sed -i "/Kamikaze Bingo Dance Mix/d" all_the_names
+sed -i "/Red Hot Viking Racer/d" all_the_names
+sed -i "/Quiet Bong Apocalypse/d" all_the_names
+sed -i "/Red Hot Maze Jamboree/d" all_the_names
+sed -i "/Black Chase Temple/d" all_the_names
+sed -i "/Epic Jackhammer - Deluxe Edition/d" all_the_names
+sed -i "/Intelligent Surf Runner/d" all_the_names
+sed -i "/Magnetic Gnome in Vegas/d" all_the_names
+sed -i "/Celebrity Fencing in the Outback/d" all_the_names
+sed -i "/Professional Vampire Dynasty/d" all_the_names
+sed -i "/Nerf Sailboat Strike Force/d" all_the_names
+sed -i "/All-Star Dance Runner/d" all_the_names
+sed -i "/Bling Bling Pirate Strikes Back/d" all_the_names
+sed -i "/Custom Dance Country/d" all_the_names
+sed -i "/Kinky Disco Annihilation/d" all_the_names
+sed -i "/Attack of the Quantum Base/d" all_the_names
+sed -i "/Drug-Induced Chess Psychiatrist/d" all_the_names
+sed -i "/Hyper Crystal of Love/d" all_the_names
+sed -i "/The Last Wagon in My Pocket/d" all_the_names
+sed -i "/Silent Go-Kart Rally/d" all_the_names
+sed -i "/Fantasy Insect with Friends/d" all_the_names
+sed -i "/Apathetic Amish Syndicate/d" all_the_names
+sed -i "/Haunted Ostrich Overdrive/d" all_the_names
+sed -i "/Final Car Madness/d" all_the_names
+sed -i "/Star Mall Fortress/d" all_the_names
+sed -i "/Go Go Croquet Quiz/d" all_the_names
+sed -i "/Wandering Driving Armada/d" all_the_names
+sed -i "/Creepy Moon Operatives/d" all_the_names
+sed -i "/Kinky Chess in the Magic Kingdom/d" all_the_names
+sed -i "/Mystic Casino Academy/d" all_the_names
+sed -i "/Haunted Cowboy Mansion/d" all_the_names
+sed -i "/Day of the Dungeon Strikes Back/d" all_the_names
+sed -i "/Wacky Ballet Madness/d" all_the_names
+sed -i "/Latino Fantasy in Vegas/d" all_the_names
+sed -i "/Latino Grizzly Bear Madness/d" all_the_names
+sed -i "/Corporate Golf Romp/d" all_the_names
+sed -i "/Throbbing Office Groove/d" all_the_names
+sed -i "/All-Star Military in Vegas/d" all_the_names
+sed -i "/Action Bandicoot Posse/d" all_the_names
+sed -i "/Caribbean Axe in Middle-Earth/d" all_the_names
+sed -i "/Metal Cookie - Episode 1/d" all_the_names
+sed -i "/Cosmic Magic Rangers/d" all_the_names
+sed -i "/Black Tricycle Romance/d" all_the_names
+sed -i "/Silly Jetski Challenge/d" all_the_names
+sed -i "/Drug-Induced Beat Siege/d" all_the_names
+sed -i "/Ye Olde Mall III/d" all_the_names
+sed -i "/Future Midget Nitro/d" all_the_names
+sed -i "/Retro Afro Z/d" all_the_names
+sed -i "/Luigi's Cookie Detective/d" all_the_names
+sed -i "/The Glory of Pinball Castle/d" all_the_names
+sed -i "/Magnetic Typing Shoot/d" all_the_names
+sed -i "/My First Driving Desperadoes/d" all_the_names
+sed -i "/Naughty Karaoke Empire/d" all_the_names
+sed -i "/Jamaican Jungle Conflict/d" all_the_names
+sed -i "/Low G Bedtime Corps/d" all_the_names
+sed -i "/Olympic Pachinko Fiesta/d" all_the_names
+sed -i "/Unforgettable Bong Live/d" all_the_names
+sed -i "/Grimy Samurai - The Resistance/d" all_the_names
+sed -i "/Subterranean Cowboy Unit/d" all_the_names
+sed -i "/Alcoholic Duck Tactics/d" all_the_names
+sed -i "/All-American Arcade House/d" all_the_names
+sed -i "/Unholy Workout Paintbrawl/d" all_the_names
+sed -i "/Turbo Chainsaw Kingdom/d" all_the_names
+sed -i "/Relentless Hamster Experience/d" all_the_names
+sed -i "/Full Metal Bass Offensive/d" all_the_names
+sed -i "/Post-Apocalyptic Thief in the Outback/d" all_the_names
+sed -i "/Shady Thief Terror/d" all_the_names
+sed -i "/Cyborg Acid Fiesta/d" all_the_names
+sed -i "/Bonk's Lacrosse Dungeon/d" all_the_names
+sed -i "/Legend of Wrestling Roundup/d" all_the_names
+sed -i "/Middle-Eastern Buddhist Island/d" all_the_names
+sed -i "/Ye Olde Plunger of the Third Reich/d" all_the_names
+sed -i "/American Dragon in My Pocket/d" all_the_names
+sed -i "/Panzer Bubble Z/d" all_the_names
+sed -i "/Summer Bandicoot Boy/d" all_the_names
+sed -i "/American Snowboard Colosseum/d" all_the_names
+sed -i "/Scottish Vampire of the Blood God/d" all_the_names
+sed -i "/Mexican Boxing Mansion/d" all_the_names
+sed -i "/Professional Kart Inferno/d" all_the_names
+sed -i "/Astral Dentist Rangers/d" all_the_names
+sed -i "/3D Burger 2K/d" all_the_names
+sed -i "/Escape from the Chainsaw Nation/d" all_the_names
+sed -i "/Disturbing Conga Encounter/d" all_the_names
+sed -i "/Rocket-Powered Hang Glider - The Quickening/d" all_the_names
+sed -i "/Naughty Stapler Odyssey/d" all_the_names
+sed -i "/Sleepy Jungle in the Sky/d" all_the_names
+sed -i "/Sensual Beast Shoot/d" all_the_names
+sed -i "/Tropical Walrus Chase/d" all_the_names
+sed -i "/Ultra Love Live/d" all_the_names
+sed -i "/Virtual Katana of Might and Magic/d" all_the_names
+sed -i "/Renegade Bobsled of the Damned/d" all_the_names
+sed -i "/Violent Cooking Inspector/d" all_the_names
+sed -i "/Olympic Car Rocket/d" all_the_names
+sed -i "/Unreal Valkyrie with Friends/d" all_the_names
+sed -i "/Wild Maze Tale/d" all_the_names
+sed -i "/Summer Thunder 64/d" all_the_names
+sed -i "/Bouncin' Mahjong Legends/d" all_the_names
+sed -i "/Wonderous Wizard Smash/d" all_the_names
+sed -i "/Fancy Barcode in the Bayou/d" all_the_names
+sed -i "/Bouncin' Plumber Dystopia/d" all_the_names
+sed -i "/The Incredible Internet Slam/d" all_the_names
+sed -i "/Mystery Karate Smuggler/d" all_the_names
+sed -i "/The Quest for the Funk Overlords/d" all_the_names
+sed -i "/Jamaican Bandicoot Hospital/d" all_the_names
+sed -i "/Dirty Surf Boxing/d" all_the_names
+sed -i "/Jamaican Lowrider 95/d" all_the_names
+sed -i "/Tactical Conga Rage/d" all_the_names
+sed -i "/Twin Princess Encounter/d" all_the_names
+sed -i "/Kung-fu Karaoke Commando/d" all_the_names
+sed -i "/MTV's Wagon Anthology/d" all_the_names
+sed -i "/Ultraviolent Theme Park Overlords/d" all_the_names
+sed -i "/Throbbing Dentist Runner/d" all_the_names
+sed -i "/Nostalgic Samurai on the High Seas/d" all_the_names
+sed -i "/Ye Olde Beautician Strikes Back/d" all_the_names
+sed -i "/Ultraviolent Moon Conundrum/d" all_the_names
+sed -i "/European Stick Connection/d" all_the_names
+sed -i "/Kinect Landmine in the Bayou/d" all_the_names
+sed -i "/Legendary Ostrich Trivia/d" all_the_names
+sed -i "/Shadow of the Axe of Might and Magic/d" all_the_names
+sed -i "/Art of Whale XP/d" all_the_names
+sed -i "/Magical Mahjong of the Blood God/d" all_the_names
+sed -i "/Spectacular Gnome Park/d" all_the_names
+sed -i "/Crazy Kabuki X/d" all_the_names
+sed -i "/Bouncin' Kart Revolution/d" all_the_names
+sed -i "/Dynamite Sewer Inferno/d" all_the_names
+sed -i "/Mickey's Business Co-Op/d" all_the_names
+sed -i "/Legend of Graveyard Smuggler/d" all_the_names
+sed -i "/Go Go Typing Country/d" all_the_names
+sed -i "/Unreal Army of Love/d" all_the_names
+sed -i "/Amazon Wrestling Conflict/d" all_the_names
+sed -i "/Cool Mummy Commando/d" all_the_names
+sed -i "/Drug-Induced Lightning Overdrive/d" all_the_names
+sed -i "/Flamboyant Moon Conundrum/d" all_the_names
+sed -i "/Zombie Bomb Plus/d" all_the_names
+sed -i "/Rushing Dragon Family/d" all_the_names
+sed -i "/Happy Bowling Trader/d" all_the_names
+sed -i "/The Incredible Surf on the High Seas/d" all_the_names
+sed -i "/Bionic Military Explosion/d" all_the_names
+sed -i "/The Secret Weapon of the Bass - Episode 1/d" all_the_names
+sed -i "/Dead or Alive Barcode Crusader/d" all_the_names
+sed -i "/Custom Sumo - Limited Edition/d" all_the_names
+sed -i "/Lord of the Circus Syndrome/d" all_the_names
+sed -i "/Fluffy Conga Co-Op/d" all_the_names
+sed -i "/Madden Spelling Hospital/d" all_the_names
+sed -i "/Team Fashion Competition/d" all_the_names
+sed -i "/Topsy-Turvy Wedding Blaster/d" all_the_names
+sed -i "/Android Football in the Salad Kingdom/d" all_the_names
+sed -i "/High-Speed Laser Stadium/d" all_the_names
+sed -i "/Hazardous Military Temple/d" all_the_names
+sed -i "/Sleepy Internet 2000/d" all_the_names
+sed -i "/Undead Monster Truck Overload/d" all_the_names
+sed -i "/Wild Karaoke Commander/d" all_the_names
+sed -i "/Iron Octopus Conflict/d" all_the_names
+sed -i "/Romantic Baking Posse/d" all_the_names
+sed -i "/Throbbing Yeti XXX/d" all_the_names
+sed -i "/Lazy Skydiving Stadium/d" all_the_names
+sed -i "/Roman Zombie City/d" all_the_names
+sed -i "/Vampire Computer DX/d" all_the_names
+sed -i "/Rock 'n' Roll Samurai in Africa/d" all_the_names
+sed -i "/Madden Car Chronicles/d" all_the_names
+sed -i "/Bloody Elevator Tale/d" all_the_names
+sed -i "/The Hunt For the Gnome Tribe/d" all_the_names
+sed -i "/Dangerous Spork Online/d" all_the_names
+sed -i "/Spectral Funk Fantasy/d" all_the_names
+sed -i "/Amazing Tricycle Returns/d" all_the_names
+sed -i "/Erotic Banana Domination/d" all_the_names
+sed -i "/Kung-fu Pinball - The Dark Project/d" all_the_names
+sed -i "/Lazy Walrus Horde/d" all_the_names
+sed -i "/Barbie's Bandicoot Connection/d" all_the_names
+sed -i "/Day of the Furry Yoga/d" all_the_names
+sed -i "/Fluffy Chess Pro/d" all_the_names
+sed -i "/Renegade WWE Park/d" all_the_names
+sed -i "/Merciless Dinosaur Man/d" all_the_names
+sed -i "/World Underwear Exhibition/d" all_the_names
+sed -i "/Surprise Moped Orchestra/d" all_the_names
+sed -i "/Elmo's Godzilla Stars/d" all_the_names
+sed -i "/Internet Batman Preacher/d" all_the_names
+sed -i "/NBA Harpoon Yoga/d" all_the_names
+sed -i "/Miniature Crowbar Over Normandy/d" all_the_names
+sed -i "/Chocolate Bubblegum Phonics/d" all_the_names
+sed -i "/Curse of the Sumo Dudes/d" all_the_names
+sed -i "/The Great Catapult Conundrum/d" all_the_names
+sed -i "/Raging Spatula Co-Op/d" all_the_names
+sed -i "/The Castle of Plunger Crisis/d" all_the_names
+sed -i "/Pagan Square Dancing Rider/d" all_the_names
+sed -i "/Imperial Spatula Dudes/d" all_the_names
+sed -i "/Armored Fashion Quest/d" all_the_names
+sed -i "/Wonderous Makeover Castle/d" all_the_names
+sed -i "/It's a Mad, Mad Harpoon Studio/d" all_the_names
+sed -i "/Cute Quiz Soldier/d" all_the_names
+sed -i "/Renegade Godzilla - Gold Edition/d" all_the_names
+sed -i "/Kamikaze Army Syndrome/d" all_the_names
+sed -i "/Atomic Octopus World/d" all_the_names
+sed -i "/Ultimate Casino - 2nd Impact/d" all_the_names
+sed -i "/Mr. Banana Conquest/d" all_the_names
+sed -i "/NBA Writing Princess/d" all_the_names
+sed -i "/Amphibious Pinball Dreamland/d" all_the_names
+sed -i "/Presidential Disco - Episode 1/d" all_the_names
+sed -i "/The Secret Weapon of the Theme Park Factory/d" all_the_names
+sed -i "/Fancy Valkyrie Z/d" all_the_names
+sed -i "/Action Night Rally/d" all_the_names
+sed -i "/Elmo's Makeover Diesel/d" all_the_names
+sed -i "/Corporate Piano at the Olympics/d" all_the_names
+sed -i "/Deep Space Music Destruction/d" all_the_names
+sed -i "/Mechanized Computer of Mystery/d" all_the_names
+sed -i "/French Submarine on the Oregon Trail/d" all_the_names
+sed -i "/Relentless Forklift Studio/d" all_the_names
+sed -i "/Stylish Tennis Tournament/d" all_the_names
+sed -i "/Hip-Hop Bass Fantasy/d" all_the_names
+sed -i "/Chocolate Samurai Legend/d" all_the_names
+sed -i "/Mythical Submarine from Mars/d" all_the_names
+sed -i "/European Lowrider Over Normandy/d" all_the_names
+sed -i "/Caribbean Florist Nitro/d" all_the_names
+sed -i "/Mighty Beat Apocalypse/d" all_the_names
+sed -i "/Cosmic Fun Boy/d" all_the_names
+sed -i "/Political Walrus Patrol/d" all_the_names
+sed -i "/Tiger Woods' Catapult Jamboree/d" all_the_names
+sed -i "/Russian Sudoku Uprising/d" all_the_names
+sed -i "/Sid Meier's Mummy in Crazyland/d" all_the_names
+sed -i "/Fabulous Ice Riders/d" all_the_names
+sed -i "/Final Fantasy Crowbar Adventure/d" all_the_names
+sed -i "/Search for the Ghost 1942/d" all_the_names
+sed -i "/Intellectual Graveyard Commando/d" all_the_names
+sed -i "/Neon Pachinko Hospital/d" all_the_names
+sed -i "/The Quest for the Golf Castle/d" all_the_names
+sed -i "/Hidden Wagon III/d" all_the_names
+sed -i "/Alien Katana in the Middle East/d" all_the_names
+sed -i "/Flying Carnival Legends/d" all_the_names
+sed -i "/Fancy Racing Restaurant/d" all_the_names
+sed -i "/Spectacular Werewolf Gang/d" all_the_names
+sed -i "/Medieval Bow Hunter 64/d" all_the_names
+sed -i "/Robot Sudoku Reloaded/d" all_the_names
+sed -i "/The Quest for the Sewer Spree/d" all_the_names
+sed -i "/3D Pachinko in the Middle East/d" all_the_names
+sed -i "/Hardcore Moon Empire/d" all_the_names
+sed -i "/The Castle of Bubble World Tour/d" all_the_names
+sed -i "/Tactical Kart Armageddon/d" all_the_names
+sed -i "/The Music Slam/d" all_the_names
+sed -i "/Underwater Hair Salon Over Normandy/d" all_the_names
+sed -i "/Political Turtle Symphony/d" all_the_names
+sed -i "/European Karaoke Epidemic/d" all_the_names
+sed -i "/Elmo's Beach Patrol/d" all_the_names
+sed -i "/Blissful Desert Strikes Back/d" all_the_names
+sed -i "/Elmo's Bong Crusade/d" all_the_names
+sed -i "/Trendy Limbo Z/d" all_the_names
+sed -i "/Inbred Shark Romance/d" all_the_names
+sed -i "/Wild Dinosaur 3D/d" all_the_names
+sed -i "/Final Sunshine Slam/d" all_the_names
+sed -i "/The Sims: COVID Voyage/d" all_the_names
+sed -i "/Haunted Bow Hunter Inspector/d" all_the_names
+sed -i "/Inbred Batman Horror/d" all_the_names
+sed -i "/Horrifying Kabuki Studio/d" all_the_names
+sed -i "/Latinx Shadow from Outer Space/d" all_the_names
+sed -i "/Samurai Caveman Overload/d" all_the_names
+sed -i "/Undead Fun Noodle Runner/d" all_the_names
+sed -i "/Robot Amish from Planet X/d" all_the_names
+sed -i "/Bouncin' Cyborg Tale/d" all_the_names
+sed -i "/Final Sushi in the Desert/d" all_the_names
+sed -i "/Low G Cooking in the Middle East/d" all_the_names
+sed -i "/Apathetic Beat Fandango/d" all_the_names
+sed -i "/Dangerous Kangaroo Thieves/d" all_the_names
+sed -i "/Supreme Valkyrie Alpha/d" all_the_names
+sed -i "/Cross-Dressing Rocket - The Dark Project/d" all_the_names
+sed -i "/Retro Army in the Bayou/d" all_the_names
+sed -i "/Internet City Destruction/d" all_the_names
+sed -i "/Spunky Chainsaw Solid/d" all_the_names
+sed -i "/Spunky Florist Disaster/d" all_the_names
+sed -i "/Imperial Tank XP/d" all_the_names
+sed -i "/First-Person Goblin Machine/d" all_the_names
+sed -i "/Stoic Ice Cream Football/d" all_the_names
+sed -i "/Awesome Jungle Trader/d" all_the_names
+sed -i "/Irish Elevator Zombies/d" all_the_names
+sed -i "/Bewildering Boxing Rage/d" all_the_names
+sed -i "/Return of the Pogo Fantasy/d" all_the_names
+sed -i "/Epic Math Lady/d" all_the_names
+sed -i "/Savage Sailboat Offensive/d" all_the_names
+sed -i "/Cute Frisbee Conquest/d" all_the_names
+sed -i "/Fiery Princess/d" all_the_names
+sed -i "/Heavy Bow Hunter Pioneer/d" all_the_names
+sed -i "/Mario's Skate Punch-Out!!/d" all_the_names
+sed -i "/Almighty Fun Noodle Daredevils/d" all_the_names
+sed -i "/Almighty UFO Castle/d" all_the_names
+sed -i "/Mega Thunder Trivia/d" all_the_names
+sed -i "/Renegade Valkyrie Raider/d" all_the_names
+sed -i "/Curse of the Fun Noodle DX/d" all_the_names
+sed -i "/Roman Dentist - Limited Edition/d" all_the_names
+sed -i "/Mexican Mind Control Brawl/d" all_the_names
+sed -i "/Johnny Turbo's Princess in Middle-Earth/d" all_the_names
+sed -i "/Hidden Helicopter Melee/d" all_the_names
+sed -i "/In Search of Dwarf Saga/d" all_the_names
+sed -i "/Rock 'n' Roll Dinosaur Rally/d" all_the_names
+sed -i "/Rocket-Powered Ice - Deluxe Edition/d" all_the_names
+sed -i "/European Lizard on the Road/d" all_the_names
+sed -i "/Alien Rainbow Deluxe/d" all_the_names
+sed -i "/Pagan Submarine Syndrome/d" all_the_names
+sed -i "/Mystery Godzilla Factory/d" all_the_names
+sed -i "/The Quest for the Lightning Bloodbath/d" all_the_names
+sed -i "/World of Love of Doom/d" all_the_names
+sed -i "/Pixellated Quantum from Planet X/d" all_the_names
+sed -i "/King of BMX of Mystery/d" all_the_names
+sed -i "/Grimy Llama Special Edition/d" all_the_names
+sed -i "/Irish Cross-Dressing Conundrum/d" all_the_names
+sed -i "/Inbred Goblin Strikes Again/d" all_the_names
+sed -i "/Bouncin' WWE Munchers/d" all_the_names
+sed -i "/The Castle of Night Castle/d" all_the_names
+sed -i "/Sleazy Disco Simulator/d" all_the_names
+sed -i "/Professional Walrus Wranglers/d" all_the_names
+sed -i "/Downtown Banjo Princess/d" all_the_names
+sed -i "/Kamikaze Hammer Planet/d" all_the_names
+sed -i "/Final Fantasy Tennis in Space/d" all_the_names
+sed -i "/Undead Funk Uprising/d" all_the_names
+sed -i "/Darkest Disco Polo/d" all_the_names
+sed -i "/Legacy of Spork DJ/d" all_the_names
+sed -i "/Mystical Rollerball Fever/d" all_the_names
+sed -i "/Create Your Own Skate - Deluxe Edition/d" all_the_names
+sed -i "/The Great Moped X-treme/d" all_the_names
+sed -i "/Maximum Harpoon Pro/d" all_the_names
+sed -i "/Haunted Alligator Destruction/d" all_the_names
+sed -i "/Chocolate Zombie Rebellion/d" all_the_names
+sed -i "/American Landmine Saloon/d" all_the_names
+sed -i "/Sid Meier's Cricket Princess/d" all_the_names
+sed -i "/Frisky Acid - Collector's Edition/d" all_the_names
+sed -i "/Amazing Spatula Tournament/d" all_the_names
+sed -i "/First-Person Spelling - Episode 1/d" all_the_names
+sed -i "/Irresistible Magic Planet/d" all_the_names
+sed -i "/Ho-Hum Cowboy Carnage/d" all_the_names
+sed -i "/The Incredible Motocross Jr./d" all_the_names
+sed -i "/Telekinetic Music on the Road/d" all_the_names
+sed -i "/Lazy Trailer Park Extra/d" all_the_names
+sed -i "/A Boy and His Dungeon - Deluxe Edition/d" all_the_names
+sed -i "/God of Mutant Sisters/d" all_the_names
+sed -i "/Transgender Fashion Rage/d" all_the_names
+sed -i "/Irish City in the Bayou/d" all_the_names
+sed -i "/Underground Alien Lord/d" all_the_names
+sed -i "/The Hunt For the Lightning - The Movie/d" all_the_names
+sed -i "/World of Mutant in the Dark/d" all_the_names
+sed -i "/Elmo's Pogo Syndrome/d" all_the_names
+sed -i "/Hardcore Sewer Operation/d" all_the_names
+sed -i "/Virtua Business Crusade/d" all_the_names
+sed -i "/Pro Boxing Academy/d" all_the_names
+sed -i "/It's a Mad, Mad River Havoc/d" all_the_names
+sed -i "/Spooky Toon in the Outback/d" all_the_names
+sed -i "/The Incredible Gopher of Death/d" all_the_names
+sed -i "/Romantic Kabuki Encounter/d" all_the_names
+sed -i "/Musical Shadow Mission/d" all_the_names
+sed -i "/Wild Hardware World/d" all_the_names
+sed -i "/Violent Balloon World Cup/d" all_the_names
+sed -i "/World of Castlevania Rush/d" all_the_names
+sed -i "/Perfect Skate of Mystery/d" all_the_names
+sed -i "/Downtown Bandicoot Express/d" all_the_names
+sed -i "/Bonk's Cyborg Trainer/d" all_the_names
+sed -i "/Eternal Computer Island/d" all_the_names
+sed -i "/Legendary Maze in Middle-Earth/d" all_the_names
+sed -i "/Zombie Underwear Rebellion/d" all_the_names
+sed -i "/Chillin' Ninja Mansion/d" all_the_names
+sed -i "/Middle-Eastern Turtle Jam/d" all_the_names
+sed -i "/Prehistoric Driving in the Bayou/d" all_the_names
+sed -i "/Beautiful Lego Spectacular/d" all_the_names
+sed -i "/Rural Hammer Dudes/d" all_the_names
+sed -i "/MTV's Bingo in Middle-Earth/d" all_the_names
+sed -i "/Rushing Spork Legends/d" all_the_names
+sed -i "/Frisky Castlevania Conundrum/d" all_the_names
+sed -i "/Cute Chocobo Pioneer/d" all_the_names
+sed -i "/Planet of the Fire Spies/d" all_the_names
+sed -i "/Disturbing Croquet Dungeon/d" all_the_names
+sed -i "/Bloody Yoga Colosseum/d" all_the_names
+sed -i "/Frisky Cowboy Gone Wild/d" all_the_names
+sed -i "/Low G Axe Island/d" all_the_names
+sed -i "/Muppet Frog Unleashed/d" all_the_names
+sed -i "/Beautiful Lacrosse World/d" all_the_names
+sed -i "/Regal Piano Beta/d" all_the_names
+sed -i "/Latinx Forklift Trader/d" all_the_names
+sed -i "/Interstellar Batman Mayhem/d" all_the_names
+sed -i "/Soviet Hang Glider Hero/d" all_the_names
+sed -i "/Real Burger - Episode 1/d" all_the_names
+sed -i "/Zombie Sewer Tale/d" all_the_names
+sed -i "/Colonial Stunt Riders/d" all_the_names
+sed -i "/Caribbean Lowrider Melee/d" all_the_names
+sed -i "/Stealth Fun Noodle Diesel/d" all_the_names
+sed -i "/Wild Karate Arena/d" all_the_names
+sed -i "/All-Night Ice - The Quickening/d" all_the_names
+sed -i "/Rogue Desert Revisited/d" all_the_names
+sed -i "/Rock 'n' Roll Octopus Collection/d" all_the_names
+sed -i "/Bizarre Quiz Safari/d" all_the_names
+sed -i "/Lair of the Mech Strikes Again/d" all_the_names
+sed -i "/The Sims: Chef Punch-Out!!/d" all_the_names
+sed -i "/Viking Moped Lord/d" all_the_names
+sed -i "/Stupendous Graveyard Annihilation/d" all_the_names
+sed -i "/Custom Blade of the Blood God/d" all_the_names
+sed -i "/Holy Alligator Advance/d" all_the_names
+sed -i "/Monster Ghost Tactics/d" all_the_names
+sed -i "/Maximum Karaoke Psychiatrist/d" all_the_names
+sed -i "/Spooky Hamster Desperadoes/d" all_the_names
+sed -i "/In Search of Castlevania Rebellion/d" all_the_names
+sed -i "/Silent Plunger Forever/d" all_the_names
+sed -i "/Italian Exercise World Tour/d" all_the_names
+sed -i "/Johnny Turbo's Makeover Strikes Back/d" all_the_names
+sed -i "/Neon Army Spectacular/d" all_the_names
+sed -i "/Occult Hair Salon in the Magic Kingdom/d" all_the_names
+sed -i "/Unforgettable Snowboard in My Pocket/d" all_the_names
+sed -i "/Apathetic WWE Planet/d" all_the_names
+sed -i "/Masters of the Fishing Saloon/d" all_the_names
+sed -i "/Terrible Fantasy Trilogy/d" all_the_names
+sed -i "/Jamaican Landmine Brothers/d" all_the_names
+sed -i "/Ancient Rollerball Panic/d" all_the_names
+sed -i "/Jedi Chocobo Explosion/d" all_the_names
+sed -i "/The Care Bears' Hair Salon Gold/d" all_the_names
+sed -i "/Secret of the Dinosaur Troopers/d" all_the_names
+sed -i "/Fruity Vigilante Munchers/d" all_the_names
+sed -i "/God of Kabuki Saloon/d" all_the_names
+sed -i "/Virtual Office All-Stars/d" all_the_names
+sed -i "/Papal Ghost Underworld/d" all_the_names
+sed -i "/Legend of Unicorn Invasion/d" all_the_names
+sed -i "/Ho-Hum Dragon Polo/d" all_the_names
+sed -i "/M.C. Escher's Driving Panic/d" all_the_names
+sed -i "/Telekinetic Tennis XXX/d" all_the_names
+sed -i "/Fluffy Hammer Over Normandy/d" all_the_names
+sed -i "/The Quest for the Dungeon Romance/d" all_the_names
+sed -i "/Undead Puzzle Summit/d" all_the_names
+sed -i "/Fancy Pinball II/d" all_the_names
+sed -i "/Eco-Friendly Hang Glider Syndicate/d" all_the_names
+sed -i "/Red Hot Square Dancing II/d" all_the_names
+sed -i "/Drug-Induced Pinball Heroes/d" all_the_names
+sed -i "/The Last Hair Salon Bastards/d" all_the_names
+sed -i "/Divine Bobsled Romp/d" all_the_names
+sed -i "/Armored Math Daredevils/d" all_the_names
+sed -i "/Crazy Ninja Universe/d" all_the_names
+sed -i "/Stupendous Crowbar Attack/d" all_the_names
+sed -i "/Flamboyant Mountain Climber Feud/d" all_the_names
+sed -i "/Lord of the Square Dancing Dungeon/d" all_the_names
+sed -i "/The Arcade of the Dead/d" all_the_names
+sed -i "/Grimy Office Fun/d" all_the_names
+sed -i "/Interactive Bedtime Stadium/d" all_the_names
+sed -i "/Miracle Elevator on the High Seas/d" all_the_names
+sed -i "/Go Go Elevator - The Quickening/d" all_the_names
+sed -i "/Flamboyant Crystal Lady/d" all_the_names
+sed -i "/Pro Dungeon of the Damned/d" all_the_names
+sed -i "/NCAA Mountain Climber Roundup/d" all_the_names
+sed -i "/Enormous Bedtime Throwdown/d" all_the_names
+sed -i "/Michael Jackson's Chase Universe/d" all_the_names
+sed -i "/Grand Chainsaw - Episode 1/d" all_the_names
+sed -i "/Olympic Programming 95/d" all_the_names
+sed -i "/Fantasy Sandwich Special Edition/d" all_the_names
+sed -i "/Red Hot Fishing Studio/d" all_the_names
+sed -i "/Weary Puppy Story/d" all_the_names
+sed -i "/Kirby's Cyborg Domination/d" all_the_names
+sed -i "/Search for the Fantasy from Outer Space/d" all_the_names
+sed -i "/History of the Valkyrie Mission/d" all_the_names
+sed -i "/Planet of the Hovercraft Creator/d" all_the_names
+sed -i "/Return of Vigilante Chase/d" all_the_names
+sed -i "/Awesome Lego Troopers/d" all_the_names
+sed -i "/Papal Bowling Dynasty/d" all_the_names
+sed -i "/Scooby Doo and the Alien Epidemic/d" all_the_names
+sed -i "/Planet of the Gnome Lord/d" all_the_names
+sed -i "/Rocket-Powered Math Strikes Back/d" all_the_names
+sed -i "/Bonk's Jetski Dash/d" all_the_names
+sed -i "/Dangerous Fencing Bastards/d" all_the_names
+sed -i "/Chocolate Crowbar Hunter/d" all_the_names
+sed -i "/Renegade Cooking of Fury/d" all_the_names
+sed -i "/The Quest for the Chicken Fiasco/d" all_the_names
+sed -i "/Impossible Goblin DX/d" all_the_names
+sed -i "/Russian Ballet Rescue/d" all_the_names
+sed -i "/Zombie Typing Invaders/d" all_the_names
+sed -i "/Grimy Shock Explosion/d" all_the_names
+sed -i "/Rockin' Scooter Terror/d" all_the_names
+sed -i "/Bewildering Bow Hunter Dancers/d" all_the_names
+sed -i "/Samurai Plunger Spies/d" all_the_names
+sed -i "/Special Dragon 3000/d" all_the_names
+sed -i "/Twisted Hair Salon 1942/d" all_the_names
+sed -i "/Tribal Chess Derby/d" all_the_names
+sed -i "/Spectral Cross-Dressing Blast/d" all_the_names
+sed -i "/Hideous Skydiving Nitro/d" all_the_names
+sed -i "/Grand Dog Choreographer/d" all_the_names
+sed -i "/Japanese Desert Girl/d" all_the_names
+sed -i "/Twin Rollerball Through Time/d" all_the_names
+sed -i "/Mega Man's Mall Trainer/d" all_the_names
+sed -i "/The Simpsons' Florist Dystopia/d" all_the_names
+sed -i "/Kirby's Unicorn Munchers/d" all_the_names
+sed -i "/The Castle of the Sandwich in the Magic Kingdom/d" all_the_names
+sed -i "/Armored Fashion Gold/d" all_the_names
+sed -i "/Ancient Grizzly Bear Kingdom/d" all_the_names
+sed -i "/The Sims: Rainbow School/d" all_the_names
+sed -i "/Amazon Beautician Patrol/d" all_the_names
+sed -i "/Hyper Catapult Ransom/d" all_the_names
+sed -i "/NCAA Railroad Sisters/d" all_the_names
+sed -i "/Ultraviolent Baking Diesel/d" all_the_names
+sed -i "/Pagan Balloon Feud/d" all_the_names
+sed -i "/Hip-Hop Kabuki Plus/d" all_the_names
+sed -i "/Bizarre Trampoline Explosion/d" all_the_names
+sed -i "/Astral Moon Family/d" all_the_names
+sed -i "/Depressing Racing Fest/d" all_the_names
+sed -i "/Mysterious Speed Quiz/d" all_the_names
+sed -i "/Monty Python's Programming Armageddon/d" all_the_names
+sed -i "/World Gopher Frenzy/d" all_the_names
+sed -i "/Great Vigilante Punch-Out!!/d" all_the_names
+sed -i "/Adventures of the Jetski Trader/d" all_the_names
+sed -i "/Epic Rocket Gone Wild/d" all_the_names
+sed -i "/Secret of the Acid Chase/d" all_the_names
+sed -i "/Turbo Thunder Train/d" all_the_names
+sed -i "/Summer Ghost Mission/d" all_the_names
+sed -i "/Hyper Programming Conquest/d" all_the_names
+sed -i "/Strategic Pony Ransom/d" all_the_names
+sed -i "/Lucky Cricket Zombies/d" all_the_names
+sed -i "/Neo Stick Base/d" all_the_names
+sed -i "/Orbital Turtle - Hot Pursuit/d" all_the_names
+sed -i "/Scottish Bubblegum Feud/d" all_the_names
+sed -i "/Kung-fu Toon from Outer Space/d" all_the_names
+sed -i "/The Last Penguin Nitro/d" all_the_names
+sed -i "/Elegant Chase Mania/d" all_the_names
+sed -i "/European Carnival Advance/d" all_the_names
+sed -i "/The Great Surf Overlords/d" all_the_names
+sed -i "/Invisible Goblin Ignition/d" all_the_names
+sed -i "/First-Person Pinball Kingdom/d" all_the_names
+sed -i "/Post-Apocalyptic Fantasy Trainer/d" all_the_names
+sed -i "/Japanese Barcode Agent/d" all_the_names
+sed -i "/Amazon Plunger Voyage/d" all_the_names
+sed -i "/Stylish Llama of the Third Reich/d" all_the_names
+sed -i "/Wooden Sewer - The Quickening/d" all_the_names
+sed -i "/Low G Yak in Crazyland/d" all_the_names
+sed -i "/World Bongo Fortress/d" all_the_names
+sed -i "/Primal Florist Carnage/d" all_the_names
+sed -i "/Hyper Katana Massacre/d" all_the_names
+sed -i "/Wild Worm Dungeon/d" all_the_names
+sed -i "/Escape from the Dance Turbo/d" all_the_names
+sed -i "/Hideous Caveman Jam/d" all_the_names
+sed -i "/My Very Own Bowling Chase/d" all_the_names
+sed -i "/Intelligent Cannibal Island/d" all_the_names
+sed -i "/Kinect Grizzly Bear Hospital/d" all_the_names
+sed -i "/Mythical Cyborg in Middle-Earth/d" all_the_names
+sed -i "/The Sims: Breakdancing Siege/d" all_the_names
+sed -i "/Cross-Dressing Trampoline Arena/d" all_the_names
+sed -i "/The Sims: Mind Control from Planet X/d" all_the_names
+sed -i "/Bonk's Karaoke Z/d" all_the_names
+sed -i "/Pixellated Tank Party/d" all_the_names
+sed -i "/Flamboyant Square Dancing Spectacular/d" all_the_names
+sed -i "/Return of Lego Prophecy/d" all_the_names
+sed -i "/Great Railroad Jamboree/d" all_the_names
+sed -i "/Rad Crystal Raider/d" all_the_names
+sed -i "/Ho-Hum Alligator Crusader/d" all_the_names
+sed -i "/Kinky Furry Express/d" all_the_names
+sed -i "/Blissful Fishing Fantasy/d" all_the_names
+sed -i "/Arcane Military II/d" all_the_names
+sed -i "/Professional WWE in the Middle East/d" all_the_names
+sed -i "/World of Mountain Climber Force/d" all_the_names
+sed -i "/Extreme Devil Remix/d" all_the_names
+sed -i "/We Love Office Lord/d" all_the_names
+sed -i "/Create Your Own Sewer Deluxe/d" all_the_names
+sed -i "/Hip-Hop Puppy Pioneer/d" all_the_names
+sed -i "/World Arcade Park/d" all_the_names
+sed -i "/Madden Lightning Fiesta/d" all_the_names
+sed -i "/Stealth Ping Pong Offensive/d" all_the_names
+sed -i "/Guitar Lowrider Wranglers/d" all_the_names
+sed -i "/Looney Tunes Ninja Groove/d" all_the_names
+sed -i "/Bonk's Breakdancing Diesel/d" all_the_names
+sed -i "/Astral Buddhist Soldier/d" all_the_names
+sed -i "/Go Go Bass from Outer Space/d" all_the_names
+sed -i "/Unbelievable Fishing Island/d" all_the_names
+sed -i "/Italian Software Summit/d" all_the_names
+sed -i "/Telekinetic Landmine Studio/d" all_the_names
+sed -i "/Sinister Tetris Park/d" all_the_names
+sed -i "/Cross-Dressing Beach Strike Force/d" all_the_names
+sed -i "/Ye Olde Dance Racer/d" all_the_names
+sed -i "/Everybody Loves the Sushi Anthology/d" all_the_names
+sed -i "/Barbie's Grizzly Bear Interactive/d" all_the_names
+sed -i "/Celebrity Blood Project/d" all_the_names
+sed -i "/Imperial Lacrosse X/d" all_the_names
+sed -i "/First-Person Pachinko Blast/d" all_the_names
+sed -i "/All-American Fun Noodle in the Dark/d" all_the_names
+sed -i "/Feverish Speed of the Third Reich/d" all_the_names
+sed -i "/Undercover Worm from Mars/d" all_the_names
+sed -i "/Electric Baking X/d" all_the_names
+sed -i "/Mega Samurai Rescue/d" all_the_names
+sed -i "/In Search of the Desert DJ/d" all_the_names
+sed -i "/Retro Train in Vegas/d" all_the_names
+sed -i "/Helicopter Pony in Space/d" all_the_names
+sed -i "/Magical Spatula Feud/d" all_the_names
+sed -i "/New Turtle - 2nd Impact/d" all_the_names
+sed -i "/Topsy-Turvy Metal Bandits/d" all_the_names
+sed -i "/All-Night Barcode Restaurant/d" all_the_names
+sed -i "/Street Acid in the Magic Kingdom/d" all_the_names
+sed -i "/The Castle of Guitar Power/d" all_the_names
+sed -i "/Erotic Dog Family/d" all_the_names
+sed -i "/Primal Sailboat Gladiator/d" all_the_names
+sed -i "/Fruity Bedtime Invaders/d" all_the_names
+sed -i "/Kirby's 3D Corps/d" all_the_names
+sed -i "/Middle-Eastern Helicopter Crusader/d" all_the_names
+sed -i "/Def Jam Sushi Overdrive/d" all_the_names
+sed -i "/Spooky Bungie Boxing/d" all_the_names
+sed -i "/High-Speed Cooking Conspiracy/d" all_the_names
+sed -i "/Deadly Robot Trainer/d" all_the_names
+sed -i "/The Muppets Funk Underworld/d" all_the_names
+sed -i "/Iron Mahjong/d" all_the_names
+sed -i "/Invisible Stunt Dance Mix/d" all_the_names
+sed -i "/Royal Crystal of the Blood God/d" all_the_names
+sed -i "/Return of the Limbo in the Magic Kingdom/d" all_the_names
+sed -i "/Middle-Eastern Deer Hunter Adventure/d" all_the_names
+sed -i "/Undercover Barcode Bastards/d" all_the_names
+sed -i "/Atomic Octopus Gladiator/d" all_the_names
+sed -i "/Fiery Conga Dance Mix/d" all_the_names
+sed -i "/Planet of the Beast Challenge/d" all_the_names
+sed -i "/Return of Ballet Nightmare/d" all_the_names
+sed -i "/Hardcore Motocross Posse/d" all_the_names
+sed -i "/Robot Business King/d" all_the_names
+sed -i "/Legend of Cross-Dressing Feud/d" all_the_names
+sed -i "/Fluffy Boxing Encounter/d" all_the_names
+sed -i "/Street Surf Odyssey/d" all_the_names
+sed -i "/Bonk's Monster Truck Smuggler/d" all_the_names
+sed -i "/New Elevator - Episode 1/d" all_the_names
+sed -i "/Street Bingo - Hot Pursuit/d" all_the_names
+sed -i "/Cybernetic Bow Hunter Explorer/d" all_the_names
+sed -i "/Psychedelic Kart Fiasco/d" all_the_names
+sed -i "/Pro Dinosaur Hell/d" all_the_names
+sed -i "/The Sims: Chase Raider/d" all_the_names
+sed -i "/Major Platypus Legend/d" all_the_names
+sed -i "/Radical Plumber of Might and Magic/d" all_the_names
+sed -i "/Arcane Monster Fest/d" all_the_names
+sed -i "/Ho-Hum City Yoga/d" all_the_names
+sed -i "/Interstellar Mech of Love/d" all_the_names
+sed -i "/Mr. Viking Destruction/d" all_the_names
+sed -i "/3D Ninja Hunt/d" all_the_names
+sed -i "/Sleepy Military Ransom/d" all_the_names
+sed -i "/Wild West Pirate Underground/d" all_the_names
+sed -i "/Terrible Beast Attack/d" all_the_names
+sed -i "/Future Boxing Anarchy/d" all_the_names
+sed -i "/Catholic Mall Pinball/d" all_the_names
+sed -i "/Wandering Magic Overload/d" all_the_names
+sed -i "/Twisted Penguin of Death/d" all_the_names
+sed -i "/Wonderous Stick Island/d" all_the_names
+sed -i "/The Hunt For the Fantasy of Doom/d" all_the_names
+sed -i "/Urban Android Attack/d" all_the_names
+sed -i "/Caesar's Moon Derby/d" all_the_names
+sed -i "/Real Exercise Stadium/d" all_the_names
+sed -i "/Robotic Bong - 25th Anniversary Edition/d" all_the_names
+sed -i "/Fluffy Shock Scandal/d" all_the_names
+sed -i "/Neurotic Desert Strike Force/d" all_the_names
+sed -i "/Spunky Golf Exhibition/d" all_the_names
+sed -i "/Sensual Magic in the Dark/d" all_the_names
+sed -i "/Mario's Mafia Brawl/d" all_the_names
+sed -i "/Interactive Toon Bandit/d" all_the_names
+sed -i "/Magical Snowboard World Cup/d" all_the_names
+sed -i "/American Internet Conspiracy/d" all_the_names
+sed -i "/Legend of the Fencing Mansion/d" all_the_names
+sed -i "/Custom Plumber Orchestra/d" all_the_names
+sed -i "/Silly Moped Insurrection/d" all_the_names
+sed -i "/Internet Puppy Experience/d" all_the_names
+sed -i "/Fantasy Workout Munchers/d" all_the_names
+sed -i "/Ye Olde Kabuki Feud/d" all_the_names
+sed -i "/Return of the Cookie in the Bayou/d" all_the_names
+sed -i "/Golden Buddhist Zone/d" all_the_names
+sed -i "/Kirby's Mushroom Troopers/d" all_the_names
+sed -i "/The Glory of Cross-Dressing Mission/d" all_the_names
+sed -i "/Apathetic Gopher Fever/d" all_the_names
+sed -i "/Elmo's Ice Racer/d" all_the_names
+sed -i "/Presidential Whale Nation/d" all_the_names
+sed -i "/Divine Circus Dudes/d" all_the_names
+sed -i "/Disney's Croquet Syndicate/d" all_the_names
+sed -i "/Fantasy Kangaroo Legend/d" all_the_names
+sed -i "/Derek Smart's Train Racer/d" all_the_names
+sed -i "/NBA Ice Cream in Space/d" all_the_names
+sed -i "/Primal Graveyard with Friends/d" all_the_names
+sed -i "/Professional Pinball Collection/d" all_the_names
+sed -i "/Chillin' COVID Nation/d" all_the_names
+sed -i "/Lazy Chef Collection/d" all_the_names
+sed -i "/World Pony Legend/d" all_the_names
+sed -i "/Irish Bungie Hunt/d" all_the_names
+sed -i "/M.C. Escher's 3D Gang/d" all_the_names
+sed -i "/Subterranean Night - Episode 1/d" all_the_names
+sed -i "/Custom Fishing Academy/d" all_the_names
+sed -i "/Deadly Trampoline in the Bayou/d" all_the_names
+sed -i "/Looney Tunes Software Temple/d" all_the_names
+sed -i "/Star Workout of the Third Reich/d" all_the_names
+sed -i "/Spirit of the Sewer Factory/d" all_the_names
+sed -i "/Regal Blade Dreamland/d" all_the_names
+sed -i "/Star Gnome Carnage/d" all_the_names
+sed -i "/Full Metal Valkyrie CD/d" all_the_names
+sed -i "/Dead or Alive Barcode of Mystery/d" all_the_names
+sed -i "/Queen of the Makeover Tale/d" all_the_names
+sed -i "/Mega Man's Buddhist Squadron/d" all_the_names
+sed -i "/Crazy Toon Revolution/d" all_the_names
+sed -i "/Trendy Puppy Polo/d" all_the_names
+sed -i "/Bloody Hippo Returns/d" all_the_names
+sed -i "/Major Cooking Scandal/d" all_the_names
+sed -i "/Psychedelic Fishing Roundup/d" all_the_names
+sed -i "/Disney's Godzilla Encounter/d" all_the_names
+sed -i "/Armored Laser Shack/d" all_the_names
+sed -i "/Kinky Ninja in Vegas/d" all_the_names
+sed -i "/Android Robot Girl/d" all_the_names
+sed -i "/Profane Blade Dynasty/d" all_the_names
+sed -i "/Virtua Snowboard Lord/d" all_the_names
+sed -i "/Guitar Tricycle Challenge/d" all_the_names
+sed -i "/Mario's Bingo Saga/d" all_the_names
+sed -i "/Impossible Blood Mistress/d" all_the_names
+sed -i "/Cross-Dressing Catapult Blaster/d" all_the_names
+sed -i "/Musical Samurai Conspiracy/d" all_the_names
+sed -i "/Middle-Eastern Valkyrie Armageddon/d" all_the_names
+sed -i "/M.C. Escher's Jetski Shoot/d" all_the_names
+sed -i "/Viking Monster Creator/d" all_the_names
+sed -i "/Grand Night Wranglers/d" all_the_names
+sed -i "/Magic Football Spree/d" all_the_names
+sed -i "/Political Stapler - The Movie/d" all_the_names
+sed -i "/Search for the Internet Syndrome/d" all_the_names
+sed -i "/Mystic Beat Ransom/d" all_the_names
+sed -i "/Darkest Tetris - Deluxe Edition/d" all_the_names
+sed -i "/Subterranean Cricket Project/d" all_the_names
+sed -i "/Pro Jazz Training/d" all_the_names
+sed -i "/Amazing Rainbow 95/d" all_the_names
+sed -i "/Crazy Driving in Africa/d" all_the_names
+sed -i "/Twin Duck Interceptor/d" all_the_names
+sed -i "/Haunted Speed Crusade/d" all_the_names
+sed -i "/Create Your Own Chocobo on the Oregon Trail/d" all_the_names
+sed -i "/Paranoid Gnome Rescue/d" all_the_names
+sed -i "/Scandinavian Stapler Hunter/d" all_the_names
+sed -i "/Masters of Metal Collection/d" all_the_names
+sed -i "/Blocky Pachinko from Mars/d" all_the_names
+sed -i "/Forgotten Turtle Quiz/d" all_the_names
+sed -i "/Fantasy Skate Mania/d" all_the_names
+sed -i "/Eternal Square Dancing X-treme/d" all_the_names
+sed -i "/The Last Ice Heroes/d" all_the_names
+sed -i "/Papal Frog Shack/d" all_the_names
+sed -i "/Depressing Laser Blast/d" all_the_names
+sed -i "/Medieval Hammer Princess/d" all_the_names
+sed -i "/Awesome Elevator Blast/d" all_the_names
+sed -i "/Undead Music III/d" all_the_names
+sed -i "/Exciting Mummy Strikes Again/d" all_the_names
+sed -i "/Enraged Jackhammer Blast/d" all_the_names
+sed -i "/Action 3D Syndrome/d" all_the_names
+sed -i "/Violent Tricycle Through Time/d" all_the_names
+sed -i "/Low G Metal DX/d" all_the_names
+sed -i "/All-American Spatula Uprising/d" all_the_names
+sed -i "/Irresistible Bongo Racer/d" all_the_names
+sed -i "/Escape from the Duck Punch-Out!!/d" all_the_names
+sed -i "/Incredible Business Tribe/d" all_the_names
+sed -i "/Amazing River Princess/d" all_the_names
+sed -i "/Hip-Hop Chef Roundup/d" all_the_names
+sed -i "/Duke Nukem: Hippo from Mars/d" all_the_names
+sed -i "/Micro Motocross Soldier/d" all_the_names
+sed -i "/Merciless Hockey Riders/d" all_the_names
+sed -i "/Miniature Boxing of Fury/d" all_the_names
+sed -i "/Custom Bomb - The Gathering Storm/d" all_the_names
+sed -i "/Medieval Office Ultra/d" all_the_names
+sed -i "/The Castle of the Puppy Tactics/d" all_the_names
+sed -i "/Horrifying Hippo Express/d" all_the_names
+sed -i "/Cosmic Beautician Roundup/d" all_the_names
+sed -i "/Renegade 3D - The Dark Project/d" all_the_names
+sed -i "/Amphibious Paintball Crusade/d" all_the_names
+sed -i "/Night of the Devil Hunter/d" all_the_names
+sed -i "/Royal Arcade Force/d" all_the_names
+sed -i "/Great Insect World/d" all_the_names
+sed -i "/Musical Chocobo Dudes/d" all_the_names
+sed -i "/Jamaican Sunshine Park/d" all_the_names
+sed -i "/Haunted Walrus Lord/d" all_the_names
+sed -i "/Golden Pinball from Planet X/d" all_the_names
+sed -i "/Royal Dog Melee/d" all_the_names
+sed -i "/Astral Fantasy Squadron/d" all_the_names
+sed -i "/Star Trek Motocross Symphony/d" all_the_names
+sed -i "/Ancient Lego Planet/d" all_the_names
+sed -i "/Legend of Pinball Expert/d" all_the_names
+sed -i "/MTV's Shadow Polo/d" all_the_names
+sed -i "/Political Lightning Symphony/d" all_the_names
+sed -i "/Throbbing Army Jamboree/d" all_the_names
+sed -i "/Interstellar Beautician 3D/d" all_the_names
+sed -i "/Intense Bedtime Creator/d" all_the_names
+sed -i "/Holy Spelling Gone Wild/d" all_the_names
+sed -i "/Tribal Bass of the Blood God/d" all_the_names
+sed -i "/8-Bit Techno Smackdown/d" all_the_names
+sed -i "/Luigi's Hardware Overdrive/d" all_the_names
+sed -i "/Day of the Unicorn Advance/d" all_the_names
+sed -i "/Barbie's Chef - The Movie/d" all_the_names
+sed -i "/The Castle of Worm Psychiatrist/d" all_the_names
+sed -i "/Interstellar Caveman Chase/d" all_the_names
+sed -i "/Save Yourself from the Hardware Hell/d" all_the_names
+sed -i "/Chillin' Amish Polo/d" all_the_names
+sed -i "/Johnny Turbo's Thunder School/d" all_the_names
+sed -i "/History of the Cyborg from Mars/d" all_the_names
+sed -i "/Real Dinosaur Orchestra/d" all_the_names
+sed -i "/Infinite Skydiving Rebellion/d" all_the_names
+sed -i "/Weary Rabbit Conspiracy/d" all_the_names
+sed -i "/Subatomic Workout - The Movie/d" all_the_names
+sed -i "/Unholy Insect Jr./d" all_the_names
+sed -i "/Wild Funk Gladiator/d" all_the_names
+sed -i "/Final Grizzly Bear Heroes/d" all_the_names
+sed -i "/Feverish Cooking Racer/d" all_the_names
+sed -i "/Everybody Loves the Bong Camp/d" all_the_names
+sed -i "/Strategic Beach Dungeon/d" all_the_names
+sed -i "/Save Yourself from the Devil Legends/d" all_the_names
+sed -i "/Kinect Fencing in the Middle East/d" all_the_names
+sed -i "/Mario's Paintball 1942/d" all_the_names
+sed -i "/Bewildering Motocross Fandango/d" all_the_names
+sed -i "/Curse of the Mountain Climber Rebellion/d" all_the_names
+sed -i "/Mickey's Thief Explosion/d" all_the_names
+sed -i "/Miniature City in Space/d" all_the_names
+sed -i "/Trendy Bong Jamboree/d" all_the_names
+sed -i "/Grimy Golf GT/d" all_the_names
+sed -i "/Elmo's Acid Frenzy/d" all_the_names
+sed -i "/Olympic Sex Rebellion/d" all_the_names
+sed -i "/It's a Mad, Mad Alien Fiesta/d" all_the_names
+sed -i "/Relentless Business Panic/d" all_the_names
+sed -i "/Queen of the Love Mistress/d" all_the_names
+sed -i "/Red Hot Graveyard Desperadoes/d" all_the_names
+sed -i "/Ye Olde Hair Salon Kombat/d" all_the_names
+sed -i "/Samurai Yeti Carnage/d" all_the_names
+sed -i "/Awesome Ninja Castle/d" all_the_names
+sed -i "/Miniature Batman in Africa/d" all_the_names
+sed -i "/Custom Metal World Cup/d" all_the_names
+sed -i "/Panzer Architecture Deluxe/d" all_the_names
+sed -i "/Perfect Crystal Unit/d" all_the_names
+sed -i "/Silent Sunshine Munchers/d" all_the_names
+sed -i "/Metal Exercise Hospital/d" all_the_names
+sed -i "/Mystical Fun Advance/d" all_the_names
+sed -i "/Sensual Train Joe/d" all_the_names
+sed -i "/Caribbean Go-Kart Smuggler/d" all_the_names
+sed -i "/Great Sudoku in the Hood/d" all_the_names
+sed -i "/Golden Math Derby/d" all_the_names
+sed -i "/Escape from the UFO Dystopia/d" all_the_names
+sed -i "/Mega Man's Hardware Armada/d" all_the_names
+sed -i "/Glowing Helicopter Armageddon/d" all_the_names
+sed -i "/Special Trailer Park Psychiatrist/d" all_the_names
+sed -i "/Sid Meier's Chipmunk Forever/d" all_the_names
+sed -i "/Apathetic Car Power/d" all_the_names
+sed -i "/Intense Fantasy Throwdown/d" all_the_names
+sed -i "/Adventures of the Love - Deluxe Edition/d" all_the_names
+sed -i "/Bouncin' Sex Corps/d" all_the_names
+sed -i "/Vampire Hovercraft Agent/d" all_the_names
+sed -i "/Psychedelic Music Training/d" all_the_names
+sed -i "/Fluffy Thief - 25th Anniversary Edition/d" all_the_names
+sed -i "/Bonk's Gnome Sisters/d" all_the_names
+sed -i "/Insane Monster Country/d" all_the_names
+sed -i "/Forgotten Amish Connection/d" all_the_names
+sed -i "/Disney's Fantasy Turbo/d" all_the_names
+sed -i "/Ninja Walrus Shootout/d" all_the_names
+sed -i "/Depressing Wizard World Tour/d" all_the_names
+sed -i "/Street Rollerball Plus/d" all_the_names
+sed -i "/Religious Pogo Rampage/d" all_the_names
+sed -i "/Iron Mafia Tactics/d" all_the_names
+sed -i "/Sexy Pogo Stadium/d" all_the_names
+sed -i "/Sexy Internet Lord/d" all_the_names
+sed -i "/Catholic Mech Invaders/d" all_the_names
+sed -i "/Amazon Karaoke Heroes/d" all_the_names
+sed -i "/Art of Jackhammer of Doom/d" all_the_names
+sed -i "/A Boy and His Exercise Summit/d" all_the_names
+sed -i "/Dracula's Viking Task Force/d" all_the_names
+sed -i "/Paranoid Banjo Horde/d" all_the_names
+sed -i "/Profane Exercise House/d" all_the_names
+sed -i "/Fabulous Hardware Diesel/d" all_the_names
+sed -i "/Derek Smart's Math Kombat/d" all_the_names
+sed -i "/Cross-Dressing Workout Detective/d" all_the_names
+sed -i "/Mega Man's Ghost Training/d" all_the_names
+sed -i "/Bling Bling Hardware Terror/d" all_the_names
+sed -i "/Nostalgic Ballet - Limited Edition/d" all_the_names
+sed -i "/Nighttime Workout Connection/d" all_the_names
+sed -i "/Save Yourself from the Duck in the Bayou/d" all_the_names
+sed -i "/Mario's Golf on Wheels/d" all_the_names
+sed -i "/Kinky Surgery Roundup/d" all_the_names
+sed -i "/Search for the Pony Runner/d" all_the_names
+sed -i "/Satan's Paintball Man/d" all_the_names
+sed -i "/Exciting Theme Park Polo/d" all_the_names
+sed -i "/Wild Devil Rage/d" all_the_names
+sed -i "/Elderly Jazz Stars/d" all_the_names
+sed -i "/In Search of the Beat Universe/d" all_the_names
+sed -i "/Attack of the Puppy Nation/d" all_the_names
+sed -i "/Political Math Strikes Again/d" all_the_names
+sed -i "/Shameful Dwarf Country/d" all_the_names
+sed -i "/Sim Chase Shootout/d" all_the_names
+sed -i "/In Search of the Dog School/d" all_the_names
+sed -i "/Invisible Fishing Brawl/d" all_the_names
+sed -i "/International Jazz of Might and Magic/d" all_the_names
+sed -i "/Wild Princess Terror/d" all_the_names
+sed -i "/Cross-Dressing Bandicoot Restaurant/d" all_the_names
+sed -i "/Perfect Banana Shack/d" all_the_names
+sed -i "/Twin Ice Cream Rush/d" all_the_names
+sed -i "/High-Speed Surgery Smackdown/d" all_the_names
+sed -i "/Throbbing Love World/d" all_the_names
+sed -i "/Erotic Aerobics Hero/d" all_the_names
+echo censored everything
