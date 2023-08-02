@@ -64,14 +64,15 @@ echo sox
 sudo apt install sox -y
 # to play mp3 files with sox
 sudo apt install libsox-fmt-mp3 -y
-echo youtube-dl
+# echo youtube-dl
 # sudo apt install youtube-dl -y
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
+# sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo apt install libvorbis -y
 # sudo apt install HandBrakeCLI -y
 # sudo apt install mkvtoolnix -y
 echo plasma-sdk
 sudo apt install plasma-sdk -y
-
+echo python3-pip
+sudo apt install python3-pip -y
 
 echo done everything
