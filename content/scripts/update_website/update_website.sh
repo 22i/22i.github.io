@@ -169,6 +169,8 @@ sed -i "/zzdsaoiwejiKJAOSDJXVNkldfskjdf/c<!--zzdsaoiwejiKJAOSDJXVNkldfskjdf--><!
 
 cd $PWD/content/scripts/update_website/lib/icons/solid
 
+echo $iconread
+
 cp -f $iconread ../3/
 
 

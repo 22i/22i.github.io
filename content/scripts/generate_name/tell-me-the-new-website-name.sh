@@ -12,6 +12,14 @@
 # get new WEBSITE NAME
 # # # # # # # # # # # 
 
+# i am updating from desk
+cd ../update_website/
+# /content/scripts/update_website/
+
+echo desk update > message.txt
+
+
+
 echo -ne "\033]30;incredibletellmethename\007"
 
 bash 3_censorship.sh
