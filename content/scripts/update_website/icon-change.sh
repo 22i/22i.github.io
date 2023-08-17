@@ -25,7 +25,7 @@ echo $PWD
 cd ../../../../../../
 # root
 
-
+# gets icon number
 iconupdates=`grep zzdsaoiwejiKJAOSDJXVNkldfskjdf index.html|sed 's/[^0-9]*//g'`
 
 # read line number from variable updates from all_the_names text file into variable read

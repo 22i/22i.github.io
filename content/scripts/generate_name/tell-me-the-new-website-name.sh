@@ -16,9 +16,10 @@
 cd ../update_website/
 # /content/scripts/update_website/
 
-echo desk update > message.txt
+echo desk update >> message.txt
 
-
+cd ../generate_name/
+# /content/scripts/generate_name/
 
 echo -ne "\033]30;incredibletellmethename\007"
 

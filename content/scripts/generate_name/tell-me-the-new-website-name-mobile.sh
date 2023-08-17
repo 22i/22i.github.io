@@ -12,6 +12,15 @@
 # get new WEBSITE NAME
 # # # # # # # # # # # 
 
+# i am updating from mobile
+cd ../update_website/
+# /content/scripts/update_website/
+
+echo mobile update >> message.txt
+
+cd ../generate_name/
+# /content/scripts/generate_name/
+
 
 bash 3_censorship.sh
 
