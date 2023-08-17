@@ -16,7 +16,9 @@
 cd ../update_website/
 # /content/scripts/update_website/
 
-echo mobile update >> message.txt
+# echo mobile update >> message.txt
+sed -i '1s/^/mobile /' message.txt
+
 
 cd ../generate_name/
 # /content/scripts/generate_name/

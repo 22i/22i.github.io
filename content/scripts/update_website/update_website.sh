@@ -466,10 +466,10 @@ message=`cat message.txt`
 rm -f message.txt
 
 # for the end change every text in message.txt with just one word: update
-# cp "$PWD/lib/message.txt" message.txt
+cp "$PWD/lib/message.txt" message.txt
 
 # create an empty message.txt
-touch message.txt
+# touch message.txt
 
 
 cd ../../../ && echo entered website folder &&
