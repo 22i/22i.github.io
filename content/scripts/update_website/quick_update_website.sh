@@ -11,8 +11,8 @@ today=`date "+%d.%m.%Y %H:%M"`
 
 
 # will it work?
-mkdir -p ../2/
-mkdir -p ../3/
+mkdir -p /lib/icons/2/
+mkdir -p /lib/icons/3/
 
 
 
