@@ -18,6 +18,10 @@ rm --force --recursive ../2/*
 # remove everything inside from folder 3 that is ../ up a directory
 rm --force --recursive ../3/*
 
+#will it work?
+cd ..
+mkdir 3
+cd solid
 
 echo $PWD
 
