@@ -10,7 +10,9 @@ today=`date "+%d.%m.%Y %H:%M"`
 
 
 
-
+# will it work?
+mkdir -p ../2/
+mkdir -p ../3/
 
 
 

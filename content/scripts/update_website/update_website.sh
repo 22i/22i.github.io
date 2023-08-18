@@ -116,6 +116,10 @@ rm --force --recursive ../2/*
 # remove everything inside from folder 3 that is ../ up a directory
 rm --force --recursive ../3/*
 
+# will it work?
+mkdir -p ../2/
+mkdir -p ../3/
+
 # ls | shuf > ../icons
 
 # check how many lines all_the_names has keep only numbers and put it into variable liness
