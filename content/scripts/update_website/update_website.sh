@@ -117,8 +117,12 @@ rm --force --recursive ../2/*
 rm --force --recursive ../3/*
 
 # will it work?
-mkdir -p ../2/
-mkdir -p ../3/
+# mkdir -p ../2/
+# mkdir -p ../3/
+cd ..
+mkdir 2
+mkdir 3
+cd solid
 
 # ls | shuf > ../icons
 

@@ -11,12 +11,10 @@ today=`date "+%d.%m.%Y %H:%M"`
 
 
 # will it work?
-mkdir -p /lib/icons/2/
-mkdir -p /lib/icons/3/
-
-
-
-
+cd ../update_website/lib/icons/
+mkdir 2
+mkdir 3
+cd ../../../generate_name/
 
 
 # # # # # # # # # # # # # # #
