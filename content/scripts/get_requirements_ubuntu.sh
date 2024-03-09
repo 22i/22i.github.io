@@ -75,4 +75,15 @@ sudo apt install plasma-sdk -y
 echo python3-pip
 sudo apt install python3-pip -y
 
+echo qtchooser helps kde to get qdbus shortcut for volume change
+sudo apt install qtchooser -y
+
+# wayland
+echo wl-clipboard for wayland clipboard manipulation
+sudo apt install wl-clipboard -y
+
+# window managment
+echo wmctrl put window in focus
+sudo apt install wmctrl -y
+
 echo done everything
