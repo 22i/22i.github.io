@@ -75,6 +75,10 @@ sudo apt install plasma-sdk -y
 echo python3-pip
 sudo apt install python3-pip -y
 
+# control wifi speed
+echo "trickle limits wifi speed"
+sudo apt install trickle -y
+
 echo "qtchooser helps kde to get qdbus shortcut for volume change"
 sudo apt install qtchooser -y
 
