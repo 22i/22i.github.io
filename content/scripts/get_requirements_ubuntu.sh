@@ -79,6 +79,12 @@ sudo apt install python3-pip -y
 echo "trickle limits wifi speed"
 sudo apt install trickle -y
 
+# to get godot mono projects working
+# https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-2204
+echo "dotnet-sdk-8.0 aspnetcore-runtime-8.0 to get godot mono projects working"
+sudo apt-get install -y dotnet-sdk-8.0
+sudo apt-get install -y aspnetcore-runtime-8.0
+
 echo "qtchooser helps kde to get qdbus shortcut for volume change"
 sudo apt install qtchooser -y
 
