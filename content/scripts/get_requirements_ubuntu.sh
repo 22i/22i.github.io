@@ -3,97 +3,122 @@
 
 
 echo git
-sudo apt install git -y
-echo xdotool
-sudo apt install xdotool -y
+sudo apt install -y git
 echo make
-sudo apt install make -y
-echo mpv
-sudo apt install mpv -y
-echo wkhtmltopdf
-sudo apt install wkhtmltopdf -y
-echo wkhtmltoimage
-sudo apt install wkhtmltoimage -y
-echo rsync
-sudo apt install rsync -y
-echo yad
-sudo apt install yad -y
-echo ffmpegthumbs
-sudo apt install ffmpegthumbs -y
-echo xclip
-sudo apt install xclip -y
-echo xsel
-sudo apt install xsel -y
-echo thunderbird
-sudo apt install thunderbird -y
-echo lynx
-sudo apt install lynx -y
-echo audacity
-sudo apt install audacity -y
-echo qbittorrent
-sudo apt install qbittorrent -y
-echo ffmpeg
-sudo apt install ffmpeg -y
-echo pdftk
-sudo apt install pdftk -y
-echo pdftoppm
-sudo apt install pdftoppm -y
-echo imagemagick
-sudo apt install imagemagick -y
-echo xournal
-sudo apt install xournal -y
-echo gimp
-sudo apt install gimp -y
-echo gparted
-sudo apt install gparted -y
-echo lm-sensors
-sudo apt install lm-sensors -y
-echo xosd-bin
-sudo apt install xosd-bin -y
-echo python3
-sudo apt install python3 -y
+sudo apt install -y make
+echo plasma-sdk
+sudo apt install -y plasma-sdk
 echo python
-sudo apt install python -y
+sudo apt install -y python
+echo python3
+sudo apt install -y python3
+echo python3-pip
+sudo apt install -y python3-pip
+
+
+echo mpv
+sudo apt install -y mpv
+echo thunderbird
+sudo apt install -y thunderbird
+echo audacity
+sudo apt install -y audacity
+echo qbittorrent
+sudo apt install -y qbittorrent
+echo gimp
+sudo apt install -y gimp
+echo xournal
+sudo apt install -y xournal
+echo gparted
+sudo apt install -y gparted
+
+echo ffmpeg
+sudo apt install -y ffmpeg
+echo ffmpegthumbs
+sudo apt install -y ffmpegthumbs
+echo wkhtmltopdf
+sudo apt install -y wkhtmltopdf
+echo wkhtmltoimage
+sudo apt install -y wkhtmltoimage
+echo pdftk
+sudo apt install -y pdftk
+echo pdftoppm
+sudo apt install -y pdftoppm
+echo rsync
+sudo apt install -y rsync
+echo yad
+sudo apt install -y yad
+echo imagemagick
+sudo apt install -y imagemagick
+
+echo lm-sensors
+sudo apt install -y lm-sensors
+echo xosd-bin
+sudo apt install -y xosd-bin
 # to get icons from .exe files
 echo icoutils
-sudo apt install icoutils -y
+sudo apt install -y icoutils
 echo notifications
-sudo apt install libnotify-bin -y
-# for playing audio with play song.ogg
-echo sox
-sudo apt install sox -y
-# to play mp3 files with sox
-sudo apt install libsox-fmt-mp3 -y
+sudo apt install -y libnotify-bin
+sudo apt install -y libvorbis
+
 # echo youtube-dl
-# sudo apt install youtube-dl -y
+# sudo apt install -y youtube-dl
 # sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
-sudo apt install libvorbis -y
-# sudo apt install HandBrakeCLI -y
-# sudo apt install mkvtoolnix -y
-echo plasma-sdk
-sudo apt install plasma-sdk -y
-echo python3-pip
-sudo apt install python3-pip -y
+
+
+# sudo apt install -y HandBrakeCLI
+# sudo apt install -y mkvtoolnix
+
 
 # control wifi speed
 echo "trickle limits wifi speed"
-sudo apt install trickle -y
+sudo apt install -y trickle
 
 # to get godot mono projects working
 # https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-2204
 echo "dotnet-sdk-8.0 aspnetcore-runtime-8.0 to get godot mono projects working"
-sudo apt-get install -y dotnet-sdk-8.0
-sudo apt-get install -y aspnetcore-runtime-8.0
+sudo apt install -y dotnet-sdk-8.0
+sudo apt install -y aspnetcore-runtime-8.0
 
 echo "qtchooser helps kde to get qdbus shortcut for volume change"
-sudo apt install qtchooser -y
+sudo apt install -y qtchooser
+
+
+
+echo xdotool
+sudo apt install -y xdotool
+
+echo xclip
+sudo apt install -y xclip
+
+echo xsel
+sudo apt install -y xsel
+
+# for playing audio with play song.ogg
+echo sox
+sudo apt install -y sox
+# to play mp3 files with sox
+sudo apt install -y libsox-fmt-mp3
+
+echo lynx
+sudo apt install -y lynx
 
 # wayland
 echo "wl-clipboard for wayland clipboard manipulation"
-sudo apt install wl-clipboard -y
+sudo apt install -y wl-clipboard
 
-# window managment
+# window managment that works on wayland a bit
 echo "wmctrl put window in focus"
-sudo apt install wmctrl -y
+sudo apt install -y wmctrl
+
+# kdotool window control wayland
+# get most recent one from github releases
+# https://github.com/jinliu/kdotool/releases
+# https://github.com/jinliu/kdotool
+
+# ydotool input control wayland
+# get most recent one from github releases
+# https://github.com/ReimuNotMoe/ydotool/releases
+# https://github.com/ReimuNotMoe/ydotool
 
 echo done everything
