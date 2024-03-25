@@ -121,4 +121,7 @@ sudo apt install -y wmctrl
 # https://github.com/ReimuNotMoe/ydotool/releases
 # https://github.com/ReimuNotMoe/ydotool
 
+# Command to simulate input anywhere (X11, Wayland, TTYs)
+# https://git.sr.ht/~geb/dotool
+
 echo done everything
