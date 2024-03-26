@@ -124,4 +124,15 @@ sudo apt install -y wmctrl
 # Command to simulate input anywhere (X11, Wayland, TTYs)
 # https://git.sr.ht/~geb/dotool
 
+# Minetest Stable Releases
+# sudo add-apt-repository ppa:minetestdevs/stable
+# sudo apt update
+# sudo apt install -y minetest
+
+
+# Minetest Daily Builds
+# sudo add-apt-repository ppa:minetestdevs/daily-builds
+# sudo apt update
+# sudo apt install -y minetest
+
 echo done everything
