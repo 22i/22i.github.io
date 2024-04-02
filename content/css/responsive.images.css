@@ -15,16 +15,27 @@
 
 .snip_tuts {
   font-family: 'Lato', Arial, sans-serif;
-  position: relative;
-  display: relative;
-  float: left;
+/*   position: relative; */
+/*   position: center; */
+/*   display: relative; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*   position:absolute; */
+/*   top:50%; */
+/*   left:50%; */
+/*   float: left; */
+/*   float: center; */
   overflow: hidden;
 /*   margin: 10px 1%; */
 /*   min-width: 1000px; /* 250 */ */
    /* 310 */
   max-width: 300px;/*   width: 100%; */
   background-color: black;
+/*   background-color: #2B2B2B; */
+/*   background-color: blue; */
   color: #2B2B2B;
+/*   color: blue; */
   text-align: center;
   font-size: 16px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -33,13 +44,16 @@
 
 .snip_tuts img {
   vertical-align: top;
-  position: relative;
+/*   content:''; */
+/*   position: relative; */
+  display: block;
 }
 
 .snip_tuts figcaption {
   padding: 4.5%;
 /*   padding-bottom: calc(5%); */
-  background-color: #070707;
+/*   background-color: #070707; */
+  background-color: #191919;
   max-width: 800px;
 }
 
