@@ -57,6 +57,31 @@
   max-width: 800px;
 }
 
+
+@media screen and (min-width: 0px) {
+/*   figcaption { */
+  hi4 {
+    font-size: 14px;
+    letter-spacing: 50px;
+  }
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 500px) {
+  hi4 {
+    font-size: 16px;
+    color: green;
+  }
+}
+
+/*@media screen and (min-width: 1000px) {
+  hi4 {
+    font-size: 30px;
+  }
+}*/
+
+
 .snip_tuts h3 {
   font-family: 'Oswald';
   text-transform: uppercase;
@@ -72,7 +97,7 @@
   margin: 0;
   color: #888;
   letter-spacing: 1px;
-  font-size: 20px; /* 20 */
+/*   font-size: 20px; /* 20 */ */
 }
 
 .snip_tuts blue {
