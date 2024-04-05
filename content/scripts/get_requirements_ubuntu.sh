@@ -61,6 +61,18 @@ echo notifications
 sudo apt install -y libnotify-bin
 sudo apt install -y libvorbis
 
+# kvm Kernel-based Virtual Machine
+# https://www.linuxtechi.com/how-to-install-kvm-on-ubuntu-22-04/
+sudo apt install -y cpu-checker
+sudo apt install -y qemu-kvm
+sudo apt install -y virt-manager
+sudo apt install -y libvirt-daemon-system
+sudo apt install -y virtinst
+sudo apt install -y libvirt-clients
+sudo apt install -y bridge-utils
+
+
+
 # echo youtube-dl
 # sudo apt install -y youtube-dl
 # sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
