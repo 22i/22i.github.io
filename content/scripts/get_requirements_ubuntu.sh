@@ -20,8 +20,11 @@ echo mpv
 sudo apt install -y mpv
 echo thunderbird
 sudo apt install -y thunderbird
-echo audacity
-sudo apt install -y audacity
+# echo audacity
+# sudo apt install -y audacity
+echo tenacity
+# https://tenacityaudio.org/
+
 echo qbittorrent
 sudo apt install -y qbittorrent
 echo gimp

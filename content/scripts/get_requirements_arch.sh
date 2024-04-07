@@ -31,8 +31,11 @@ echo thunderbird
 sudo pacman --noconfirm --needed -S thunderbird
 echo lynx
 sudo pacman --noconfirm --needed -S lynx
-echo audacity
-sudo pacman --noconfirm --needed -S audacity
+# echo audacity
+# sudo pacman --noconfirm --needed -S audacity
+echo tenacity
+# https://tenacityaudio.org/
+
 echo qbittorrent
 sudo pacman --noconfirm --needed -S qbittorrent
 echo ffmpeg
