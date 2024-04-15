@@ -98,6 +98,10 @@ sudo apt install -y aspnetcore-runtime-8.0
 echo "qtchooser helps kde to get qdbus shortcut for volume change"
 sudo apt install -y qtchooser
 
+# monitor directory tree file changes
+# https://www.baeldung.com/linux/monitor-changes-directory-tree
+sudo apt install -y inotify-tools
+
 
 
 echo xdotool
