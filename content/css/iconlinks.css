@@ -1,7 +1,11 @@
 /* icon links 16 start */
 
 body {
-  background-color: black; /* background black */
+  /* background black */
+/*   background-color: black;  */
+/* darker grey */
+/*   background-color: #2d303e; */
+  background-color: #20222c;
 /*   padding: 40px 48px; */
 }
 
@@ -9,7 +13,10 @@ body {
   display: inline-block;
   margin: 8px;
   /* , and end it with */ 
-  background-color: #050505; /* bookmark #050505 */
+/*  black  */
+/*   background-color: #050505; */
+/* darker grey */
+  background-color: #2d303e;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -25,7 +32,11 @@ body {
   padding: 0 32px 0 48px;
   font-weight: 400;
   text-decoration: none;
-  color: #6d6d6d; /* text #6d6d6d */
+  font-family: "Inter";
+/*  grey  */
+/*   color: #6d6d6d; */
+/*  lighter grey  */
+color: #c9cccf;
   font-size: 14px;
 }
 
@@ -34,7 +45,12 @@ body {
   flex-wrap: wrap;
   position: relative;
   align-items: flex-start;
-  background-color: #020202; /* category #020202 */
+/*  controls the color between icons  */
+/* black #020202 */
+/*   background-color: #020202; */
+/* darker grey */
+/*   background-color: #2d303e; */
+  background-color: #20222c;
   margin: 16px;
   padding: 8px;
 }

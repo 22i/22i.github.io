@@ -9,8 +9,12 @@ form { max-width:600px; margin:50px auto; }
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
-  border:2px solid #0a0a0a;
+/*   background-color: transparent; */
+/*   background-color: #020202; */
+/*   background-color: #2d303e; */
+  background-color: #292b38;
+/*   border:2px solid #0a0a0a; */
+  border:2px solid #22242f;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -30,7 +34,9 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#0a0a0a;
+/*   background:#0a0a0a; */
+/*   background:#2d303e; */
+  background:#343848;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -42,6 +48,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#181818; }
+/* [type="submit"]:hover { background:#181818; } */
+[type="submit"]:hover { background:#3b3f51; }
 
 /* contact me end */ 

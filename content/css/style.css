@@ -7,13 +7,20 @@
 
 
 
+/* controls the sidebar color */
 
+/* black */
+/* .bg-primary{background-color:#050505!important} */
+/* gray */
+/* .bg-primary{background-color:#373a47!important} */
+.bg-primary{background-color:#2e303b!important}
 
 
 
 
 body {
-  font-family: 'Open Sans', serif;
+/*   font-family: 'Open Sans', serif; */
+  font-family: "Inter";
   padding-top: 54px;
   background-color: black;
   color: #868e96; } /* #868e96 grey */
@@ -168,5 +175,4 @@ a {
     
     
     
-    
-.bg-primary{background-color:#050505!important}
+

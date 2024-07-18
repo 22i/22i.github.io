@@ -31,7 +31,9 @@
 .snip_imglink figcaption {
   padding: 4.5%;
   padding-bottom: calc(5%);
-  background-color: #070707;
+/*  black  */
+/*   background-color: #070707; */
+  background-color: #2d303e;
 }
 
 .snip_imglink h3 {
