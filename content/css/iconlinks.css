@@ -28,7 +28,8 @@ body {
   position: relative;
   display: inline-block;
   border-radius: 10px;
-  line-height: 40px;
+/*   line-height: 40px; */
+  line-height: 35px;
   padding: 0 32px 0 48px;
   font-weight: 400;
   text-decoration: none;
