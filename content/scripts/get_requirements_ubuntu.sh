@@ -33,6 +33,8 @@ echo xournal
 sudo apt install -y xournal
 echo gparted
 sudo apt install -y gparted
+echo kcalc
+sudo apt install -y kcalc
 
 echo ffmpeg
 sudo apt install -y ffmpeg
