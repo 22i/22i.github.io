@@ -104,6 +104,9 @@ sudo apt install -y qtchooser
 # https://www.baeldung.com/linux/monitor-changes-directory-tree
 sudo apt install -y inotify-tools
 
+# helps with wagic audio
+sudo apt install -y libqt5multimedia5-plugins
+
 
 
 echo xdotool
