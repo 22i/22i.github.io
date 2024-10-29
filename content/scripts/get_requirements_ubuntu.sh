@@ -147,6 +147,11 @@ sudo apt install -y wmctrl
 
 # Command to simulate input anywhere (X11, Wayland, TTYs)
 # https://git.sr.ht/~geb/dotool
+# needed for dotool
+echo "needed for dotool"
+sudo apt install -y golang-go
+sudo apt install -y libxkbcommon-dev
+sudo apt install -y scdoc
 
 # Minetest Stable Releases
 # sudo add-apt-repository ppa:minetestdevs/stable

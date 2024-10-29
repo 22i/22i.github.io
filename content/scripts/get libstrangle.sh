@@ -10,7 +10,8 @@ sudo apt install g++-multilib -y
 sudo apt install libx11-dev -y
 sudo apt install mesa-common-dev -y
 cd $PWD/temp/
-git clone https://gitlab.com/torkel104/libstrangle.git
+# git clone https://gitlab.com/torkel104/libstrangle.git
+git clone https://github.com/Glitch1441/libstrangle
 cd $PWD/libstrangle/
 make
 sudo make install
