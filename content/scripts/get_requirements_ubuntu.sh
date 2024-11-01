@@ -4,6 +4,8 @@
 
 echo git
 sudo apt install -y git
+echo kwrite
+sudo apt install -y kwrite
 echo make
 sudo apt install -y make
 echo plasma-sdk
@@ -14,6 +16,12 @@ echo python3
 sudo apt install -y python3
 echo python3-pip
 sudo apt install -y python3-pip
+echo pipx
+sudo apt install -y pipx
+echo lolcat
+sudo apt install -y lolcat
+echo figlet
+sudo apt install -y figlet
 
 
 echo mpv
