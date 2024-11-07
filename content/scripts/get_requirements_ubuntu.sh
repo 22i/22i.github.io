@@ -26,8 +26,9 @@ sudo apt install -y figlet
 
 echo mpv
 sudo apt install -y mpv
-echo thunderbird
-sudo apt install -y thunderbird
+# https://linuxiac.com/install-thunderbird-as-deb-on-ubuntu-24-04-lts/
+# echo thunderbird
+# sudo apt install -y thunderbird
 # echo audacity
 # sudo apt install -y audacity
 echo tenacity
