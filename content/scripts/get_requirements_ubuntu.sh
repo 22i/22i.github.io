@@ -132,6 +132,7 @@ echo sox
 sudo apt install -y sox
 # to play mp3 files with sox
 sudo apt install -y libsox-fmt-mp3
+sudo apt install -y libsox-fmt-all
 
 echo lynx
 sudo apt install -y lynx
