@@ -22,6 +22,8 @@ echo lolcat
 sudo apt install -y lolcat
 echo figlet
 sudo apt install -y figlet
+echo espeak
+sudo apt install -y espeak-ng
 
 
 echo mpv
