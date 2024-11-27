@@ -28,6 +28,8 @@ sudo apt install -y espeak-ng
 
 echo mpv
 sudo apt install -y mpv
+echo exiftool
+sudo apt install -y exiftool
 # https://linuxiac.com/install-thunderbird-as-deb-on-ubuntu-24-04-lts/
 # echo thunderbird
 # sudo apt install -y thunderbird
