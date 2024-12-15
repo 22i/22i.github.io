@@ -8,6 +8,8 @@ echo kwrite
 sudo apt install -y kwrite
 echo make
 sudo apt install -y make
+echo cmake
+sudo apt install -y cmake
 echo plasma-sdk
 sudo apt install -y plasma-sdk
 echo python
