@@ -12,6 +12,10 @@ echo cmake
 sudo apt install -y cmake
 echo plasma-sdk
 sudo apt install -y plasma-sdk
+echo pulseaudio
+sudo apt install -y pulseaudio
+echo pulseaudio-utils
+sudo apt install -y pulseaudio-utils
 echo python
 sudo apt install -y python
 echo python3
